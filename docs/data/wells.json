@@ -1,0 +1,851 @@
+[
+  {
+    "id": "well-卓蘭-k0124239",
+    "wellNumber": "K0124239",
+    "name": "苗豐公井",
+    "station": "卓蘭",
+    "district": "卓蘭鎮",
+    "section": "苗豐段",
+    "address": "苗栗縣卓蘭鎮苗豐段277地號",
+    "latitude": 24.3203671,
+    "longitude": 120.8157028,
+    "twd97X": "231296",
+    "twd97Y": "2690516",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 300,
+    "pumpHorsepower": 40.0,
+    "pumpOutletInch": 4.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 7.108158,
+    "registeredFlowCms": 0.0169,
+    "irrigationSystem": "大安溪卓蘭圳",
+    "waterRightNo": "K0124239",
+    "waterRightPeriod": "112.08.08 至 117.08.07",
+    "nextApplicationPeriod": "117.05.07",
+    "completionDate": "107年8月",
+    "constructionYear": "2018",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "卓蘭工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-卓蘭-k0124239",
+        "name": "苗豐抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 636554,
+        "storedName": "K0124239-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-卓蘭-k0124239",
+        "name": "苗豐公井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 358883,
+        "storedName": "K0124239-photo-1.jpg",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b0118814",
+    "wellNumber": "B0118814",
+    "name": "頂店圳一號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲嘉段",
+    "address": "臺中市大甲區甲嘉段541地號",
+    "latitude": 24.3722576,
+    "longitude": 120.6397635,
+    "twd97X": "213455",
+    "twd97Y": "2696298",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 50.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.2777,
+    "registeredFlowCms": 0.036,
+    "irrigationSystem": "大安溪頂店圳 第三支線",
+    "waterRightNo": "B0118814",
+    "waterRightPeriod": "110.10.01 至 115.09.30",
+    "nextApplicationPeriod": "115.06.30",
+    "completionDate": "查無資料",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b0118814",
+        "name": "頂店圳一號抽水井(目前申請中).pdf",
+        "mimeType": "application/pdf",
+        "size": 619297,
+        "storedName": "B0118814-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b0118814",
+        "name": "頂店圳一號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 377629,
+        "storedName": "B0118814-photo-1.jpg",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b0117178",
+    "wellNumber": "B0117178",
+    "name": "頂店圳二號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲惠段",
+    "address": "臺中市大甲區甲惠段577地號",
+    "latitude": 24.3678421,
+    "longitude": 120.6321467,
+    "twd97X": "212681",
+    "twd97Y": "2695811",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 50.0,
+    "pumpOutletInch": 3.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.3625,
+    "registeredFlowCms": 0.036,
+    "irrigationSystem": "大安溪頂店圳 第二支線",
+    "waterRightNo": "B0117178",
+    "waterRightPeriod": "115.08.02 至 120.08.01",
+    "nextApplicationPeriod": "120.05.01",
+    "completionDate": "查無資料",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b0117178",
+        "name": "頂店圳二號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 548761,
+        "storedName": "B0117178-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b0970046",
+    "wellNumber": "B0970046",
+    "name": "頂店圳三號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲嘉段",
+    "address": "臺中市大甲區甲嘉段567地號",
+    "latitude": 24.3614575,
+    "longitude": 120.6392125,
+    "twd97X": "213396",
+    "twd97Y": "2695102",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 60.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 9.023439,
+    "registeredFlowCms": 0.036,
+    "irrigationSystem": "大安溪頂店圳 第一支線",
+    "waterRightNo": "B0970046",
+    "waterRightPeriod": "112.12.31 至 117.12.30",
+    "nextApplicationPeriod": "117.09.30",
+    "completionDate": "查無資料",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b0970046",
+        "name": "頂店圳三號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 521397,
+        "storedName": "B0970046-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b0970046",
+        "name": "頂店圳三號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 719341,
+        "storedName": "B0970046-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b0990021",
+    "wellNumber": "B0990021",
+    "name": "頂店圳四號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲嘉段",
+    "address": "臺中市大甲區甲嘉段562地號",
+    "latitude": 24.3649933,
+    "longitude": 120.6453531,
+    "twd97X": "214020",
+    "twd97Y": "2695492",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 2.4973,
+    "registeredFlowCms": 0.0174,
+    "irrigationSystem": "大安溪頂店圳",
+    "waterRightNo": "B0990021",
+    "waterRightPeriod": "113.12.01 至 118.11.30",
+    "nextApplicationPeriod": "118.08.30",
+    "completionDate": "查無資料",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b0990021",
+        "name": "頂店圳四號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 498389,
+        "storedName": "B0990021-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b0990021",
+        "name": "頂店圳四號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 365171,
+        "storedName": "B0990021-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1020099",
+    "wellNumber": "B1020099",
+    "name": "頂店圳五號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲農段",
+    "address": "臺中市大甲區甲農段640地號",
+    "latitude": 24.3704944,
+    "longitude": 120.6202317,
+    "twd97X": "211473",
+    "twd97Y": "2696108",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 108.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 90.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 12.7186,
+    "registeredFlowCms": 0.054,
+    "irrigationSystem": "大安溪頂店圳 第二支線",
+    "waterRightNo": "B1020099",
+    "waterRightPeriod": "112.10.16 至 117.10.15",
+    "nextApplicationPeriod": "117.07.15",
+    "completionDate": "102.08.09",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1020099",
+        "name": "頂店圳五號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 515795,
+        "storedName": "B1020099-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1020099",
+        "name": "頂店圳五號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 275700,
+        "storedName": "B1020099-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1020119",
+    "wellNumber": "B1020119",
+    "name": "頂店圳六號抽水井",
+    "station": "大甲",
+    "district": "大安區",
+    "section": "安實段",
+    "address": "臺中市大安區安實段577號",
+    "latitude": 24.3778706,
+    "longitude": 120.6273269,
+    "twd97X": "212195",
+    "twd97Y": "2696923",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 108.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 80.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 9.3507,
+    "registeredFlowCms": 0.043,
+    "irrigationSystem": "大安溪頂店圳 第三支線",
+    "waterRightNo": "B1020119",
+    "waterRightPeriod": "112.10.21 至 117.10.20",
+    "nextApplicationPeriod": "117.07.20",
+    "completionDate": "102.08.05",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1020119",
+        "name": "頂店圳六號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 518952,
+        "storedName": "B1020119-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1020119",
+        "name": "頂店圳六號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 248308,
+        "storedName": "B1020119-photo-1.jpg",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1020100",
+    "wellNumber": "B1020100",
+    "name": "頂店圳七號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲嘉段",
+    "address": "臺中市大甲區甲嘉段541地號",
+    "latitude": 24.370141,
+    "longitude": 120.6419972,
+    "twd97X": "213681",
+    "twd97Y": "2696063",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 11.1968,
+    "registeredFlowCms": 0.04,
+    "irrigationSystem": "大安溪頂店圳 第三支線",
+    "waterRightNo": "B1020100",
+    "waterRightPeriod": "112.10.16 至 117.10.15",
+    "nextApplicationPeriod": "117.07.15",
+    "completionDate": "102.08.14",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1020100",
+        "name": "頂店圳七號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 519298,
+        "storedName": "B1020100-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1020100",
+        "name": "頂店圳七號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 415940,
+        "storedName": "B1020100-photo-1.jpg",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1090091",
+    "wellNumber": "B1090091",
+    "name": "頂店圳八號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲全段",
+    "address": "臺中市大甲區甲全段632地號",
+    "latitude": 24.3692616,
+    "longitude": 120.6255483,
+    "twd97X": "212012",
+    "twd97Y": "2695970",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 50.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.1506,
+    "registeredFlowCms": 0.0434,
+    "irrigationSystem": "大安溪頂店圳 第二支線",
+    "waterRightNo": "B1090091",
+    "waterRightPeriod": "114.06.25 至 119.06.24",
+    "nextApplicationPeriod": "119.03.24",
+    "completionDate": "109.07.24",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1090091",
+        "name": "頂店圳八號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 513030,
+        "storedName": "B1090091-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1090091",
+        "name": "頂店圳八號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 346476,
+        "storedName": "B1090091-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1120003",
+    "wellNumber": "B1120003",
+    "name": "頂店圳九號抽水井",
+    "station": "大甲",
+    "district": "大安區",
+    "section": "頂安段",
+    "address": "臺中市大安區頂安段1080地號",
+    "latitude": 24.3822093,
+    "longitude": 120.6285906,
+    "twd97X": "212324.48",
+    "twd97Y": "2697403.18",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 55.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.9521,
+    "registeredFlowCms": 0.053,
+    "irrigationSystem": "大安溪頂店圳 第三支線",
+    "waterRightNo": "B1120003",
+    "waterRightPeriod": "112.01.09 至 117.01.08",
+    "nextApplicationPeriod": "116.10.08",
+    "completionDate": "112.03.15",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1120003",
+        "name": "頂店圳九號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 500589,
+        "storedName": "B1120003-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1120003",
+        "name": "頂店圳九號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 329363,
+        "storedName": "B1120003-photo-1.jpg",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1150050",
+    "wellNumber": "B1150050",
+    "name": "頂店圳十號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲全段",
+    "address": "臺中市大甲區甲全段645地號",
+    "latitude": 24.3640579,
+    "longitude": 120.6254648,
+    "twd97X": "212001.97",
+    "twd97Y": "2695393.69",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 102.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 45.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 3.474588,
+    "registeredFlowCms": 0.035,
+    "irrigationSystem": "大安溪頂店圳 第二支線",
+    "waterRightNo": "B1150050",
+    "waterRightPeriod": "115.04.27 至 120.04.26",
+    "nextApplicationPeriod": "120.01.26",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1150050",
+        "name": "頂店圳十號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 591286,
+        "storedName": "B1150050-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1150050",
+        "name": "頂店圳十號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 542190,
+        "storedName": "B1150050-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1150051",
+    "wellNumber": "B1150051",
+    "name": "頂店圳十一號抽水井",
+    "station": "大甲",
+    "district": "大甲區",
+    "section": "甲民段",
+    "address": "臺中市大甲區甲民段463地號",
+    "latitude": 24.3716449,
+    "longitude": 120.6140365,
+    "twd97X": "210844.85",
+    "twd97Y": "2696237.16",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 102.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 45.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.0987,
+    "registeredFlowCms": 0.035,
+    "irrigationSystem": "大安溪頂店圳 第二支線",
+    "waterRightNo": "B1150051",
+    "waterRightPeriod": "115.04.27 至 120.04.26",
+    "nextApplicationPeriod": "120.01.26",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1150051",
+        "name": "頂店圳十一號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 570285,
+        "storedName": "B1150051-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1150051",
+        "name": "頂店圳十一號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 510344,
+        "storedName": "B1150051-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大甲-b1150052",
+    "wellNumber": "B1150052",
+    "name": "頂店圳十二號抽水井",
+    "station": "大甲",
+    "district": "大安區",
+    "section": "安行段",
+    "address": "臺中市大安區安行段882號",
+    "latitude": 24.381423,
+    "longitude": 120.6103039,
+    "twd97X": "210469.23",
+    "twd97Y": "2697321.18",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 102.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 45.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 2.9141,
+    "registeredFlowCms": 0.035,
+    "irrigationSystem": "大安溪頂店圳 第三支線",
+    "waterRightNo": "B1150052",
+    "waterRightPeriod": "115.04.27 至 120.04.26",
+    "nextApplicationPeriod": "120.01.26",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大甲工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大甲-b1150052",
+        "name": "頂店圳十二號井.pdf",
+        "mimeType": "application/pdf",
+        "size": 580921,
+        "storedName": "B1150052-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T13:16:16"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大甲-b1150052",
+        "name": "頂店圳十二號抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 93474,
+        "storedName": "B1150052-photo-1.png",
+        "uploadedAt": "2026-07-30T13:16:15"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T13:16:16"
+      }
+    ],
+    "createdAt": "2026-07-30T13:16:16",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T13:16:16",
+    "updatedBy": "system"
+  }
+]

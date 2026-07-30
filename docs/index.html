@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>地下水井管理系統</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">管理處公開查詢</p>
+        <h1>地下水井管理系統</h1>
+      </div>
+      <nav>
+        <button class="nav-btn active" data-view="publicView">公開查詢</button>
+        <button class="nav-btn" data-view="adminView">後台管理</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="publicView" class="view active">
+        <section class="toolbar" aria-label="查詢條件">
+          <label>
+            行政區
+            <select id="districtFilter"></select>
+          </label>
+          <label>
+            工作站別
+            <select id="stationFilter"></select>
+          </label>
+          <label>
+            狀態
+            <select id="statusFilter"></select>
+          </label>
+          <button id="searchButton">查詢</button>
+        </section>
+
+        <section class="layout">
+          <div class="map-wrap">
+            <div id="map"></div>
+            <div class="map-legend">
+              <span class="legend-dot"></span>
+              公開井點
+            </div>
+          </div>
+          <aside class="results-panel">
+            <div class="panel-head">
+              <h2>查詢結果</h2>
+              <span id="resultCount">0 筆</span>
+            </div>
+            <div id="publicResults" class="well-list"></div>
+          </aside>
+        </section>
+
+        <section id="publicDetail" class="detail-band"></section>
+      </section>
+
+      <section id="adminView" class="view">
+        <section id="loginPanel" class="login-panel">
+          <h2>後台登入</h2>
+          <form id="loginForm" class="login-grid">
+            <label>
+              帳號
+              <input id="username" autocomplete="username" value="admin">
+            </label>
+            <label>
+              密碼
+              <input id="password" type="password" autocomplete="current-password" value="admin123">
+            </label>
+            <button>登入</button>
+          </form>
+        </section>
+
+        <section id="adminPanel" class="admin-layout hidden">
+          <form id="wellForm" class="editor">
+            <div class="panel-head">
+              <h2 id="formTitle">新增井籍</h2>
+              <button type="button" id="resetForm">清空</button>
+            </div>
+            <input type="hidden" id="wellId">
+            <div class="form-grid">
+              <label>井號<input id="wellNumber" required></label>
+              <label>井名/別名<input id="name" required></label>
+              <label>行政區<input id="district" required></label>
+              <label>地段<input id="section"></label>
+              <label class="wide">地址<input id="address"></label>
+              <label>緯度<input id="latitude" type="number" step="0.000001" required></label>
+              <label>經度<input id="longitude" type="number" step="0.000001" required></label>
+              <label>用途<input id="purpose" required></label>
+              <label>井深(m)<input id="depthMeters" type="number" step="0.1"></label>
+              <label>管徑(mm)<input id="diameterMm" type="number" step="1"></label>
+              <label>啟用日期<input id="startedAt" type="date"></label>
+              <label>狀態
+                <select id="status">
+                  <option>使用中</option>
+                  <option>盤點中</option>
+                  <option>故障待修</option>
+                  <option>停用</option>
+                </select>
+              </label>
+              <label class="wide">管理單位<input id="managementUnit"></label>
+              <label class="wide">公開備註<textarea id="publicNote" rows="3"></textarea></label>
+              <label class="wide">內部備註<textarea id="internalNote" rows="3"></textarea></label>
+              <label class="checkbox"><input id="isPublic" type="checkbox" checked> 前台公開顯示</label>
+              <label class="wide">現場照片<input id="photos" type="file" multiple accept=".png,.jpg,.jpeg,.webp,image/*"></label>
+              <label class="wide">掃描附件<input id="attachments" type="file" multiple accept=".pdf,.png,.jpg,.jpeg"></label>
+            </div>
+            <button class="primary">儲存井籍</button>
+          </form>
+
+          <section class="admin-list-panel">
+            <div class="panel-head">
+              <h2>後台井籍</h2>
+              <span id="adminCount">0 筆</span>
+            </div>
+            <div id="adminList" class="well-list"></div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

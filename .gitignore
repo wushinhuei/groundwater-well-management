@@ -6,9 +6,9 @@ server.log
 server.err.log
 .env
 
-# Official well data and uploaded files stay local or on the internal server.
-data/*
-!data/.gitkeep
+# Published well data and uploaded files
+/data/*
+!/data/.gitkeep
 
 # Generated reports and extracted source-data outputs
 outputs/
