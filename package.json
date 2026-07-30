@@ -1,0 +1,14 @@
+{
+  "name": "groundwater-well-management",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Groundwater well public GIS lookup and administrative registry management system.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

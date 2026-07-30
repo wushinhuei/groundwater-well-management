@@ -1,0 +1,25 @@
+# Runtime dependencies
+node_modules/
+
+# Local runtime files
+server.log
+server.err.log
+.env
+
+# Official well data and uploaded files stay local or on the internal server.
+data/*
+!data/.gitkeep
+
+# Generated reports and extracted source-data outputs
+outputs/
+
+# Local source-data import helpers contain internal network paths.
+tools/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
