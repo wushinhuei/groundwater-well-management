@@ -40,7 +40,7 @@
         "mimeType": "application/pdf",
         "size": 636554,
         "storedName": "K0124239-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -50,19 +50,19 @@
         "mimeType": "image/jpeg",
         "size": 358883,
         "storedName": "K0124239-photo-1.jpg",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -106,7 +106,7 @@
         "mimeType": "application/pdf",
         "size": 619297,
         "storedName": "B0118814-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -116,19 +116,19 @@
         "mimeType": "image/jpeg",
         "size": 377629,
         "storedName": "B0118814-photo-1.jpg",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -172,7 +172,7 @@
         "mimeType": "application/pdf",
         "size": 548761,
         "storedName": "B0117178-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [],
@@ -180,12 +180,12 @@
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -229,7 +229,7 @@
         "mimeType": "application/pdf",
         "size": 521397,
         "storedName": "B0970046-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -239,19 +239,19 @@
         "mimeType": "image/png",
         "size": 719341,
         "storedName": "B0970046-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -295,7 +295,7 @@
         "mimeType": "application/pdf",
         "size": 498389,
         "storedName": "B0990021-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -305,19 +305,19 @@
         "mimeType": "image/png",
         "size": 365171,
         "storedName": "B0990021-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -361,7 +361,7 @@
         "mimeType": "application/pdf",
         "size": 515795,
         "storedName": "B1020099-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -371,19 +371,19 @@
         "mimeType": "image/png",
         "size": 275700,
         "storedName": "B1020099-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -427,7 +427,7 @@
         "mimeType": "application/pdf",
         "size": 518952,
         "storedName": "B1020119-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -437,19 +437,19 @@
         "mimeType": "image/jpeg",
         "size": 248308,
         "storedName": "B1020119-photo-1.jpg",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -493,7 +493,7 @@
         "mimeType": "application/pdf",
         "size": 519298,
         "storedName": "B1020100-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -503,19 +503,19 @@
         "mimeType": "image/jpeg",
         "size": 415940,
         "storedName": "B1020100-photo-1.jpg",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -559,7 +559,7 @@
         "mimeType": "application/pdf",
         "size": 513030,
         "storedName": "B1090091-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -569,19 +569,19 @@
         "mimeType": "image/png",
         "size": 346476,
         "storedName": "B1090091-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -625,7 +625,7 @@
         "mimeType": "application/pdf",
         "size": 500589,
         "storedName": "B1120003-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -635,19 +635,19 @@
         "mimeType": "image/jpeg",
         "size": 329363,
         "storedName": "B1120003-photo-1.jpg",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -691,7 +691,7 @@
         "mimeType": "application/pdf",
         "size": 591286,
         "storedName": "B1150050-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -701,19 +701,19 @@
         "mimeType": "image/png",
         "size": 542190,
         "storedName": "B1150050-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -757,7 +757,7 @@
         "mimeType": "application/pdf",
         "size": 570285,
         "storedName": "B1150051-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -767,19 +767,19 @@
         "mimeType": "image/png",
         "size": 510344,
         "storedName": "B1150051-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   },
   {
@@ -823,7 +823,7 @@
         "mimeType": "application/pdf",
         "size": 580921,
         "storedName": "B1150052-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T13:16:16"
+        "uploadedAt": "2026-07-30T17:12:26"
       }
     ],
     "photos": [
@@ -833,19 +833,811 @@
         "mimeType": "image/png",
         "size": 93474,
         "storedName": "B1150052-photo-1.png",
-        "uploadedAt": "2026-07-30T13:16:15"
+        "uploadedAt": "2026-07-30T17:12:25"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T13:16:16"
+        "at": "2026-07-30T17:12:26"
       }
     ],
-    "createdAt": "2026-07-30T13:16:16",
+    "createdAt": "2026-07-30T17:12:26",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T13:16:16",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0115482",
+    "wellNumber": "B0115482",
+    "name": "日南站一號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段69-52地號",
+    "latitude": 24.3689203,
+    "longitude": 120.6903788,
+    "twd97X": "218589",
+    "twd97Y": "2695916",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 15.0,
+    "diameterMm": 2000,
+    "pumpHorsepower": 25.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 11.371539,
+    "registeredFlowCms": 0.064,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0115482",
+    "waterRightPeriod": "114.10.01 至 119.09.30",
+    "nextApplicationPeriod": "119.06.30",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0115482",
+        "name": "日南圳1號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 607768,
+        "storedName": "B0115482-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0115482",
+        "name": "日南站一號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 186574,
+        "storedName": "B0115482-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0110761",
+    "wellNumber": "B0110761",
+    "name": "日南站二號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "新興段",
+    "address": "臺中市大甲區新興段186地號",
+    "latitude": 24.3644897,
+    "longitude": 120.6829281,
+    "twd97X": "217832",
+    "twd97Y": "2695427",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 15.0,
+    "diameterMm": 1000,
+    "pumpHorsepower": 20.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 9.935129,
+    "registeredFlowCms": 0.08,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0110761",
+    "waterRightPeriod": "113.09.16 至 118.09.15",
+    "nextApplicationPeriod": "118.06.15",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0110761",
+        "name": "日南圳2號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 489448,
+        "storedName": "B0110761-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0110761",
+        "name": "日南站二號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 268589,
+        "storedName": "B0110761-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0990027",
+    "wellNumber": "B0990027",
+    "name": "日南站三號抽水井(深水井)",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段551-1地號",
+    "latitude": 24.3615657,
+    "longitude": 120.6924075,
+    "twd97X": "218793",
+    "twd97Y": "2695101",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 12.861636,
+    "registeredFlowCms": 0.035,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0990027",
+    "waterRightPeriod": "113.01.01 至 117.12.31",
+    "nextApplicationPeriod": "117.09.31",
+    "completionDate": "99.11.11",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0990027",
+        "name": "日南圳3號抽水井(深水井).pdf",
+        "mimeType": "application/pdf",
+        "size": 508398,
+        "storedName": "B0990027-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0990027",
+        "name": "日南站三號抽水井(深水井)現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 222428,
+        "storedName": "B0990027-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0120538",
+    "wellNumber": "B0120538",
+    "name": "日南站三號抽水井(淺水井)",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段551-1地號",
+    "latitude": 24.3615303,
+    "longitude": 120.6923306,
+    "twd97X": "218785.19",
+    "twd97Y": "2695097.09",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 9.0,
+    "diameterMm": 2000,
+    "pumpHorsepower": 20.0,
+    "pumpOutletInch": 10.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 9.780269,
+    "registeredFlowCms": 0.083,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0120538",
+    "waterRightPeriod": "112.01.01 至 116.12.31",
+    "nextApplicationPeriod": "116.09.31",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0120538",
+        "name": "日南圳3號抽水井(淺水井).pdf",
+        "mimeType": "application/pdf",
+        "size": 493976,
+        "storedName": "B0120538-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0120538",
+        "name": "日南站三號抽水井(淺水井)現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 344556,
+        "storedName": "B0120538-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0115526",
+    "wellNumber": "B0115526",
+    "name": "日南站四號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段6-302地號",
+    "latitude": 24.3640693,
+    "longitude": 120.6936532,
+    "twd97X": "218920",
+    "twd97Y": "2695378",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 11.2,
+    "diameterMm": 3000,
+    "pumpHorsepower": 20.0,
+    "pumpOutletInch": 10.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 16.245999,
+    "registeredFlowCms": 0.085,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0115526",
+    "waterRightPeriod": "113.01.01 至 117.12.31",
+    "nextApplicationPeriod": "117.09.31",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0115526",
+        "name": "日南圳4號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 511565,
+        "storedName": "B0115526-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0115526",
+        "name": "日南站四號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 260440,
+        "storedName": "B0115526-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b1020065",
+    "wellNumber": "B1020065",
+    "name": "日南站五號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段6-627地號",
+    "latitude": 24.3723327,
+    "longitude": 120.6856982,
+    "twd97X": "218115",
+    "twd97Y": "2696295",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 90.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 7.718237,
+    "registeredFlowCms": 0.0378,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B1020065",
+    "waterRightPeriod": "112.08.01 至 117.07.31",
+    "nextApplicationPeriod": "117.04.31",
+    "completionDate": "102.05.27",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b1020065",
+        "name": "日南圳5號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 542695,
+        "storedName": "B1020065-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b1020065",
+        "name": "日南站五號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 112382,
+        "storedName": "B1020065-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b1000076",
+    "wellNumber": "B1000076",
+    "name": "日南站六號抽水井(深水井)",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段551-2地號",
+    "latitude": 24.360849,
+    "longitude": 120.6951788,
+    "twd97X": "219074",
+    "twd97Y": "2695021",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 7.879466,
+    "registeredFlowCms": 0.034,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B1000076",
+    "waterRightPeriod": "110.12.01 至 115.11.30",
+    "nextApplicationPeriod": "115.08.30",
+    "completionDate": "111.01.12",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b1000076",
+        "name": "日南圳6號抽水井(深水井).pdf",
+        "mimeType": "application/pdf",
+        "size": 619278,
+        "storedName": "B1000076-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b1000076",
+        "name": "日南站六號抽水井(深水井)現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 156443,
+        "storedName": "B1000076-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0117179",
+    "wellNumber": "B0117179",
+    "name": "日南站六號抽水井(淺水井)",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日新段",
+    "address": "臺中市大甲區日新段551-2地號",
+    "latitude": 24.360849,
+    "longitude": 120.6951788,
+    "twd97X": "219074",
+    "twd97Y": "2695021",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 12.8,
+    "diameterMm": 2000,
+    "pumpHorsepower": 25.0,
+    "pumpOutletInch": 10.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 7.300767,
+    "registeredFlowCms": 0.08,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B0117179",
+    "waterRightPeriod": "110.08.02 至 115.08.01",
+    "nextApplicationPeriod": "115.05.01",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0117179",
+        "name": "日南圳6號抽水井(淺水井)申請中.pdf",
+        "mimeType": "application/pdf",
+        "size": 610267,
+        "storedName": "B0117179-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0117179",
+        "name": "日南站六號抽水井(淺水井)現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 150510,
+        "storedName": "B0117179-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b0108729",
+    "wellNumber": "B0108729",
+    "name": "日南站七號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "九張犁段九張犁小段",
+    "address": "臺中市大甲區九張犁段九張犁小段499-32地號",
+    "latitude": 24.3893361,
+    "longitude": 120.6417361,
+    "twd97X": "213660",
+    "twd97Y": "2698189",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 60.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 13.7194,
+    "registeredFlowCms": 0.064,
+    "irrigationSystem": "大安溪九張犁圳",
+    "waterRightNo": "B0108729",
+    "waterRightPeriod": "112.12.01 至 117.11.30",
+    "nextApplicationPeriod": "117.08.30",
+    "completionDate": "",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b0108729",
+        "name": "日南圳7號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 523648,
+        "storedName": "B0108729-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b0108729",
+        "name": "日南站七號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 306709,
+        "storedName": "B0108729-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b1050044",
+    "wellNumber": "B1050044",
+    "name": "日南站八號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "日南段",
+    "address": "臺中市大甲區日南段741-43地號",
+    "latitude": 24.3889774,
+    "longitude": 120.6505408,
+    "twd97X": "214553",
+    "twd97Y": "2698147",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 4.3873,
+    "registeredFlowCms": 0.036,
+    "irrigationSystem": "大安溪日南圳",
+    "waterRightNo": "B1050044",
+    "waterRightPeriod": "113.01.01 至 117.12.31",
+    "nextApplicationPeriod": "117.09.31",
+    "completionDate": "105.02.28",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b1050044",
+        "name": "日南圳8號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 529720,
+        "storedName": "B1050044-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b1050044",
+        "name": "日南站八號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 372156,
+        "storedName": "B1050044-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b1070150",
+    "wellNumber": "B1070150",
+    "name": "日南站九號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "九張犁段九張犁小段",
+    "address": "臺中市大甲區九張犁段九張犁小段834-3地號",
+    "latitude": 24.3837594,
+    "longitude": 120.6431024,
+    "twd97X": "213797",
+    "twd97Y": "2697571",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 150.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 65.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 5.878,
+    "registeredFlowCms": 0.03,
+    "irrigationSystem": "大安溪九張犁圳",
+    "waterRightNo": "B1070150",
+    "waterRightPeriod": "112.08.10 至 117.08.09",
+    "nextApplicationPeriod": "117.05.09",
+    "completionDate": "107.08.02",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b1070150",
+        "name": "日南圳9號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 491523,
+        "storedName": "B1070150-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b1070150",
+        "name": "日南站九號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 251568,
+        "storedName": "B1070150-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-日南-b1080171",
+    "wellNumber": "B1080171",
+    "name": "日南站十號抽水井",
+    "station": "日南",
+    "district": "大甲區",
+    "section": "五里牌段",
+    "address": "臺中市大甲區五里牌段378-2地號",
+    "latitude": 24.3925375,
+    "longitude": 120.6363343,
+    "twd97X": "213113",
+    "twd97Y": "2698545",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 108.0,
+    "diameterMm": 500,
+    "pumpHorsepower": 60.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 9.0677,
+    "registeredFlowCms": 0.057,
+    "irrigationSystem": "大安溪九張犁圳",
+    "waterRightNo": "B1080171",
+    "waterRightPeriod": "113.01.01 至 117.12.31",
+    "nextApplicationPeriod": "117.09.31",
+    "completionDate": "108.11.02",
+    "constructionYear": "",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "日南工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-日南-b1080171",
+        "name": "日南圳10號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 503274,
+        "storedName": "B1080171-water-right-1.pdf",
+        "uploadedAt": "2026-07-30T17:12:26"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-日南-b1080171",
+        "name": "日南站十號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 371075,
+        "storedName": "B1080171-photo-1.jpg",
+        "uploadedAt": "2026-07-30T17:12:25"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-07-30T17:12:26"
+      }
+    ],
+    "createdAt": "2026-07-30T17:12:26",
+    "createdBy": "system",
+    "updatedAt": "2026-07-30T17:12:26",
     "updatedBy": "system"
   }
 ]
