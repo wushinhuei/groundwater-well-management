@@ -200,7 +200,6 @@ function renderFilterOptions() {
       .map((value) => `<option>${escapeHtml(value)}</option>`)
       .join("");
   };
-  fill("districtFilter", state.publicWells.map((well) => well.district), "全部行政區");
   fill("stationFilter", state.publicWells.map((well) => well.station), "全部工作站");
   fill("statusFilter", [...state.publicWells.map((well) => well.status), "故障待修"], "全部狀態");
 }
@@ -230,7 +229,6 @@ function renderPublicList(wells) {
 async function loadPublicWells(useFilters = false) {
   const params = new URLSearchParams();
   if (useFilters) {
-    params.set("district", $("districtFilter").value);
     params.set("station", $("stationFilter").value);
     params.set("status", $("statusFilter").value);
   }
@@ -264,7 +262,6 @@ async function showPublicDetail(id) {
         ${detailItem("水權登記量", well.registeredFlowCms ? `${well.registeredFlowCms} cms` : "")}
         ${detailItem("水權狀號", well.waterRightNo)}
         ${detailItem("核准水權年限", well.waterRightPeriod)}
-        ${detailItem("下次申請時間", well.nextApplicationPeriod)}
         ${detailItem("完工日期", well.completionDate)}
         ${detailItem("用電電號", well.electricityNo)}
         ${detailItem("農業用電", well.agriculturalPower)}
