@@ -66,7 +66,7 @@ async function staticApi(path, options = {}) {
 
 async function loadStaticWells() {
   if (!staticWellsCache) {
-    const response = await fetch("data/wells.json", { cache: "no-store" });
+    const response = await fetch(`data/wells.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error("無法讀取 GitHub 測試資料");
     staticWellsCache = await response.json();
   }
@@ -391,3 +391,9 @@ if (state.token) {
   $("adminPanel").classList.remove("hidden");
 }
 loadPublicWells();
+if (STATIC_MODE) {
+  setInterval(async () => {
+    staticWellsCache = null;
+    await loadPublicWells(true);
+  }, 5 * 60 * 1000);
+}
