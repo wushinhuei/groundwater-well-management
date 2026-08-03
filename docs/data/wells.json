@@ -40,7 +40,7 @@
         "mimeType": "application/pdf",
         "size": 636554,
         "storedName": "K0124239-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -50,19 +50,529 @@
         "mimeType": "image/jpeg",
         "size": 358883,
         "storedName": "K0124239-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b0960027",
+    "wellNumber": "B0960027",
+    "name": "虎眼一圳福興支線1號抽水井",
+    "station": "大安",
+    "district": "大甲區",
+    "section": "文曲段",
+    "address": "臺中市大甲區文曲段472-1地號",
+    "latitude": 24.3317049,
+    "longitude": 120.6057633,
+    "twd97X": "209993",
+    "twd97Y": "2691816",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 508,
+    "pumpHorsepower": 60.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 7.1557,
+    "registeredFlowCms": 0.07,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
+    "waterRightNo": "B0960027",
+    "waterRightPeriod": "111.07.01 至 116.06.30",
+    "nextApplicationPeriod": "116.03.30",
+    "completionDate": "民國96年3月",
+    "constructionYear": "2007",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b0960027",
+        "name": "大安-虎眼一圳一號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 469806,
+        "storedName": "B0960027-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-b0960027",
+        "name": "虎眼一圳福興支線1號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 359896,
+        "storedName": "B0960027-photo-1.jpg",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1120200",
+    "wellNumber": "B1120200",
+    "name": "虎眼一圳頂破溪抽水井",
+    "station": "大安",
+    "district": "外埔區",
+    "section": "水美西段",
+    "address": "臺中市外埔區水美西段344-1地號",
+    "latitude": 24.326195,
+    "longitude": 120.6119488,
+    "twd97X": "210619",
+    "twd97Y": "2691204",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 15.0,
+    "pumpOutletInch": 4.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.594498,
+    "registeredFlowCms": 0.0087,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
+    "waterRightNo": "B1120200",
+    "waterRightPeriod": "112.09.21 至 117.09.20",
+    "nextApplicationPeriod": "117.06.20",
+    "completionDate": "民國112年10月",
+    "constructionYear": "2023",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1120200",
+        "name": "大安-頂破溪抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 523917,
+        "storedName": "B1120200-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-b1120200",
+        "name": "虎眼一圳頂破溪抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 456081,
+        "storedName": "B1120200-photo-1.jpg",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1140035",
+    "wellNumber": "B1140035",
+    "name": "虎眼二圳中庄圳支線抽水井",
+    "station": "大安",
+    "district": "大安區",
+    "section": "南勢厝段",
+    "address": "臺中市大安區南勢厝段1地號",
+    "latitude": 24.3397809,
+    "longitude": 120.5902664,
+    "twd97X": "208423",
+    "twd97Y": "2692715",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 356,
+    "pumpHorsepower": 55.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 0.825834,
+    "registeredFlowCms": 0.046,
+    "irrigationSystem": "大甲溪虎眼二圳 中庄圳支線",
+    "waterRightNo": "B1140035",
+    "waterRightPeriod": "114.01.21 至 119.01.20",
+    "nextApplicationPeriod": "118.10.20",
+    "completionDate": "民國114年2月",
+    "constructionYear": "2025",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1140035",
+        "name": "虎眼二圳中庄支線抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 507215,
+        "storedName": "B1140035-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-k0123725",
+    "wellNumber": "K0123725",
+    "name": "虎眼一圳頭前溝抽水井",
+    "station": "大安",
+    "district": "大安區",
+    "section": "新三塊厝段",
+    "address": "臺中市大安區新三塊厝段4地號",
+    "latitude": 24.3459571,
+    "longitude": 120.5971156,
+    "twd97X": "209120",
+    "twd97Y": "2693397",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 356,
+    "pumpHorsepower": 55.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.236639,
+    "registeredFlowCms": 0.0496,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
+    "waterRightNo": "K0123725",
+    "waterRightPeriod": "114.01.21 至 119.01.20",
+    "nextApplicationPeriod": "118.10.20",
+    "completionDate": "民國114年2月",
+    "constructionYear": "2025",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-k0123725",
+        "name": "虎眼一圳頭前溝抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 514604,
+        "storedName": "K0123725-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-k0123725",
+        "name": "虎眼一圳頭前溝抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 337847,
+        "storedName": "K0123725-photo-1.jpg",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1140037",
+    "wellNumber": "B1140037",
+    "name": "虎眼一圳福興圳支線2號抽水井",
+    "station": "大安",
+    "district": "大甲區",
+    "section": "文安段",
+    "address": "臺中市大甲區文安段73地號",
+    "latitude": 24.3276329,
+    "longitude": 120.6093134,
+    "twd97X": "210352",
+    "twd97Y": "2691364",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 120.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 55.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.053895,
+    "registeredFlowCms": 0.0441,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
+    "waterRightNo": "B1140037",
+    "waterRightPeriod": "114.01.23 至 119.01.22",
+    "nextApplicationPeriod": "118.10.22",
+    "completionDate": "民國112年1月",
+    "constructionYear": "2023",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1140037",
+        "name": "虎眼二圳福興支線二號抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 524940,
+        "storedName": "B1140037-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-b1140037",
+        "name": "虎眼一圳福興圳支線2號抽水井現場照片.jpg",
+        "mimeType": "image/jpeg",
+        "size": 434144,
+        "storedName": "B1140037-photo-1.jpg",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1150057",
+    "wellNumber": "B1150057",
+    "name": "虎眼二圳草湖圳支線抽水井",
+    "station": "大安",
+    "district": "大安區",
+    "section": "東安段",
+    "address": "臺中市大安區東安段  638地號",
+    "latitude": 24.3319782,
+    "longitude": 120.589651,
+    "twd97X": "208358",
+    "twd97Y": "2691851",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 60.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 40.0,
+    "pumpOutletInch": 6.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.211932,
+    "registeredFlowCms": 0.0402,
+    "irrigationSystem": "大甲溪虎眼二圳草湖圳支線",
+    "waterRightNo": "B1150057",
+    "waterRightPeriod": "115.5.5 至 120.5.4",
+    "nextApplicationPeriod": "120.02.04",
+    "completionDate": "民國115年8月",
+    "constructionYear": "2026",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1150057",
+        "name": "虎眼二圳草湖圳抽水井.pdf",
+        "mimeType": "application/pdf",
+        "size": 566781,
+        "storedName": "B1150057-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-b1150057",
+        "name": "虎眼二圳草湖圳支線抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 272481,
+        "storedName": "B1150057-photo-1.png",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1150096",
+    "wellNumber": "B1150096",
+    "name": "虎眼一圳福興圳支線3號抽水井",
+    "station": "大安",
+    "district": "大甲區",
+    "section": "文曲段",
+    "address": "臺中市大甲區文曲段 333地號",
+    "latitude": 24.3359165,
+    "longitude": 120.603878,
+    "twd97X": "209803",
+    "twd97Y": "2692283",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 50.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.553411,
+    "registeredFlowCms": 0.044,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
+    "waterRightNo": "B1150096",
+    "waterRightPeriod": "115.6.29 至 120.6.28",
+    "nextApplicationPeriod": "120.03.28",
+    "completionDate": "民國115年8月",
+    "constructionYear": "2026",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1150096",
+        "name": "虎眼一圳福興支線三號抽水井(正本借出).pdf",
+        "mimeType": "application/pdf",
+        "size": 51506,
+        "storedName": "B1150096-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
+    "updatedBy": "system"
+  },
+  {
+    "id": "well-大安-b1150095",
+    "wellNumber": "B1150095",
+    "name": "虎眼一圳後壁溝抽水井",
+    "station": "大安",
+    "district": "大安區",
+    "section": "福東段",
+    "address": "臺中市大安區福東段 11地號",
+    "latitude": 24.3460218,
+    "longitude": 120.6011166,
+    "twd97X": "209526",
+    "twd97Y": "2693403",
+    "purpose": "農業灌溉用水",
+    "depthMeters": 100.0,
+    "diameterMm": 400,
+    "pumpHorsepower": 40.0,
+    "pumpOutletInch": 8.0,
+    "planFlowCms": 0,
+    "benefitedAreaHa": 1.55584,
+    "registeredFlowCms": 0.05,
+    "irrigationSystem": "大甲溪虎眼一圳 福興圳支線 後壁溝給水",
+    "waterRightNo": "B1150095",
+    "waterRightPeriod": "115.6.29 至 120.6.28",
+    "nextApplicationPeriod": "120.03.28",
+    "completionDate": "民國115年8月",
+    "constructionYear": "2026",
+    "electricityNo": "",
+    "agriculturalPower": "",
+    "startedAt": "",
+    "status": "使用中",
+    "managementUnit": "大安工作站",
+    "publicNote": "",
+    "internalNote": "由 115-本處抽水井一覽表及水權地下水 PDF 匯入。",
+    "isPublic": true,
+    "attachments": [
+      {
+        "id": "source-pdf-大安-b1150095",
+        "name": "虎眼一圳後壁溝抽水井(正本借出).pdf",
+        "mimeType": "application/pdf",
+        "size": 50163,
+        "storedName": "B1150095-water-right-1.pdf",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-大安-b1150095",
+        "name": "虎眼一圳後壁溝抽水井現場照片.png",
+        "mimeType": "image/png",
+        "size": 468008,
+        "storedName": "B1150095-photo-1.png",
+        "uploadedAt": "2026-08-03T10:32:37"
+      }
+    ],
+    "auditTrail": [
+      {
+        "action": "imported",
+        "actor": "system",
+        "at": "2026-08-03T10:32:37"
+      }
+    ],
+    "createdAt": "2026-08-03T10:32:37",
+    "createdBy": "system",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -106,7 +616,7 @@
         "mimeType": "application/pdf",
         "size": 619297,
         "storedName": "B0118814-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -116,19 +626,19 @@
         "mimeType": "image/jpeg",
         "size": 377629,
         "storedName": "B0118814-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -172,7 +682,7 @@
         "mimeType": "application/pdf",
         "size": 548761,
         "storedName": "B0117178-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [],
@@ -180,12 +690,12 @@
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -229,7 +739,7 @@
         "mimeType": "application/pdf",
         "size": 521397,
         "storedName": "B0970046-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -239,19 +749,19 @@
         "mimeType": "image/png",
         "size": 719341,
         "storedName": "B0970046-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -295,7 +805,7 @@
         "mimeType": "application/pdf",
         "size": 498389,
         "storedName": "B0990021-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -305,19 +815,19 @@
         "mimeType": "image/png",
         "size": 365171,
         "storedName": "B0990021-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -361,7 +871,7 @@
         "mimeType": "application/pdf",
         "size": 515795,
         "storedName": "B1020099-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -371,19 +881,19 @@
         "mimeType": "image/png",
         "size": 275700,
         "storedName": "B1020099-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -427,7 +937,7 @@
         "mimeType": "application/pdf",
         "size": 518952,
         "storedName": "B1020119-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -437,19 +947,19 @@
         "mimeType": "image/jpeg",
         "size": 248308,
         "storedName": "B1020119-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -493,7 +1003,7 @@
         "mimeType": "application/pdf",
         "size": 519298,
         "storedName": "B1020100-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -503,19 +1013,19 @@
         "mimeType": "image/jpeg",
         "size": 415940,
         "storedName": "B1020100-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -559,7 +1069,7 @@
         "mimeType": "application/pdf",
         "size": 513030,
         "storedName": "B1090091-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -569,19 +1079,19 @@
         "mimeType": "image/png",
         "size": 346476,
         "storedName": "B1090091-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -625,7 +1135,7 @@
         "mimeType": "application/pdf",
         "size": 500589,
         "storedName": "B1120003-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -635,19 +1145,19 @@
         "mimeType": "image/jpeg",
         "size": 329363,
         "storedName": "B1120003-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -691,7 +1201,7 @@
         "mimeType": "application/pdf",
         "size": 591286,
         "storedName": "B1150050-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -701,19 +1211,19 @@
         "mimeType": "image/png",
         "size": 542190,
         "storedName": "B1150050-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -757,7 +1267,7 @@
         "mimeType": "application/pdf",
         "size": 570285,
         "storedName": "B1150051-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -767,19 +1277,19 @@
         "mimeType": "image/png",
         "size": 510344,
         "storedName": "B1150051-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -823,7 +1333,7 @@
         "mimeType": "application/pdf",
         "size": 580921,
         "storedName": "B1150052-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -833,19 +1343,19 @@
         "mimeType": "image/png",
         "size": 93474,
         "storedName": "B1150052-photo-1.png",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -889,7 +1399,7 @@
         "mimeType": "application/pdf",
         "size": 607768,
         "storedName": "B0115482-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -899,19 +1409,19 @@
         "mimeType": "image/jpeg",
         "size": 186574,
         "storedName": "B0115482-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -955,7 +1465,7 @@
         "mimeType": "application/pdf",
         "size": 489448,
         "storedName": "B0110761-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -965,19 +1475,19 @@
         "mimeType": "image/jpeg",
         "size": 268589,
         "storedName": "B0110761-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1021,7 +1531,7 @@
         "mimeType": "application/pdf",
         "size": 508398,
         "storedName": "B0990027-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1031,19 +1541,19 @@
         "mimeType": "image/jpeg",
         "size": 222428,
         "storedName": "B0990027-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1087,7 +1597,7 @@
         "mimeType": "application/pdf",
         "size": 493976,
         "storedName": "B0120538-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1097,19 +1607,19 @@
         "mimeType": "image/jpeg",
         "size": 344556,
         "storedName": "B0120538-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1153,7 +1663,7 @@
         "mimeType": "application/pdf",
         "size": 511565,
         "storedName": "B0115526-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1163,19 +1673,19 @@
         "mimeType": "image/jpeg",
         "size": 260440,
         "storedName": "B0115526-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1219,7 +1729,7 @@
         "mimeType": "application/pdf",
         "size": 542695,
         "storedName": "B1020065-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1229,19 +1739,19 @@
         "mimeType": "image/jpeg",
         "size": 112382,
         "storedName": "B1020065-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1285,7 +1795,7 @@
         "mimeType": "application/pdf",
         "size": 619278,
         "storedName": "B1000076-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1295,19 +1805,19 @@
         "mimeType": "image/jpeg",
         "size": 156443,
         "storedName": "B1000076-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1351,7 +1861,7 @@
         "mimeType": "application/pdf",
         "size": 610267,
         "storedName": "B0117179-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1361,19 +1871,19 @@
         "mimeType": "image/jpeg",
         "size": 150510,
         "storedName": "B0117179-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1417,7 +1927,7 @@
         "mimeType": "application/pdf",
         "size": 523648,
         "storedName": "B0108729-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1427,19 +1937,19 @@
         "mimeType": "image/jpeg",
         "size": 306709,
         "storedName": "B0108729-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1483,7 +1993,7 @@
         "mimeType": "application/pdf",
         "size": 529720,
         "storedName": "B1050044-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1493,19 +2003,19 @@
         "mimeType": "image/jpeg",
         "size": 372156,
         "storedName": "B1050044-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1549,7 +2059,7 @@
         "mimeType": "application/pdf",
         "size": 491523,
         "storedName": "B1070150-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1559,19 +2069,19 @@
         "mimeType": "image/jpeg",
         "size": 251568,
         "storedName": "B1070150-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   },
   {
@@ -1615,7 +2125,7 @@
         "mimeType": "application/pdf",
         "size": 503274,
         "storedName": "B1080171-water-right-1.pdf",
-        "uploadedAt": "2026-07-30T17:12:26"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "photos": [
@@ -1625,19 +2135,19 @@
         "mimeType": "image/jpeg",
         "size": 371075,
         "storedName": "B1080171-photo-1.jpg",
-        "uploadedAt": "2026-07-30T17:12:25"
+        "uploadedAt": "2026-08-03T10:32:37"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-07-30T17:12:26"
+        "at": "2026-08-03T10:32:37"
       }
     ],
-    "createdAt": "2026-07-30T17:12:26",
+    "createdAt": "2026-08-03T10:32:37",
     "createdBy": "system",
-    "updatedAt": "2026-07-30T17:12:26",
+    "updatedAt": "2026-08-03T10:32:37",
     "updatedBy": "system"
   }
 ]
