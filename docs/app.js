@@ -249,7 +249,6 @@ async function showPublicDetail(id) {
     </div>
     <div class="detail-split">
       <div class="detail-grid">
-        ${detailItem("座標系統", coordinateText(well))}
         ${detailItem("灌溉系統", well.irrigationSystem)}
         ${detailItem("井深", `${well.depthMeters || 0} m`)}
         ${detailItem("管徑", `${well.diameterMm || 0} mm`)}
