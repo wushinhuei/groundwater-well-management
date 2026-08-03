@@ -252,6 +252,13 @@ textarea {
   font-size: 13px;
   font-weight: 700;
   box-shadow: var(--shadow-sm);
+  display: flex;
+  gap: 12px;
+}
+
+.map-legend > span {
+  display: inline-flex;
+  align-items: center;
 }
 
 .legend-dot {
@@ -261,6 +268,10 @@ textarea {
   margin-right: 6px;
   border-radius: 999px;
   background: var(--water);
+}
+
+.legend-dot-alert {
+  background: #c83e3e;
 }
 
 .results-panel,
@@ -364,6 +375,12 @@ textarea {
   min-height: 34px;
   padding: 0 10px;
   font-size: 13px;
+}
+
+.tag-alert {
+  border-color: #efb4ad;
+  background: #fff0ee;
+  color: #b42318;
 }
 
 .card-actions button + button {

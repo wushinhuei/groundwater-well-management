@@ -107,8 +107,24 @@ function switchView(viewId) {
   if (viewId === "publicView") setTimeout(() => state.map?.invalidateSize(), 50);
 }
 
+const SERVICE_AREA_BOUNDS = [[23.95, 120.4], [24.8, 121.4]];
+const SERVICE_AREA_POLYGONS = [
+  [
+    [24.04, 120.47], [24.34, 120.51], [24.46, 120.72], [24.45, 121.18],
+    [24.25, 121.36], [24.06, 121.16], [23.99, 120.86], [24.0, 120.55]
+  ],
+  [
+    [24.28, 120.55], [24.64, 120.62], [24.72, 120.78], [24.68, 121.18],
+    [24.45, 121.25], [24.33, 121.1], [24.3, 120.85]
+  ]
+];
+
 function initMap() {
-  state.map = L.map("map", { zoomControl: true }).setView([24.295, 120.69], 11);
+  state.map = L.map("map", {
+    zoomControl: true,
+    maxBounds: SERVICE_AREA_BOUNDS,
+    maxBoundsViscosity: 1
+  }).fitBounds(SERVICE_AREA_BOUNDS, { padding: [20, 20] });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap contributors"
@@ -116,25 +132,64 @@ function initMap() {
 
 }
 
+function hasNumericCoordinate(latitude, longitude) {
+  return Number.isFinite(latitude) && Number.isFinite(longitude);
+}
+
+function isPointInPolygon(latitude, longitude, polygon) {
+  let inside = false;
+  for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+    const [latI, lngI] = polygon[i];
+    const [latJ, lngJ] = polygon[j];
+    const intersects = (latI > latitude) !== (latJ > latitude)
+      && longitude < ((lngJ - lngI) * (latitude - latI)) / (latJ - latI) + lngI;
+    if (intersects) inside = !inside;
+  }
+  return inside;
+}
+
+function isWithinServiceArea(latitude, longitude) {
+  return hasNumericCoordinate(latitude, longitude)
+    && SERVICE_AREA_POLYGONS.some((polygon) => isPointInPolygon(latitude, longitude, polygon));
+}
+
+function markerPosition(latitude, longitude) {
+  return [
+    Math.min(Math.max(latitude, SERVICE_AREA_BOUNDS[0][0]), SERVICE_AREA_BOUNDS[1][0]),
+    Math.min(Math.max(longitude, SERVICE_AREA_BOUNDS[0][1]), SERVICE_AREA_BOUNDS[1][1])
+  ];
+}
+
 function updateMap(wells) {
   state.markers.forEach((marker) => marker.remove());
   state.markers.clear();
   const bounds = [];
   wells.forEach((well) => {
-    if (!Number.isFinite(well.latitude) || !Number.isFinite(well.longitude)) return;
-    const marker = L.circleMarker([well.latitude, well.longitude], {
-      radius: 8,
+    if (!hasNumericCoordinate(well.latitude, well.longitude)) return;
+    const isAbnormal = !isWithinServiceArea(well.latitude, well.longitude);
+    const position = isAbnormal
+      ? markerPosition(well.latitude, well.longitude)
+      : [well.latitude, well.longitude];
+    const marker = L.circleMarker(position, {
+      radius: isAbnormal ? 9 : 8,
       color: "#ffffff",
       weight: 2,
-      fillColor: "#2f7fbf",
+      fillColor: isAbnormal ? "#c83e3e" : "#2f7fbf",
       fillOpacity: 0.9
     }).addTo(state.map);
-    marker.bindPopup(`<strong>${well.wellNumber}</strong><br>${well.name}<br>${well.district || ""}`);
+    const warning = isAbnormal
+      ? `<br><strong style="color:#b42318">座標異常</strong><br>原始座標：${well.latitude}, ${well.longitude}`
+      : "";
+    marker.bindPopup(`<strong>${well.wellNumber}</strong><br>${well.name}<br>${well.district || ""}${warning}`);
     marker.on("click", () => showPublicDetail(well.id));
     state.markers.set(well.id, marker);
-    bounds.push([well.latitude, well.longitude]);
+    if (!isAbnormal) bounds.push(position);
   });
-  if (bounds.length) state.map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
+  if (bounds.length) {
+    state.map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
+  } else {
+    state.map.fitBounds(SERVICE_AREA_BOUNDS, { padding: [20, 20] });
+  }
 }
 
 function renderFilterOptions() {
@@ -158,6 +213,9 @@ function renderPublicList(wells) {
       <div class="meta">
         <span class="tag">${escapeHtml(well.district)}</span>
         <span class="tag">${escapeHtml(well.status)}</span>
+        ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
+          ? `<span class="tag tag-alert">座標異常</span>`
+          : ""}
       </div>
       <p>${escapeHtml(well.address || well.section || "未填位置說明")}</p>
       <div class="card-actions">
@@ -231,8 +289,10 @@ function detailItem(label, value) {
 
 function coordinateText(well) {
   const rows = [];
-  if (Number.isFinite(well.latitude) && Number.isFinite(well.longitude)) {
+  if (hasNumericCoordinate(well.latitude, well.longitude)) {
     rows.push(`WGS84 經緯度：${well.latitude}, ${well.longitude}`);
+  } else {
+    rows.push("尚無有效座標");
   }
   if (well.twd97X && well.twd97Y) {
     rows.push(`TWD97 / TM2：X ${well.twd97X}, Y ${well.twd97Y}`);
