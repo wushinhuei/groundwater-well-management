@@ -39,7 +39,7 @@ foreach ($file in $batchFiles) {
     $lines.Add("")
 }
 
-$newContent = ($lines -join "`r`n") + "`r`n"
+$newContent = (($lines -join "`r`n").TrimEnd()) + "`r`n"
 $oldContent = if (Test-Path -LiteralPath $outputPath) {
     [System.IO.File]::ReadAllText($outputPath)
 } else {
@@ -50,4 +50,3 @@ if ($oldContent -ne $newContent) {
     $utf8Bom = New-Object System.Text.UTF8Encoding($true)
     [System.IO.File]::WriteAllText($outputPath, $newContent, $utf8Bom)
 }
-
