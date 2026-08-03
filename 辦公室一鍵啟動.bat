@@ -1,4 +1,5 @@
 @echo off
+rem DOC_ID=office_one_click
 chcp 65001 >nul
 setlocal EnableExtensions
 
@@ -60,6 +61,7 @@ if defined HAS_CHANGES (
 :prepare_project
 cd /d "%PROJECT_DIR%"
 if errorlevel 1 goto :cd_failed
+if exist "scripts\update_batch_docs.ps1" powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\update_batch_docs.ps1" >nul 2>nul
 
 if not exist "docs\data\wells.json" goto :missing_data
 if not exist "docs\data\attachments\" goto :missing_data

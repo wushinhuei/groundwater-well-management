@@ -1,0 +1,48 @@
+{
+  "outputFileName": "批次檔說明.txt",
+  "title": "臺中管理處地下水井管理系統－批次檔用途說明",
+  "introduction": [
+    "本檔由 scripts\\update_batch_docs.ps1 自動產生，請勿直接編輯。",
+    "執行任一現有批次檔時會重新掃描專案根目錄內的所有 .bat 檔案。",
+    "新增批次檔後，即使尚未登錄用途，也會自動出現在本說明檔中。"
+  ],
+  "labels": {
+    "filePrefix": "【",
+    "fileSuffix": "】",
+    "purpose": "用途：",
+    "usage": "何時使用：",
+    "note": "注意事項："
+  },
+  "unknown": {
+    "purpose": "尚未提供用途說明。",
+    "usage": "請先確認批次檔內容或詢問維護人員。",
+    "note": "這是新偵測到的批次檔，請在檔案開頭加入 rem DOC_ID=識別碼並更新說明設定檔。"
+  },
+  "entries": {
+    "sync_from_github": {
+      "purpose": "從 GitHub 下載 main 分支的最新內容。",
+      "usage": "本機沒有未提交修改，而且只需要取得其他電腦已上傳的更新時使用。",
+      "note": "若偵測到未提交修改會停止，不會覆蓋本機內容。"
+    },
+    "sync_to_github": {
+      "purpose": "將本機修改建立 Git 提交，取得遠端更新後再上傳到 GitHub。",
+      "usage": "完成並確認本機修改，準備把成果同步到 GitHub 時使用。",
+      "note": "會執行 git add -A，請先確認所有可追蹤檔案都適合提交。"
+    },
+    "update_project": {
+      "purpose": "使用 git pull --rebase 更新目前專案。",
+      "usage": "需要快速取得 GitHub 最新版本時使用。",
+      "note": "若本機有衝突或未完成的 Git 操作，需先處理後才能更新。"
+    },
+    "open_local_system": {
+      "purpose": "啟動目前資料夾內的地下水井管理系統並開啟本機網址。",
+      "usage": "專案與本機資料都已準備完成，只要開始使用系統時執行。",
+      "note": "需要 Node.js 20 以上版本；關閉伺服器視窗即可停止網站。"
+    },
+    "office_one_click": {
+      "purpose": "在辦公室自動下載或更新專案，同步正式畫面、完整井籍與附件，再啟動網站。",
+      "usage": "換到辦公室電腦或新電腦，希望一次完成準備與啟動時使用。",
+      "note": "需要 Git、Node.js 與網路；偵測到本機修改時會跳過 GitHub 更新。"
+    }
+  }
+}
