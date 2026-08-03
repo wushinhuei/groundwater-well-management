@@ -3,21 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="農業部農田水利署臺中管理處地下水井公開查詢系統">
     <title>地下水井管理系統</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="topbar">
-      <div>
-        <p class="eyebrow">管理處公開查詢</p>
+      <div class="brand-block">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+        <p class="eyebrow">農業部農田水利署臺中管理處</p>
         <h1>地下水井管理系統</h1>
+        </div>
       </div>
+      <span class="system-badge">公開查詢服務</span>
     </header>
 
     <main>
       <section id="publicView" class="view active">
         <section class="toolbar" aria-label="查詢條件">
+          <div class="toolbar-heading">
+            <span class="section-kicker">井籍篩選</span>
+            <strong>查詢條件</strong>
+          </div>
           <label>
             行政區
             <select id="districtFilter"></select>
@@ -30,12 +39,12 @@
             狀態
             <select id="statusFilter"></select>
           </label>
-          <button id="searchButton">查詢</button>
+          <button id="searchButton">查詢井籍</button>
         </section>
 
         <section class="layout">
           <div class="map-wrap">
-            <div id="map"></div>
+            <div id="map" aria-label="地下水井位置地圖"></div>
             <div class="map-legend">
               <span class="legend-dot"></span>
               公開井點
@@ -50,7 +59,7 @@
           </aside>
         </section>
 
-        <section id="publicDetail" class="detail-band"></section>
+        <section id="publicDetail" class="detail-band" aria-live="polite"></section>
       </section>
 
       <section id="adminView" class="view">
@@ -116,6 +125,11 @@
         </section>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <span>農業部農田水利署臺中管理處</span>
+      <span>地下水井管理系統｜資料內容以管理處正式資料為準</span>
+    </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="app.js" type="module"></script>
