@@ -396,7 +396,9 @@ document.querySelectorAll(".nav-btn").forEach((button) => {
   button.addEventListener("click", () => switchView(button.dataset.view));
 });
 
-$("searchButton").addEventListener("click", () => loadPublicWells(true));
+["stationFilter", "statusFilter"].forEach((id) => {
+  $(id).addEventListener("change", () => loadPublicWells(true));
+});
 $("publicResults").addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
