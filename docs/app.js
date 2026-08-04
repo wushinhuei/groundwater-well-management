@@ -259,13 +259,14 @@ function renderPublicList(wells) {
     <article class="well-card">
       <h3>${escapeHtml(well.wellNumber)} ${escapeHtml(well.name)}</h3>
       <div class="meta${state.expiringOnly ? " meta-expiry" : ""}">
-        ${state.expiringOnly ? `<span class="tag tag-station">${escapeHtml(well.station || "未填寫")}站</span>` : ""}
-        <span class="tag">${escapeHtml(well.district)}</span>
-        <span class="tag">${escapeHtml(well.status)}</span>
-        ${state.expiringOnly ? `<span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>` : ""}
-        ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
-          ? `<span class="tag tag-alert">座標異常</span>`
-          : ""}
+        ${state.expiringOnly
+          ? `<span class="tag tag-station">${escapeHtml(well.station || "未填寫")}站</span>
+            <span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>`
+          : `<span class="tag">${escapeHtml(well.district)}</span>
+            <span class="tag">${escapeHtml(well.status)}</span>
+            ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
+              ? `<span class="tag tag-alert">座標異常</span>`
+              : ""}`}
       </div>
       <p>${escapeHtml(well.address || well.section || "未填位置說明")}</p>
       <div class="card-actions">
