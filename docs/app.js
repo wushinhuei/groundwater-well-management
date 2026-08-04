@@ -1,5 +1,6 @@
 const state = {
   publicWells: [],
+  allPublicWells: [],
   adminWells: [],
   token: sessionStorage.getItem("adminToken") || "",
   map: null,
@@ -201,8 +202,8 @@ function renderFilterOptions() {
       .map((value) => `<option>${escapeHtml(value)}</option>`)
       .join("");
   };
-  fill("stationFilter", state.publicWells.map((well) => well.station), "全部工作站");
-  fill("statusFilter", [...state.publicWells.map((well) => well.status), "故障待修"], "全部狀態");
+  fill("stationFilter", state.allPublicWells.map((well) => well.station), "全部工作站");
+  fill("statusFilter", [...state.allPublicWells.map((well) => well.status), "故障待修"], "全部狀態");
 }
 
 function waterRightEndDate(period) {
@@ -231,11 +232,15 @@ function expiringWells(wells, baseDate = new Date()) {
 }
 
 function renderCurrentPublicResults() {
-  const expiring = expiringWells(state.publicWells);
+  const expiring = expiringWells(state.allPublicWells);
   const wells = state.expiringOnly ? expiring : state.publicWells;
+  const basicButton = $("basicFilterButton");
   const button = $("expiringFilterButton");
   button.textContent = `水權期限即將到期 ${expiring.length} 筆`;
   button.setAttribute("aria-pressed", String(state.expiringOnly));
+  basicButton.setAttribute("aria-pressed", String(!state.expiringOnly));
+  $("stationFilter").disabled = state.expiringOnly;
+  $("statusFilter").disabled = state.expiringOnly;
   $("resultTitle").textContent = state.expiringOnly ? "水權即將到期" : "查詢結果";
   renderPublicList(wells);
   updateMap(wells);
@@ -271,7 +276,10 @@ async function loadPublicWells(useFilters = false) {
   }
   const wells = await api(`/api/public/wells?${params}`);
   state.publicWells = wells;
-  if (!useFilters) renderFilterOptions();
+  if (!useFilters) {
+    state.allPublicWells = wells;
+    renderFilterOptions();
+  }
   renderCurrentPublicResults();
 }
 
@@ -430,10 +438,18 @@ document.querySelectorAll(".nav-btn").forEach((button) => {
 });
 
 ["stationFilter", "statusFilter"].forEach((id) => {
-  $(id).addEventListener("change", () => loadPublicWells(true));
+  $(id).addEventListener("change", () => {
+    state.expiringOnly = false;
+    loadPublicWells(true);
+  });
 });
 $("expiringFilterButton").addEventListener("click", () => {
-  state.expiringOnly = !state.expiringOnly;
+  state.expiringOnly = true;
+  $("publicDetail").innerHTML = "";
+  renderCurrentPublicResults();
+});
+$("basicFilterButton").addEventListener("click", () => {
+  state.expiringOnly = false;
   $("publicDetail").innerHTML = "";
   renderCurrentPublicResults();
 });

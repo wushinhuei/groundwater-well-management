@@ -6,7 +6,7 @@
     <meta name="description" content="農業部農田水利署臺中管理處地下水井公開查詢系統">
     <title>地下水井管理系統</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <link rel="stylesheet" href="styles.css?v=20260804-1">
+    <link rel="stylesheet" href="styles.css?v=20260804-2">
   </head>
   <body>
     <header class="topbar">
@@ -35,9 +35,12 @@
             狀態
             <select id="statusFilter"></select>
           </label>
-          <button id="expiringFilterButton" class="expiry-filter-btn" type="button" aria-pressed="false">
-            水權期限即將到期
-          </button>
+          <div class="query-mode-buttons" aria-label="查詢類別">
+            <button id="basicFilterButton" class="query-mode-btn" type="button" aria-pressed="true">水井基本資料</button>
+            <button id="expiringFilterButton" class="query-mode-btn expiry-filter-btn" type="button" aria-pressed="false">
+              水權期限即將到期
+            </button>
+          </div>
         </section>
 
         <section class="layout">
@@ -130,6 +133,6 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="app.js?v=20260804-1" type="module"></script>
+    <script src="app.js?v=20260804-2" type="module"></script>
   </body>
 </html>

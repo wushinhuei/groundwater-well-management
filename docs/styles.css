@@ -179,11 +179,25 @@ main {
   font-size: 18px;
 }
 
+.query-mode-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.query-mode-btn {
+  white-space: nowrap;
+}
+
+.query-mode-btn:not(.expiry-filter-btn)[aria-pressed="true"] {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: #fff;
+}
+
 .expiry-filter-btn {
   border-color: #b95b28;
   background: #fff7ed;
   color: #8a3d12;
-  white-space: nowrap;
 }
 
 .expiry-filter-btn:hover,
@@ -191,6 +205,11 @@ main {
   border-color: #a84416;
   background: #b94f1d;
   color: #fff;
+}
+
+select:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
 }
 
 .section-kicker {
