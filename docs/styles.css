@@ -410,6 +410,17 @@ textarea {
   font-size: 13px;
 }
 
+.meta-expiry {
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+.meta-expiry .tag {
+  flex: 0 0 auto;
+  padding: 3px 6px;
+  white-space: nowrap;
+}
+
 .tag-alert {
   border-color: #efb4ad;
   background: #fff0ee;
