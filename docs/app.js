@@ -4,7 +4,8 @@ const state = {
   token: sessionStorage.getItem("adminToken") || "",
   map: null,
   markers: new Map(),
-  activeWell: null
+  activeWell: null,
+  expiringOnly: false
 };
 
 const STATIC_MODE = location.hostname.endsWith("github.io") || location.protocol === "file:";
@@ -204,6 +205,42 @@ function renderFilterOptions() {
   fill("statusFilter", [...state.publicWells.map((well) => well.status), "故障待修"], "全部狀態");
 }
 
+function waterRightEndDate(period) {
+  const matches = [...String(period || "").matchAll(/(\d{2,4})[.\/-](\d{1,2})[.\/-](\d{1,2})/g)];
+  if (!matches.length) return null;
+  const match = matches[matches.length - 1];
+  const rawYear = Number(match[1]);
+  const year = rawYear < 1911 ? rawYear + 1911 : rawYear;
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const date = new Date(year, month - 1, day, 23, 59, 59, 999);
+  if (date.getFullYear() !== year || date.getMonth() !== month - 1 || date.getDate() !== day) return null;
+  return date;
+}
+
+function expiringWells(wells, baseDate = new Date()) {
+  const start = new Date(baseDate);
+  start.setHours(0, 0, 0, 0);
+  const cutoff = new Date(start);
+  cutoff.setMonth(cutoff.getMonth() + 2);
+  cutoff.setHours(23, 59, 59, 999);
+  return wells.filter((well) => {
+    const endDate = waterRightEndDate(well.waterRightPeriod);
+    return endDate && endDate >= start && endDate <= cutoff;
+  });
+}
+
+function renderCurrentPublicResults() {
+  const expiring = expiringWells(state.publicWells);
+  const wells = state.expiringOnly ? expiring : state.publicWells;
+  const button = $("expiringFilterButton");
+  button.textContent = `水權期限即將到期 ${expiring.length} 筆`;
+  button.setAttribute("aria-pressed", String(state.expiringOnly));
+  $("resultTitle").textContent = state.expiringOnly ? "水權即將到期" : "查詢結果";
+  renderPublicList(wells);
+  updateMap(wells);
+}
+
 function renderPublicList(wells) {
   $("resultCount").textContent = `${wells.length} 筆`;
   $("publicResults").innerHTML = wells.length ? wells.map((well) => `
@@ -235,8 +272,7 @@ async function loadPublicWells(useFilters = false) {
   const wells = await api(`/api/public/wells?${params}`);
   state.publicWells = wells;
   if (!useFilters) renderFilterOptions();
-  renderPublicList(wells);
-  updateMap(wells);
+  renderCurrentPublicResults();
 }
 
 async function showPublicDetail(id) {
@@ -395,6 +431,11 @@ document.querySelectorAll(".nav-btn").forEach((button) => {
 
 ["stationFilter", "statusFilter"].forEach((id) => {
   $(id).addEventListener("change", () => loadPublicWells(true));
+});
+$("expiringFilterButton").addEventListener("click", () => {
+  state.expiringOnly = !state.expiringOnly;
+  $("publicDetail").innerHTML = "";
+  renderCurrentPublicResults();
 });
 $("publicResults").addEventListener("click", (event) => {
   const button = event.target.closest("button");
