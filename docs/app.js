@@ -259,6 +259,7 @@ function renderPublicList(wells) {
     <article class="well-card">
       <h3>${escapeHtml(well.wellNumber)} ${escapeHtml(well.name)}</h3>
       <div class="meta">
+        ${state.expiringOnly ? `<span class="tag tag-station">工作站 ${escapeHtml(well.station || "未填寫")}</span>` : ""}
         <span class="tag">${escapeHtml(well.district)}</span>
         <span class="tag">${escapeHtml(well.status)}</span>
         ${state.expiringOnly ? `<span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>` : ""}

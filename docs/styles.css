@@ -423,6 +423,13 @@ textarea {
   font-weight: 700;
 }
 
+.tag-station {
+  border-color: #9fc8bc;
+  background: #eaf5f1;
+  color: #145d4d;
+  font-weight: 700;
+}
+
 .card-actions button + button {
   border-color: var(--line-strong);
   background: #fff;
