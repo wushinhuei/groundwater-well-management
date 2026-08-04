@@ -416,6 +416,13 @@ textarea {
   color: #b42318;
 }
 
+.tag-expiry {
+  border-color: #e7a36e;
+  background: #fff3e8;
+  color: #9a3f12;
+  font-weight: 700;
+}
+
 .card-actions button + button {
   border-color: var(--line-strong);
   background: #fff;

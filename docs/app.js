@@ -219,6 +219,13 @@ function waterRightEndDate(period) {
   return date;
 }
 
+function waterRightEndLabel(period) {
+  const matches = [...String(period || "").matchAll(/(\d{2,4})[.\/-](\d{1,2})[.\/-](\d{1,2})/g)];
+  if (!matches.length) return "";
+  const match = matches[matches.length - 1];
+  return `${match[1]}.${String(match[2]).padStart(2, "0")}.${String(match[3]).padStart(2, "0")}`;
+}
+
 function expiringWells(wells, baseDate = new Date()) {
   const start = new Date(baseDate);
   start.setHours(0, 0, 0, 0);
@@ -254,6 +261,7 @@ function renderPublicList(wells) {
       <div class="meta">
         <span class="tag">${escapeHtml(well.district)}</span>
         <span class="tag">${escapeHtml(well.status)}</span>
+        ${state.expiringOnly ? `<span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>` : ""}
         ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
           ? `<span class="tag tag-alert">座標異常</span>`
           : ""}
