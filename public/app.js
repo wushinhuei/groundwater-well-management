@@ -1,10 +1,12 @@
 const state = {
   publicWells: [],
+  allPublicWells: [],
   adminWells: [],
   token: sessionStorage.getItem("adminToken") || "",
   map: null,
   markers: new Map(),
-  activeWell: null
+  activeWell: null,
+  expiringOnly: false
 };
 
 const STATIC_MODE = location.hostname.endsWith("github.io") || location.protocol === "file:";
@@ -107,8 +109,24 @@ function switchView(viewId) {
   if (viewId === "publicView") setTimeout(() => state.map?.invalidateSize(), 50);
 }
 
+const SERVICE_AREA_BOUNDS = [[23.95, 120.4], [24.8, 121.4]];
+const SERVICE_AREA_POLYGONS = [
+  [
+    [24.04, 120.47], [24.34, 120.51], [24.46, 120.72], [24.45, 121.18],
+    [24.25, 121.36], [24.06, 121.16], [23.99, 120.86], [24.0, 120.55]
+  ],
+  [
+    [24.28, 120.55], [24.64, 120.62], [24.72, 120.78], [24.68, 121.18],
+    [24.45, 121.25], [24.33, 121.1], [24.3, 120.85]
+  ]
+];
+
 function initMap() {
-  state.map = L.map("map", { zoomControl: true }).setView([24.295, 120.69], 11);
+  state.map = L.map("map", {
+    zoomControl: true,
+    maxBounds: SERVICE_AREA_BOUNDS,
+    maxBoundsViscosity: 1
+  }).fitBounds(SERVICE_AREA_BOUNDS, { padding: [20, 20] });
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap contributors"
@@ -116,25 +134,64 @@ function initMap() {
 
 }
 
+function hasNumericCoordinate(latitude, longitude) {
+  return Number.isFinite(latitude) && Number.isFinite(longitude);
+}
+
+function isPointInPolygon(latitude, longitude, polygon) {
+  let inside = false;
+  for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+    const [latI, lngI] = polygon[i];
+    const [latJ, lngJ] = polygon[j];
+    const intersects = (latI > latitude) !== (latJ > latitude)
+      && longitude < ((lngJ - lngI) * (latitude - latI)) / (latJ - latI) + lngI;
+    if (intersects) inside = !inside;
+  }
+  return inside;
+}
+
+function isWithinServiceArea(latitude, longitude) {
+  return hasNumericCoordinate(latitude, longitude)
+    && SERVICE_AREA_POLYGONS.some((polygon) => isPointInPolygon(latitude, longitude, polygon));
+}
+
+function markerPosition(latitude, longitude) {
+  return [
+    Math.min(Math.max(latitude, SERVICE_AREA_BOUNDS[0][0]), SERVICE_AREA_BOUNDS[1][0]),
+    Math.min(Math.max(longitude, SERVICE_AREA_BOUNDS[0][1]), SERVICE_AREA_BOUNDS[1][1])
+  ];
+}
+
 function updateMap(wells) {
   state.markers.forEach((marker) => marker.remove());
   state.markers.clear();
   const bounds = [];
   wells.forEach((well) => {
-    if (!Number.isFinite(well.latitude) || !Number.isFinite(well.longitude)) return;
-    const marker = L.circleMarker([well.latitude, well.longitude], {
-      radius: 8,
+    if (!hasNumericCoordinate(well.latitude, well.longitude)) return;
+    const isAbnormal = !isWithinServiceArea(well.latitude, well.longitude);
+    const position = isAbnormal
+      ? markerPosition(well.latitude, well.longitude)
+      : [well.latitude, well.longitude];
+    const marker = L.circleMarker(position, {
+      radius: isAbnormal ? 9 : 8,
       color: "#ffffff",
       weight: 2,
-      fillColor: "#2f7fbf",
+      fillColor: isAbnormal ? "#c83e3e" : "#2f7fbf",
       fillOpacity: 0.9
     }).addTo(state.map);
-    marker.bindPopup(`<strong>${well.wellNumber}</strong><br>${well.name}<br>${well.district || ""}`);
+    const warning = isAbnormal
+      ? `<br><strong style="color:#b42318">座標異常</strong><br>原始座標：${well.latitude}, ${well.longitude}`
+      : "";
+    marker.bindPopup(`<strong>${well.wellNumber}</strong><br>${well.name}<br>${well.district || ""}${warning}`);
     marker.on("click", () => showPublicDetail(well.id));
     state.markers.set(well.id, marker);
-    bounds.push([well.latitude, well.longitude]);
+    if (!isAbnormal) bounds.push(position);
   });
-  if (bounds.length) state.map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
+  if (bounds.length) {
+    state.map.fitBounds(bounds, { padding: [36, 36], maxZoom: 14 });
+  } else {
+    state.map.fitBounds(SERVICE_AREA_BOUNDS, { padding: [20, 20] });
+  }
 }
 
 function renderFilterOptions() {
@@ -145,9 +202,55 @@ function renderFilterOptions() {
       .map((value) => `<option>${escapeHtml(value)}</option>`)
       .join("");
   };
-  fill("districtFilter", state.publicWells.map((well) => well.district), "全部行政區");
-  fill("stationFilter", state.publicWells.map((well) => well.station), "全部工作站");
-  fill("statusFilter", [...state.publicWells.map((well) => well.status), "故障待修"], "全部狀態");
+  fill("stationFilter", state.allPublicWells.map((well) => well.station), "全部工作站");
+  fill("statusFilter", [...state.allPublicWells.map((well) => well.status), "故障待修"], "全部狀態");
+}
+
+function waterRightEndDate(period) {
+  const matches = [...String(period || "").matchAll(/(\d{2,4})[.\/-](\d{1,2})[.\/-](\d{1,2})/g)];
+  if (!matches.length) return null;
+  const match = matches[matches.length - 1];
+  const rawYear = Number(match[1]);
+  const year = rawYear < 1911 ? rawYear + 1911 : rawYear;
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const date = new Date(year, month - 1, day, 23, 59, 59, 999);
+  if (date.getFullYear() !== year || date.getMonth() !== month - 1 || date.getDate() !== day) return null;
+  return date;
+}
+
+function waterRightEndLabel(period) {
+  const matches = [...String(period || "").matchAll(/(\d{2,4})[.\/-](\d{1,2})[.\/-](\d{1,2})/g)];
+  if (!matches.length) return "";
+  const match = matches[matches.length - 1];
+  return `${match[1]}.${String(match[2]).padStart(2, "0")}.${String(match[3]).padStart(2, "0")}`;
+}
+
+function expiringWells(wells, baseDate = new Date()) {
+  const start = new Date(baseDate);
+  start.setHours(0, 0, 0, 0);
+  const cutoff = new Date(start);
+  cutoff.setMonth(cutoff.getMonth() + 2);
+  cutoff.setHours(23, 59, 59, 999);
+  return wells.filter((well) => {
+    const endDate = waterRightEndDate(well.waterRightPeriod);
+    return endDate && endDate >= start && endDate <= cutoff;
+  });
+}
+
+function renderCurrentPublicResults() {
+  const expiring = expiringWells(state.allPublicWells);
+  const wells = state.expiringOnly ? expiring : state.publicWells;
+  const basicButton = $("basicFilterButton");
+  const button = $("expiringFilterButton");
+  button.textContent = `水權期限即將到期 ${expiring.length} 筆`;
+  button.setAttribute("aria-pressed", String(state.expiringOnly));
+  basicButton.setAttribute("aria-pressed", String(!state.expiringOnly));
+  $("stationFilter").disabled = state.expiringOnly;
+  $("statusFilter").disabled = state.expiringOnly;
+  $("resultTitle").textContent = state.expiringOnly ? "水權即將到期" : "查詢結果";
+  renderPublicList(wells);
+  updateMap(wells);
 }
 
 function renderPublicList(wells) {
@@ -155,9 +258,15 @@ function renderPublicList(wells) {
   $("publicResults").innerHTML = wells.length ? wells.map((well) => `
     <article class="well-card">
       <h3>${escapeHtml(well.wellNumber)} ${escapeHtml(well.name)}</h3>
-      <div class="meta">
-        <span class="tag">${escapeHtml(well.district)}</span>
-        <span class="tag">${escapeHtml(well.status)}</span>
+      <div class="meta${state.expiringOnly ? " meta-expiry" : ""}">
+        ${state.expiringOnly
+          ? `<span class="tag tag-station">${escapeHtml(well.station || "未填寫")}站</span>
+            <span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>`
+          : `<span class="tag">${escapeHtml(well.district)}</span>
+            <span class="tag">${escapeHtml(well.status)}</span>
+            ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
+              ? `<span class="tag tag-alert">座標異常</span>`
+              : ""}`}
       </div>
       <p>${escapeHtml(well.address || well.section || "未填位置說明")}</p>
       <div class="card-actions">
@@ -172,15 +281,16 @@ function renderPublicList(wells) {
 async function loadPublicWells(useFilters = false) {
   const params = new URLSearchParams();
   if (useFilters) {
-    params.set("district", $("districtFilter").value);
     params.set("station", $("stationFilter").value);
     params.set("status", $("statusFilter").value);
   }
   const wells = await api(`/api/public/wells?${params}`);
   state.publicWells = wells;
-  if (!useFilters) renderFilterOptions();
-  renderPublicList(wells);
-  updateMap(wells);
+  if (!useFilters) {
+    state.allPublicWells = wells;
+    renderFilterOptions();
+  }
+  renderCurrentPublicResults();
 }
 
 async function showPublicDetail(id) {
@@ -193,9 +303,6 @@ async function showPublicDetail(id) {
     </div>
     <div class="detail-split">
       <div class="detail-grid">
-        ${detailItem("地段/地址", well.address || well.section)}
-        ${detailItem("座標系統", coordinateText(well))}
-        ${detailItem("工作站", well.station)}
         ${detailItem("灌溉系統", well.irrigationSystem)}
         ${detailItem("井深", `${well.depthMeters || 0} m`)}
         ${detailItem("管徑", `${well.diameterMm || 0} mm`)}
@@ -206,7 +313,6 @@ async function showPublicDetail(id) {
         ${detailItem("水權登記量", well.registeredFlowCms ? `${well.registeredFlowCms} cms` : "")}
         ${detailItem("水權狀號", well.waterRightNo)}
         ${detailItem("核准水權年限", well.waterRightPeriod)}
-        ${detailItem("下次申請時間", well.nextApplicationPeriod)}
         ${detailItem("完工日期", well.completionDate)}
         ${detailItem("用電電號", well.electricityNo)}
         ${detailItem("農業用電", well.agriculturalPower)}
@@ -231,8 +337,10 @@ function detailItem(label, value) {
 
 function coordinateText(well) {
   const rows = [];
-  if (Number.isFinite(well.latitude) && Number.isFinite(well.longitude)) {
+  if (hasNumericCoordinate(well.latitude, well.longitude)) {
     rows.push(`WGS84 經緯度：${well.latitude}, ${well.longitude}`);
+  } else {
+    rows.push("尚無有效座標");
   }
   if (well.twd97X && well.twd97Y) {
     rows.push(`TWD97 / TM2：X ${well.twd97X}, Y ${well.twd97Y}`);
@@ -339,7 +447,22 @@ document.querySelectorAll(".nav-btn").forEach((button) => {
   button.addEventListener("click", () => switchView(button.dataset.view));
 });
 
-$("searchButton").addEventListener("click", () => loadPublicWells(true));
+["stationFilter", "statusFilter"].forEach((id) => {
+  $(id).addEventListener("change", () => {
+    state.expiringOnly = false;
+    loadPublicWells(true);
+  });
+});
+$("expiringFilterButton").addEventListener("click", () => {
+  state.expiringOnly = true;
+  $("publicDetail").innerHTML = "";
+  renderCurrentPublicResults();
+});
+$("basicFilterButton").addEventListener("click", () => {
+  state.expiringOnly = false;
+  $("publicDetail").innerHTML = "";
+  renderCurrentPublicResults();
+});
 $("publicResults").addEventListener("click", (event) => {
   const button = event.target.closest("button");
   if (!button) return;
