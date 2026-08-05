@@ -353,16 +353,26 @@ function renderPhotos(photos = []) {
   return `
     <section class="photo-section">
       <h3>現場照片</h3>
-      <div class="photo-grid">
+      <div class="photo-grid ${photos.length === 1 ? "single" : ""}">
         ${photos.map((photo) => `
           <figure>
-            <img src="${escapeHtml(photo.url)}" alt="${escapeHtml(photo.name || "現場照片")}" loading="lazy">
+            <button type="button" class="photo-zoom" data-photo-url="${escapeHtml(photo.url)}" data-photo-name="${escapeHtml(photo.name || "現場照片")}" aria-label="放大${escapeHtml(photo.name || "現場照片")}">
+              <img src="${escapeHtml(photo.url)}" alt="${escapeHtml(photo.name || "現場照片")}" loading="lazy">
+            </button>
             <figcaption>${escapeHtml(photo.name || "現場照片")}</figcaption>
           </figure>
         `).join("")}
       </div>
     </section>
   `;
+}
+
+function openPhotoLightbox(url, name) {
+  const dialog = $("photoLightbox");
+  $("photoLightboxImage").src = url;
+  $("photoLightboxImage").alt = name;
+  $("photoLightboxCaption").textContent = name;
+  dialog.showModal();
 }
 
 function renderAdminList() {
@@ -478,6 +488,17 @@ $("publicResults").addEventListener("click", (event) => {
   if (button.dataset.waterRight) {
     window.open(button.dataset.waterRight, "_blank");
   }
+});
+
+$("publicDetail").addEventListener("click", (event) => {
+  const button = event.target.closest("[data-photo-url]");
+  if (!button) return;
+  openPhotoLightbox(button.dataset.photoUrl, button.dataset.photoName || "現場照片");
+});
+
+$("photoLightboxClose").addEventListener("click", () => $("photoLightbox").close());
+$("photoLightbox").addEventListener("click", (event) => {
+  if (event.target === event.currentTarget) event.currentTarget.close();
 });
 
 $("loginForm").addEventListener("submit", async (event) => {

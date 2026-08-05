@@ -489,8 +489,12 @@ textarea {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+}
+
+.photo-grid.single {
+  grid-template-columns: 1fr;
 }
 
 .photo-grid figure {
@@ -510,10 +514,67 @@ textarea {
   background: #e7edf2;
 }
 
+.photo-zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.photo-zoom:hover img,
+.photo-zoom:focus-visible img {
+  filter: brightness(0.94);
+}
+
 .photo-grid figcaption {
   padding: 8px 10px;
   color: var(--muted);
   font-size: 13px;
+}
+
+.photo-lightbox {
+  width: min(94vw, 1200px);
+  max-width: none;
+  padding: 42px 18px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #111820;
+  color: #fff;
+}
+
+.photo-lightbox::backdrop {
+  background: rgb(10 18 24 / 88%);
+}
+
+.photo-lightbox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.photo-lightbox p {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.photo-lightbox-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #111820;
+  font-size: 25px;
+  line-height: 1;
 }
 
 .detail-item {

@@ -6,7 +6,7 @@
     <meta name="description" content="農業部農田水利署臺中管理處地下水井公開查詢系統">
     <title>地下水井管理系統</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <link rel="stylesheet" href="styles.css?v=20260804-5">
+    <link rel="stylesheet" href="styles.css?v=20260805-1">
   </head>
   <body>
     <header class="topbar">
@@ -132,7 +132,13 @@
       <span>地下水井管理系統｜資料內容以管理處正式資料為準</span>
     </footer>
 
+    <dialog id="photoLightbox" class="photo-lightbox" aria-labelledby="photoLightboxCaption">
+      <button type="button" id="photoLightboxClose" class="photo-lightbox-close" aria-label="關閉">&times;</button>
+      <img id="photoLightboxImage" alt="">
+      <p id="photoLightboxCaption"></p>
+    </dialog>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="app.js?v=20260804-6" type="module"></script>
+    <script src="app.js?v=20260805-1" type="module"></script>
   </body>
 </html>
