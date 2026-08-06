@@ -264,14 +264,16 @@ function renderPublicList(wells) {
             <span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>`
           : `<span class="tag">${escapeHtml(well.district)}</span>
             <span class="tag">${escapeHtml(well.status)}</span>
-            ${hasNumericCoordinate(well.latitude, well.longitude) && !isWithinServiceArea(well.latitude, well.longitude)
-              ? `<span class="tag tag-alert">座標異常</span>`
-              : ""}`}
+            ${!hasNumericCoordinate(well.latitude, well.longitude)
+              ? `<span class="tag">座標待補</span>`
+              : !isWithinServiceArea(well.latitude, well.longitude)
+                ? `<span class="tag tag-alert">座標異常</span>`
+                : ""}`}
       </div>
       <p>${escapeHtml(well.address || well.section || "未填位置說明")}</p>
       <div class="card-actions">
         <button data-detail="${well.id}">查看資料</button>
-        <button data-locate="${well.id}">定位</button>
+        ${hasNumericCoordinate(well.latitude, well.longitude) ? `<button data-locate="${well.id}">定位</button>` : ""}
         ${well.waterRightCertificateUrl ? `<button data-water-right="${well.waterRightCertificateUrl}">水權狀</button>` : ""}
       </div>
     </article>

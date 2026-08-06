@@ -27,11 +27,11 @@ def copy_public_assets() -> None:
 
 
 def export_data() -> dict:
-    if OUT_DIR.exists():
-        shutil.rmtree(OUT_DIR)
+    if OUT_ATTACHMENTS.exists():
+        shutil.rmtree(OUT_ATTACHMENTS)
     OUT_ATTACHMENTS.mkdir(parents=True, exist_ok=True)
 
-    wells = json.loads(SOURCE_JSON.read_text(encoding="utf-8"))
+    wells = json.loads(SOURCE_JSON.read_text(encoding="utf-8-sig"))
     exported = []
     photo_count = 0
     pdf_count = 0
