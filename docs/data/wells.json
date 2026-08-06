@@ -4,8 +4,8 @@
     "wellNumber": "B1060111",
     "name": "太平一圳抽水井",
     "station": "八寶",
-    "district": "北屯區",
-    "section": "大觀段",
+    "district": "",
+    "section": "",
     "address": "臺中市北屯區大觀段405-1地號",
     "latitude": 24.1707413,
     "longitude": 120.7346939,
@@ -16,7 +16,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 35.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0106,
     "benefitedAreaHa": 1.486852,
     "registeredFlowCms": 0.0106,
     "irrigationSystem": "大里溪太平一圳",
@@ -25,8 +25,8 @@
     "nextApplicationPeriod": "116.07.12",
     "completionDate": "106年8月",
     "constructionYear": "2017",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-25-0080-93-6",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "八寶工作站",
@@ -40,7 +40,7 @@
         "mimeType": "application/pdf",
         "size": 498750,
         "storedName": "八寶-B1060111-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -50,19 +50,19 @@
         "mimeType": "image/jpeg",
         "size": 677519,
         "storedName": "八寶-B1060111-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -70,8 +70,8 @@
     "wellNumber": "B1130052",
     "name": "潭子區興龍段279地號抽水井",
     "station": "八寶",
-    "district": "潭子區",
-    "section": "興龍段",
+    "district": "",
+    "section": "",
     "address": "臺中市潭子區興龍段279-1地號",
     "latitude": 24.2058246,
     "longitude": 120.7425953,
@@ -82,7 +82,7 @@
     "diameterMm": 203,
     "pumpHorsepower": 10.0,
     "pumpOutletInch": 1.5,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0016,
     "benefitedAreaHa": 2.019725,
     "registeredFlowCms": 0.0016,
     "irrigationSystem": "大甲溪",
@@ -91,8 +91,8 @@
     "nextApplicationPeriod": "117.11.19",
     "completionDate": "113.07.18",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-64-7455-93-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "八寶工作站",
@@ -106,7 +106,7 @@
         "mimeType": "application/pdf",
         "size": 556632,
         "storedName": "八寶-B1130052-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -116,7 +116,7 @@
         "mimeType": "image/jpeg",
         "size": 795008,
         "storedName": "八寶-B1130052-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-八寶-b1130052-2",
@@ -124,19 +124,19 @@
         "mimeType": "image/jpeg",
         "size": 732463,
         "storedName": "八寶-B1130052-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -144,8 +144,8 @@
     "wellNumber": "B1130145",
     "name": "潭子區興龍段69地號抽水井",
     "station": "八寶",
-    "district": "潭子區",
-    "section": "興龍段",
+    "district": "",
+    "section": "",
     "address": "臺中市潭子區興龍段69-5地號",
     "latitude": 24.2162493,
     "longitude": 120.7475833,
@@ -156,7 +156,7 @@
     "diameterMm": 203,
     "pumpHorsepower": 10.0,
     "pumpOutletInch": 1.5,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0016,
     "benefitedAreaHa": 24477.51,
     "registeredFlowCms": 0.0016,
     "irrigationSystem": "大甲溪",
@@ -165,8 +165,8 @@
     "nextApplicationPeriod": "118.01.29",
     "completionDate": "113.07.29",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-64-7335-92-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "八寶工作站",
@@ -180,7 +180,7 @@
         "mimeType": "application/pdf",
         "size": 578259,
         "storedName": "八寶-B1130145-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -190,7 +190,7 @@
         "mimeType": "image/jpeg",
         "size": 771174,
         "storedName": "八寶-B1130145-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-八寶-b1130145-2",
@@ -198,19 +198,19 @@
         "mimeType": "image/jpeg",
         "size": 834487,
         "storedName": "八寶-B1130145-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -218,8 +218,8 @@
     "wellNumber": "B1140177",
     "name": "潭子區興龍段1282地號抽水井",
     "station": "八寶",
-    "district": "潭子區",
-    "section": "豐興段",
+    "district": "",
+    "section": "",
     "address": "臺中市潭子區豐興段1282-1地號",
     "latitude": 24.1979874,
     "longitude": 120.7254619,
@@ -230,7 +230,7 @@
     "diameterMm": 203,
     "pumpHorsepower": 10.0,
     "pumpOutletInch": 1.5,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0017,
     "benefitedAreaHa": 1.545343,
     "registeredFlowCms": 0.0017,
     "irrigationSystem": "大甲溪",
@@ -239,8 +239,8 @@
     "nextApplicationPeriod": "119.05.18",
     "completionDate": "辦理中",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "辦理中",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "八寶工作站",
@@ -254,7 +254,7 @@
         "mimeType": "application/pdf",
         "size": 549607,
         "storedName": "八寶-B1140177-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -264,19 +264,19 @@
         "mimeType": "image/jpeg",
         "size": 623604,
         "storedName": "八寶-B1140177-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -284,8 +284,8 @@
     "wellNumber": "K0124239",
     "name": "苗豐抽水井",
     "station": "卓蘭",
-    "district": "卓蘭鎮",
-    "section": "苗豐段",
+    "district": "",
+    "section": "",
     "address": "苗栗縣卓蘭鎮苗豐段277地號",
     "latitude": 24.3203671,
     "longitude": 120.8157028,
@@ -296,7 +296,7 @@
     "diameterMm": 300,
     "pumpHorsepower": 40.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0169,
     "benefitedAreaHa": 7.108158,
     "registeredFlowCms": 0.0169,
     "irrigationSystem": "大安溪卓蘭圳",
@@ -305,8 +305,8 @@
     "nextApplicationPeriod": "117.05.07",
     "completionDate": "107年8月",
     "constructionYear": "2018",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-96-2331-13-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "卓蘭工作站",
@@ -320,7 +320,7 @@
         "mimeType": "application/pdf",
         "size": 636554,
         "storedName": "卓蘭-K0124239-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -330,19 +330,19 @@
         "mimeType": "image/jpeg",
         "size": 358883,
         "storedName": "卓蘭-K0124239-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -350,8 +350,8 @@
     "wellNumber": "B0113848",
     "name": "新社圳抽水井",
     "station": "大南",
-    "district": "新社區",
-    "section": "神木段",
+    "district": "",
+    "section": "",
     "address": "臺中市新社區神木段544地號",
     "latitude": 24.224691,
     "longitude": 120.7927225,
@@ -362,7 +362,7 @@
     "diameterMm": 5000,
     "pumpHorsepower": 120.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.047,
     "benefitedAreaHa": 30.619324,
     "registeredFlowCms": 0.047,
     "irrigationSystem": "大甲溪新社圳幹線",
@@ -371,8 +371,8 @@
     "nextApplicationPeriod": "118.03.30",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-53-2698-01-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大南工作站",
@@ -386,7 +386,7 @@
         "mimeType": "application/pdf",
         "size": 531437,
         "storedName": "大南-B0113848-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -396,7 +396,7 @@
         "mimeType": "image/jpeg",
         "size": 436395,
         "storedName": "大南-B0113848-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大南-b0113848-2",
@@ -404,19 +404,19 @@
         "mimeType": "image/png",
         "size": 581854,
         "storedName": "大南-B0113848-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -424,8 +424,8 @@
     "wellNumber": "B0130292",
     "name": "白冷圳馬力埔抽水井",
     "station": "大南",
-    "district": "新社區",
-    "section": "協中段",
+    "district": "",
+    "section": "",
     "address": "臺中市新社區協中段354地號",
     "latitude": 24.2176563,
     "longitude": 120.7987986,
@@ -436,7 +436,7 @@
     "diameterMm": 330,
     "pumpHorsepower": 120.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.04,
     "benefitedAreaHa": 26.1186,
     "registeredFlowCms": 0.04,
     "irrigationSystem": "大甲溪白冷圳馬力埔支線",
@@ -445,8 +445,8 @@
     "nextApplicationPeriod": "116.08.30",
     "completionDate": "91.05.03",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-53-6218-15-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大南工作站",
@@ -460,7 +460,7 @@
         "mimeType": "application/pdf",
         "size": 591925,
         "storedName": "大南-B0130292-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -470,7 +470,7 @@
         "mimeType": "image/jpeg",
         "size": 119676,
         "storedName": "大南-B0130292-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大南-b0130292-2",
@@ -478,19 +478,19 @@
         "mimeType": "image/png",
         "size": 501612,
         "storedName": "大南-B0130292-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -498,8 +498,8 @@
     "wellNumber": "B1050080",
     "name": "白冷圳大南抽水井-已申請消滅登記",
     "station": "大南",
-    "district": "臺中市",
-    "section": "新社圳大南段大南小段",
+    "district": "",
+    "section": "",
     "address": "臺中市新社圳大南段大南小段127-50地號",
     "latitude": 24.2181697,
     "longitude": 120.7978428,
@@ -510,7 +510,7 @@
     "diameterMm": 330,
     "pumpHorsepower": 120.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.04,
     "benefitedAreaHa": 31.6568,
     "registeredFlowCms": 0.04,
     "irrigationSystem": "大甲溪白冷圳大南支線",
@@ -519,8 +519,8 @@
     "nextApplicationPeriod": "115.03.30",
     "completionDate": "91.05.03",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-53-6218-10-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大南工作站",
@@ -534,7 +534,7 @@
         "mimeType": "application/pdf",
         "size": 539658,
         "storedName": "大南-B1050080-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -544,19 +544,19 @@
         "mimeType": "image/png",
         "size": 533084,
         "storedName": "大南-B1050080-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -564,8 +564,8 @@
     "wellNumber": "B0960027",
     "name": "虎眼一圳福興支線1號抽水井",
     "station": "大安",
-    "district": "大甲區",
-    "section": "文曲段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區文曲段472-1地號",
     "latitude": 24.3317049,
     "longitude": 120.6057633,
@@ -576,7 +576,7 @@
     "diameterMm": 508,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.07,
     "benefitedAreaHa": 7.1557,
     "registeredFlowCms": 0.07,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
@@ -585,8 +585,8 @@
     "nextApplicationPeriod": "116.03.30",
     "completionDate": "民國96年3月",
     "constructionYear": "2007",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-36-0760-94-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -600,7 +600,7 @@
         "mimeType": "application/pdf",
         "size": 469806,
         "storedName": "大安-B0960027-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -610,19 +610,19 @@
         "mimeType": "image/jpeg",
         "size": 359896,
         "storedName": "大安-B0960027-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -630,8 +630,8 @@
     "wellNumber": "B1120200",
     "name": "虎眼一圳頂破溪抽水井",
     "station": "大安",
-    "district": "外埔區",
-    "section": "水美西段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區水美西段344-1地號",
     "latitude": 24.326195,
     "longitude": 120.6119488,
@@ -642,7 +642,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 15.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0087,
     "benefitedAreaHa": 1.594498,
     "registeredFlowCms": 0.0087,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
@@ -651,8 +651,8 @@
     "nextApplicationPeriod": "117.06.20",
     "completionDate": "民國112年10月",
     "constructionYear": "2023",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-36-0806-91-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -666,7 +666,7 @@
         "mimeType": "application/pdf",
         "size": 523917,
         "storedName": "大安-B1120200-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -676,19 +676,19 @@
         "mimeType": "image/jpeg",
         "size": 456081,
         "storedName": "大安-B1120200-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -696,8 +696,8 @@
     "wellNumber": "B1140035",
     "name": "虎眼二圳中庄圳支線抽水井",
     "station": "大安",
-    "district": "大安區",
-    "section": "南勢厝段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區南勢厝段1地號",
     "latitude": 24.3397809,
     "longitude": 120.5902664,
@@ -708,7 +708,7 @@
     "diameterMm": 356,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.046,
     "benefitedAreaHa": 0.825834,
     "registeredFlowCms": 0.046,
     "irrigationSystem": "大甲溪虎眼二圳 中庄圳支線",
@@ -717,8 +717,8 @@
     "nextApplicationPeriod": "118.10.20",
     "completionDate": "民國114年2月",
     "constructionYear": "2025",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-36-0288-92-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -732,7 +732,7 @@
         "mimeType": "application/pdf",
         "size": 507215,
         "storedName": "大安-B1140035-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -742,19 +742,19 @@
         "mimeType": "image/jpeg",
         "size": 811813,
         "storedName": "大安-B1140035-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -762,8 +762,8 @@
     "wellNumber": "K0123725",
     "name": "虎眼一圳頭前溝抽水井",
     "station": "大安",
-    "district": "大安區",
-    "section": "新三塊厝段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區新三塊厝段4地號",
     "latitude": 24.3459571,
     "longitude": 120.5971156,
@@ -774,7 +774,7 @@
     "diameterMm": 356,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0496,
     "benefitedAreaHa": 1.236639,
     "registeredFlowCms": 0.0496,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
@@ -783,8 +783,8 @@
     "nextApplicationPeriod": "118.10.20",
     "completionDate": "民國114年2月",
     "constructionYear": "2025",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-36-0527-91-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -798,7 +798,7 @@
         "mimeType": "application/pdf",
         "size": 514604,
         "storedName": "大安-K0123725-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -808,19 +808,19 @@
         "mimeType": "image/jpeg",
         "size": 337847,
         "storedName": "大安-K0123725-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -828,8 +828,8 @@
     "wellNumber": "B1140037",
     "name": "虎眼一圳福興圳支線2號抽水井",
     "station": "大安",
-    "district": "大甲區",
-    "section": "文安段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區文安段73地號",
     "latitude": 24.3276329,
     "longitude": 120.6093134,
@@ -840,7 +840,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0441,
     "benefitedAreaHa": 1.053895,
     "registeredFlowCms": 0.0441,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
@@ -849,8 +849,8 @@
     "nextApplicationPeriod": "118.10.22",
     "completionDate": "民國112年1月",
     "constructionYear": "2023",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-36-0792-90-6",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -864,7 +864,7 @@
         "mimeType": "application/pdf",
         "size": 524940,
         "storedName": "大安-B1140037-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -874,19 +874,19 @@
         "mimeType": "image/jpeg",
         "size": 434144,
         "storedName": "大安-B1140037-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -894,8 +894,8 @@
     "wellNumber": "B1150057",
     "name": "虎眼二圳草湖圳支線抽水井",
     "station": "大安",
-    "district": "大安區",
-    "section": "東安段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區東安段  638地號",
     "latitude": 24.3319782,
     "longitude": 120.589651,
@@ -906,7 +906,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 40.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0402,
     "benefitedAreaHa": 1.211932,
     "registeredFlowCms": 0.0402,
     "irrigationSystem": "大甲溪虎眼二圳草湖圳支線",
@@ -915,8 +915,8 @@
     "nextApplicationPeriod": "120.02.04",
     "completionDate": "民國115年8月",
     "constructionYear": "2026",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "70-36-0356-96-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -930,7 +930,7 @@
         "mimeType": "application/pdf",
         "size": 566781,
         "storedName": "大安-B1150057-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -940,19 +940,19 @@
         "mimeType": "image/png",
         "size": 272481,
         "storedName": "大安-B1150057-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -960,8 +960,8 @@
     "wellNumber": "B1150096",
     "name": "虎眼一圳福興圳支線3號抽水井",
     "station": "大安",
-    "district": "大甲區",
-    "section": "文曲段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區文曲段 333地號",
     "latitude": 24.3359165,
     "longitude": 120.603878,
@@ -972,7 +972,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.044,
     "benefitedAreaHa": 1.553411,
     "registeredFlowCms": 0.044,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線",
@@ -981,8 +981,8 @@
     "nextApplicationPeriod": "120.03.28",
     "completionDate": "民國115年8月",
     "constructionYear": "2026",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "70-36-0665-90-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -996,7 +996,7 @@
         "mimeType": "application/pdf",
         "size": 51506,
         "storedName": "大安-B1150096-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1006,19 +1006,19 @@
         "mimeType": "image/png",
         "size": 400968,
         "storedName": "大安-B1150096-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1026,8 +1026,8 @@
     "wellNumber": "B1150095",
     "name": "虎眼一圳後壁溝抽水井",
     "station": "大安",
-    "district": "大安區",
-    "section": "福東段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區福東段 11地號",
     "latitude": 24.3460218,
     "longitude": 120.6011166,
@@ -1038,7 +1038,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 40.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.05,
     "benefitedAreaHa": 1.55584,
     "registeredFlowCms": 0.05,
     "irrigationSystem": "大甲溪虎眼一圳 福興圳支線 後壁溝給水",
@@ -1047,8 +1047,8 @@
     "nextApplicationPeriod": "120.03.28",
     "completionDate": "民國115年8月",
     "constructionYear": "2026",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "70-36-0587-96-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大安工作站",
@@ -1062,7 +1062,7 @@
         "mimeType": "application/pdf",
         "size": 50163,
         "storedName": "大安-B1150095-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1072,19 +1072,19 @@
         "mimeType": "image/png",
         "size": 468008,
         "storedName": "大安-B1150095-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1092,8 +1092,8 @@
     "wellNumber": "B0118814",
     "name": "頂店圳一號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲嘉段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲嘉段541地號",
     "latitude": 24.3722576,
     "longitude": 120.6397635,
@@ -1104,7 +1104,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 4.2777,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大安溪頂店圳 第三支線",
@@ -1113,8 +1113,8 @@
     "nextApplicationPeriod": "115.06.30",
     "completionDate": "查無資料",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0299-75-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1128,7 +1128,7 @@
         "mimeType": "application/pdf",
         "size": 619297,
         "storedName": "大甲-B0118814-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1138,7 +1138,7 @@
         "mimeType": "image/jpeg",
         "size": 377213,
         "storedName": "大甲-B0118814-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b0118814-2",
@@ -1146,19 +1146,19 @@
         "mimeType": "image/png",
         "size": 274182,
         "storedName": "大甲-B0118814-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1166,8 +1166,8 @@
     "wellNumber": "B0117178",
     "name": "頂店圳二號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲惠段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲惠段577地號",
     "latitude": 24.3678421,
     "longitude": 120.6321467,
@@ -1178,7 +1178,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 3.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 4.3625,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大安溪頂店圳 第二支線",
@@ -1187,8 +1187,8 @@
     "nextApplicationPeriod": "120.05.01",
     "completionDate": "查無資料",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0433-00-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1202,7 +1202,7 @@
         "mimeType": "application/pdf",
         "size": 548761,
         "storedName": "大甲-B0117178-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1212,7 +1212,7 @@
         "mimeType": "image/png",
         "size": 261560,
         "storedName": "大甲-B0117178-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b0117178-2",
@@ -1220,19 +1220,19 @@
         "mimeType": "image/png",
         "size": 596187,
         "storedName": "大甲-B0117178-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1240,8 +1240,8 @@
     "wellNumber": "B0970046",
     "name": "頂店圳三號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲嘉段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲嘉段567地號",
     "latitude": 24.3614575,
     "longitude": 120.6392125,
@@ -1252,7 +1252,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 9.023439,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大安溪頂店圳 第一支線",
@@ -1261,8 +1261,8 @@
     "nextApplicationPeriod": "117.09.30",
     "completionDate": "查無資料",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0244-40-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1276,7 +1276,7 @@
         "mimeType": "application/pdf",
         "size": 521397,
         "storedName": "大甲-B0970046-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1286,7 +1286,7 @@
         "mimeType": "image/png",
         "size": 563060,
         "storedName": "大甲-B0970046-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b0970046-2",
@@ -1294,19 +1294,19 @@
         "mimeType": "image/png",
         "size": 719341,
         "storedName": "大甲-B0970046-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1314,8 +1314,8 @@
     "wellNumber": "B0990021",
     "name": "頂店圳四號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲嘉段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲嘉段562地號",
     "latitude": 24.3649933,
     "longitude": 120.6453531,
@@ -1326,7 +1326,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0174,
     "benefitedAreaHa": 2.4973,
     "registeredFlowCms": 0.0174,
     "irrigationSystem": "大安溪頂店圳",
@@ -1335,8 +1335,8 @@
     "nextApplicationPeriod": "118.08.30",
     "completionDate": "查無資料",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0283-10-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1350,7 +1350,7 @@
         "mimeType": "application/pdf",
         "size": 498389,
         "storedName": "大甲-B0990021-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1360,7 +1360,7 @@
         "mimeType": "image/png",
         "size": 365171,
         "storedName": "大甲-B0990021-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b0990021-2",
@@ -1368,19 +1368,19 @@
         "mimeType": "image/jpeg",
         "size": 215586,
         "storedName": "大甲-B0990021-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1388,8 +1388,8 @@
     "wellNumber": "B1020099",
     "name": "頂店圳五號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲農段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲農段640地號",
     "latitude": 24.3704944,
     "longitude": 120.6202317,
@@ -1400,7 +1400,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 90.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.054,
     "benefitedAreaHa": 12.7186,
     "registeredFlowCms": 0.054,
     "irrigationSystem": "大安溪頂店圳 第二支線",
@@ -1409,8 +1409,8 @@
     "nextApplicationPeriod": "117.07.15",
     "completionDate": "102.08.09",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-1531-90-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1424,7 +1424,7 @@
         "mimeType": "application/pdf",
         "size": 515795,
         "storedName": "大甲-B1020099-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1434,7 +1434,7 @@
         "mimeType": "image/png",
         "size": 275700,
         "storedName": "大甲-B1020099-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b1020099-2",
@@ -1442,19 +1442,19 @@
         "mimeType": "image/jpeg",
         "size": 105412,
         "storedName": "大甲-B1020099-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1462,8 +1462,8 @@
     "wellNumber": "B1020119",
     "name": "頂店圳六號抽水井",
     "station": "大甲",
-    "district": "大安區",
-    "section": "安實段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區安實段577號",
     "latitude": 24.3778706,
     "longitude": 120.6273269,
@@ -1474,7 +1474,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 80.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.043,
     "benefitedAreaHa": 9.3507,
     "registeredFlowCms": 0.043,
     "irrigationSystem": "大安溪頂店圳 第三支線",
@@ -1483,8 +1483,8 @@
     "nextApplicationPeriod": "117.07.20",
     "completionDate": "102.08.05",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-4270-90-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1498,7 +1498,7 @@
         "mimeType": "application/pdf",
         "size": 518952,
         "storedName": "大甲-B1020119-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1508,7 +1508,7 @@
         "mimeType": "image/jpeg",
         "size": 85725,
         "storedName": "大甲-B1020119-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b1020119-2",
@@ -1516,19 +1516,19 @@
         "mimeType": "image/jpeg",
         "size": 137829,
         "storedName": "大甲-B1020119-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1536,8 +1536,8 @@
     "wellNumber": "B1020100",
     "name": "頂店圳七號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲嘉段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲嘉段541地號",
     "latitude": 24.370141,
     "longitude": 120.6419972,
@@ -1548,7 +1548,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.04,
     "benefitedAreaHa": 11.1968,
     "registeredFlowCms": 0.04,
     "irrigationSystem": "大安溪頂店圳 第三支線",
@@ -1557,8 +1557,8 @@
     "nextApplicationPeriod": "117.07.15",
     "completionDate": "102.08.14",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0299-50-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1572,7 +1572,7 @@
         "mimeType": "application/pdf",
         "size": 519298,
         "storedName": "大甲-B1020100-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1582,7 +1582,7 @@
         "mimeType": "image/png",
         "size": 657813,
         "storedName": "大甲-B1020100-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b1020100-2",
@@ -1590,19 +1590,19 @@
         "mimeType": "image/jpeg",
         "size": 415940,
         "storedName": "大甲-B1020100-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1610,8 +1610,8 @@
     "wellNumber": "B1090091",
     "name": "頂店圳八號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲全段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲全段632地號",
     "latitude": 24.3692616,
     "longitude": 120.6255483,
@@ -1622,7 +1622,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0434,
     "benefitedAreaHa": 4.1506,
     "registeredFlowCms": 0.0434,
     "irrigationSystem": "大安溪頂店圳 第二支線",
@@ -1631,8 +1631,8 @@
     "nextApplicationPeriod": "119.03.24",
     "completionDate": "109.07.24",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-1521-90-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1646,7 +1646,7 @@
         "mimeType": "application/pdf",
         "size": 513030,
         "storedName": "大甲-B1090091-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1656,7 +1656,7 @@
         "mimeType": "image/png",
         "size": 346476,
         "storedName": "大甲-B1090091-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大甲-b1090091-2",
@@ -1664,19 +1664,19 @@
         "mimeType": "image/jpeg",
         "size": 105024,
         "storedName": "大甲-B1090091-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1684,8 +1684,8 @@
     "wellNumber": "B1120003",
     "name": "頂店圳九號抽水井",
     "station": "大甲",
-    "district": "大安區",
-    "section": "頂安段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區頂安段1080地號",
     "latitude": 24.3822093,
     "longitude": 120.6285906,
@@ -1696,7 +1696,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.053,
     "benefitedAreaHa": 4.9521,
     "registeredFlowCms": 0.053,
     "irrigationSystem": "大安溪頂店圳 第三支線",
@@ -1705,8 +1705,8 @@
     "nextApplicationPeriod": "116.10.08",
     "completionDate": "112.03.15",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-4070-90-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1720,7 +1720,7 @@
         "mimeType": "application/pdf",
         "size": 500589,
         "storedName": "大甲-B1120003-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1730,19 +1730,19 @@
         "mimeType": "image/jpeg",
         "size": 329363,
         "storedName": "大甲-B1120003-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1750,8 +1750,8 @@
     "wellNumber": "B1150050",
     "name": "頂店圳十號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲全段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲全段645地號",
     "latitude": 24.3640579,
     "longitude": 120.6254648,
@@ -1762,7 +1762,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 3.474588,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大安溪頂店圳 第二支線",
@@ -1771,8 +1771,8 @@
     "nextApplicationPeriod": "120.01.26",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-1348-93-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1786,7 +1786,7 @@
         "mimeType": "application/pdf",
         "size": 591286,
         "storedName": "大甲-B1150050-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1796,19 +1796,19 @@
         "mimeType": "image/jpeg",
         "size": 230446,
         "storedName": "大甲-B1150050-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1816,8 +1816,8 @@
     "wellNumber": "B1150051",
     "name": "頂店圳十一號抽水井",
     "station": "大甲",
-    "district": "大甲區",
-    "section": "甲民段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區甲民段463地號",
     "latitude": 24.3716449,
     "longitude": 120.6140365,
@@ -1828,7 +1828,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 4.0987,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大安溪頂店圳 第二支線",
@@ -1837,8 +1837,8 @@
     "nextApplicationPeriod": "120.01.26",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-1547-98-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1852,7 +1852,7 @@
         "mimeType": "application/pdf",
         "size": 570285,
         "storedName": "大甲-B1150051-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1862,19 +1862,19 @@
         "mimeType": "image/png",
         "size": 510344,
         "storedName": "大甲-B1150051-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1882,8 +1882,8 @@
     "wellNumber": "B1150052",
     "name": "頂店圳十二號抽水井",
     "station": "大甲",
-    "district": "大安區",
-    "section": "安行段",
+    "district": "",
+    "section": "",
     "address": "臺中市大安區安行段882號",
     "latitude": 24.381423,
     "longitude": 120.6103039,
@@ -1894,7 +1894,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 2.9141,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大安溪頂店圳 第三支線",
@@ -1903,8 +1903,8 @@
     "nextApplicationPeriod": "120.01.26",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-4347-93-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大甲工作站",
@@ -1918,7 +1918,7 @@
         "mimeType": "application/pdf",
         "size": 580921,
         "storedName": "大甲-B1150052-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1928,19 +1928,19 @@
         "mimeType": "image/jpeg",
         "size": 163061,
         "storedName": "大甲-B1150052-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -1948,8 +1948,8 @@
     "wellNumber": "B0130088",
     "name": "頭汴圳一號抽水井",
     "station": "大里",
-    "district": "太平區",
-    "section": "信平段",
+    "district": "",
+    "section": "",
     "address": "臺中市太平區信平段53地號",
     "latitude": 24.1348372,
     "longitude": 120.729617,
@@ -1960,7 +1960,7 @@
     "diameterMm": 300,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.038,
     "benefitedAreaHa": 8.96806,
     "registeredFlowCms": 0.017,
     "irrigationSystem": "烏溪頭汴坑圳",
@@ -1969,8 +1969,8 @@
     "nextApplicationPeriod": "119.03.15",
     "completionDate": "104.07.31",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-55-7536-91-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大里工作站",
@@ -1984,7 +1984,7 @@
         "mimeType": "application/pdf",
         "size": 610116,
         "storedName": "大里-B0130088-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -1994,7 +1994,7 @@
         "mimeType": "image/jpeg",
         "size": 266904,
         "storedName": "大里-B0130088-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大里-b0130088-2",
@@ -2002,19 +2002,19 @@
         "mimeType": "image/jpeg",
         "size": 345245,
         "storedName": "大里-B0130088-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2022,8 +2022,8 @@
     "wellNumber": "B0130087",
     "name": "頭汴圳二號抽水井",
     "station": "大里",
-    "district": "太平區",
-    "section": "愛平段",
+    "district": "",
+    "section": "",
     "address": "臺中市太平區愛平段302地號",
     "latitude": 24.1315583,
     "longitude": 120.723111,
@@ -2034,7 +2034,7 @@
     "diameterMm": 300,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.038,
     "benefitedAreaHa": 13.5813,
     "registeredFlowCms": 0.038,
     "irrigationSystem": "烏溪頭汴坑圳",
@@ -2043,8 +2043,8 @@
     "nextApplicationPeriod": "119.03.15",
     "completionDate": "105.01.20",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-55-7360-91-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大里工作站",
@@ -2058,7 +2058,7 @@
         "mimeType": "application/pdf",
         "size": 575600,
         "storedName": "大里-B0130087-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2068,7 +2068,7 @@
         "mimeType": "image/jpeg",
         "size": 1035685,
         "storedName": "大里-B0130087-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-大里-b0130087-2",
@@ -2076,19 +2076,19 @@
         "mimeType": "image/jpeg",
         "size": 1206839,
         "storedName": "大里-B0130087-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2096,8 +2096,8 @@
     "wellNumber": "B1070161",
     "name": "浮圳支線八輪抽水井",
     "station": "大雅",
-    "district": "神岡區",
-    "section": "圳北段",
+    "district": "",
+    "section": "",
     "address": "臺中市神岡區圳北段867地號",
     "latitude": 24.2724799,
     "longitude": 120.6605324,
@@ -2108,7 +2108,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 80.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0473,
     "benefitedAreaHa": 14.180836,
     "registeredFlowCms": 0.0473,
     "irrigationSystem": "下埤幹線浮圳支線",
@@ -2117,8 +2117,8 @@
     "nextApplicationPeriod": "117.05.20",
     "completionDate": "107.04.30",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-45-1264-26-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大雅工作站",
@@ -2132,7 +2132,7 @@
         "mimeType": "application/pdf",
         "size": 525118,
         "storedName": "大雅-B1070161-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2142,19 +2142,19 @@
         "mimeType": "image/jpeg",
         "size": 613163,
         "storedName": "大雅-B1070161-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2162,8 +2162,8 @@
     "wellNumber": "B1150066",
     "name": "中央支線九輪區抽水井",
     "station": "大雅",
-    "district": "大雅區",
-    "section": "六雅段",
+    "district": "",
+    "section": "",
     "address": "臺中市大雅區六雅段1870地號",
     "latitude": 24.2369798,
     "longitude": 120.6327799,
@@ -2174,7 +2174,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.045,
     "benefitedAreaHa": 4.77277,
     "registeredFlowCms": 0.045,
     "irrigationSystem": "下埤幹線中央支線",
@@ -2183,8 +2183,8 @@
     "nextApplicationPeriod": "120.02.19",
     "completionDate": "115.06.12",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-46-0564-05-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "大雅工作站",
@@ -2198,7 +2198,7 @@
         "mimeType": "application/pdf",
         "size": 584289,
         "storedName": "大雅-B1150066-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2208,19 +2208,19 @@
         "mimeType": "image/jpeg",
         "size": 461526,
         "storedName": "大雅-B1150066-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2228,8 +2228,8 @@
     "wellNumber": "B0970028",
     "name": "內埔圳一號抽水井",
     "station": "屯子腳",
-    "district": "后里區",
-    "section": "新七星段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區新七星段50地號",
     "latitude": 24.2868738,
     "longitude": 120.7236568,
@@ -2240,7 +2240,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 100.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.075,
     "benefitedAreaHa": 7.725775,
     "registeredFlowCms": 0.075,
     "irrigationSystem": "大甲溪內埔圳",
@@ -2249,8 +2249,8 @@
     "nextApplicationPeriod": "117.04.31",
     "completionDate": "97年8月",
     "constructionYear": "2008",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-95-0972-11-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "屯子腳工作站",
@@ -2264,7 +2264,7 @@
         "mimeType": "application/pdf",
         "size": 519874,
         "storedName": "屯子腳-B0970028-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2274,7 +2274,7 @@
         "mimeType": "image/jpeg",
         "size": 272343,
         "storedName": "屯子腳-B0970028-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-屯子腳-b0970028-2",
@@ -2282,19 +2282,19 @@
         "mimeType": "image/jpeg",
         "size": 355498,
         "storedName": "屯子腳-B0970028-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2302,8 +2302,8 @@
     "wellNumber": "B0970027",
     "name": "內埔圳二號抽水井",
     "station": "屯子腳",
-    "district": "后里區",
-    "section": "平安段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區平安段1221地號",
     "latitude": 24.3036423,
     "longitude": 120.7098474,
@@ -2314,7 +2314,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 80.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 6.240027,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大甲溪內埔圳",
@@ -2323,8 +2323,8 @@
     "nextApplicationPeriod": "117.04.31",
     "completionDate": "97年8月",
     "constructionYear": "2008",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-1014-12-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "屯子腳工作站",
@@ -2338,7 +2338,7 @@
         "mimeType": "application/pdf",
         "size": 466662,
         "storedName": "屯子腳-B0970027-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2348,7 +2348,7 @@
         "mimeType": "image/jpeg",
         "size": 191360,
         "storedName": "屯子腳-B0970027-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-屯子腳-b0970027-2",
@@ -2356,19 +2356,19 @@
         "mimeType": "image/jpeg",
         "size": 379443,
         "storedName": "屯子腳-B0970027-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2376,8 +2376,8 @@
     "wellNumber": "B1070014",
     "name": "內埔圳二支線一號抽水井",
     "station": "屯子腳",
-    "district": "后里區",
-    "section": "金社庄段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區金社庄段324地號",
     "latitude": 24.2892958,
     "longitude": 120.6919021,
@@ -2388,7 +2388,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0286,
     "benefitedAreaHa": 5.8769,
     "registeredFlowCms": 0.0286,
     "irrigationSystem": "大甲溪內埔圳二支線",
@@ -2397,8 +2397,8 @@
     "nextApplicationPeriod": "116.10.24",
     "completionDate": "107年2月",
     "constructionYear": "2018",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-8103-80-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "屯子腳工作站",
@@ -2412,7 +2412,7 @@
         "mimeType": "application/pdf",
         "size": 576466,
         "storedName": "屯子腳-B1070014-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2422,7 +2422,7 @@
         "mimeType": "image/jpeg",
         "size": 519366,
         "storedName": "屯子腳-B1070014-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-屯子腳-b1070014-2",
@@ -2430,19 +2430,19 @@
         "mimeType": "image/jpeg",
         "size": 334312,
         "storedName": "屯子腳-B1070014-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2450,9 +2450,9 @@
     "wellNumber": "B1100760",
     "name": "內埔圳二支線二號抽水井",
     "station": "屯子腳",
-    "district": "后里區",
-    "section": "金社庄段",
-    "address": "臺中市后里區金社庄段324地號",
+    "district": "",
+    "section": "",
+    "address": "臺中市后里區金城段516-2地號",
     "latitude": 24.2892314,
     "longitude": 120.6825538,
     "twd97X": "217775",
@@ -2462,7 +2462,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.039,
     "benefitedAreaHa": 9.203787,
     "registeredFlowCms": 0.039,
     "irrigationSystem": "大甲溪內埔圳二支線",
@@ -2471,8 +2471,8 @@
     "nextApplicationPeriod": "115.08.14",
     "completionDate": "110.11.23",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-8130-50-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "屯子腳工作站",
@@ -2486,7 +2486,7 @@
         "mimeType": "application/pdf",
         "size": 613256,
         "storedName": "屯子腳-B1100760-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2496,7 +2496,7 @@
         "mimeType": "image/jpeg",
         "size": 453280,
         "storedName": "屯子腳-B1100760-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-屯子腳-b1100760-2",
@@ -2504,19 +2504,19 @@
         "mimeType": "image/jpeg",
         "size": 229061,
         "storedName": "屯子腳-B1100760-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2524,8 +2524,8 @@
     "wellNumber": "B1140111",
     "name": "內埔圳梅仔腳溝支線抽水井",
     "station": "屯子腳",
-    "district": "后里區",
-    "section": "枋寮段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區枋寮段1014地號",
     "latitude": 24.2884609,
     "longitude": 120.7185787,
@@ -2536,7 +2536,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 70.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.07,
     "benefitedAreaHa": 3.432504,
     "registeredFlowCms": 0.07,
     "irrigationSystem": "大甲溪內埔圳 梅仔腳溝支線",
@@ -2545,8 +2545,8 @@
     "nextApplicationPeriod": "119.02.12",
     "completionDate": "114.06.16",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-7396-57-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "屯子腳工作站",
@@ -2560,7 +2560,7 @@
         "mimeType": "application/pdf",
         "size": 638415,
         "storedName": "屯子腳-B1140111-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2570,7 +2570,7 @@
         "mimeType": "image/jpeg",
         "size": 333840,
         "storedName": "屯子腳-B1140111-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-屯子腳-b1140111-2",
@@ -2578,19 +2578,19 @@
         "mimeType": "image/jpeg",
         "size": 364896,
         "storedName": "屯子腳-B1140111-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2598,8 +2598,8 @@
     "wellNumber": "K0086033",
     "name": "泰田抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "泰田段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮泰田段647-1地號",
     "latitude": 24.3993558,
     "longitude": 120.6853158,
@@ -2610,7 +2610,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 5.0,
     "pumpOutletInch": 3.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0136,
     "benefitedAreaHa": 5.1547,
     "registeredFlowCms": 0,
     "irrigationSystem": "大安溪苑裡圳泰田支線",
@@ -2619,8 +2619,8 @@
     "nextApplicationPeriod": "115.12.31",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-89-1589-30-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2634,7 +2634,7 @@
         "mimeType": "application/pdf",
         "size": 650999,
         "storedName": "山腳-K0086033-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2644,7 +2644,7 @@
         "mimeType": "image/jpeg",
         "size": 226111,
         "storedName": "山腳-K0086033-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-山腳-k0086033-2",
@@ -2652,19 +2652,19 @@
         "mimeType": "image/jpeg",
         "size": 504132,
         "storedName": "山腳-K0086033-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2672,8 +2672,8 @@
     "wellNumber": "K0086034",
     "name": "社柑抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "社柑段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮社柑段1220-1地號",
     "latitude": 24.4057776,
     "longitude": 120.6735568,
@@ -2684,7 +2684,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.042,
     "benefitedAreaHa": 13.81053,
     "registeredFlowCms": 0,
     "irrigationSystem": "大安溪苑裡圳社苓支線",
@@ -2693,8 +2693,8 @@
     "nextApplicationPeriod": "115.12.31",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0162-36-6",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2708,7 +2708,7 @@
         "mimeType": "application/pdf",
         "size": 585782,
         "storedName": "山腳-K0086034-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2718,7 +2718,7 @@
         "mimeType": "image/jpeg",
         "size": 115686,
         "storedName": "山腳-K0086034-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-山腳-k0086034-2",
@@ -2726,19 +2726,19 @@
         "mimeType": "image/jpeg",
         "size": 369356,
         "storedName": "山腳-K0086034-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2746,8 +2746,8 @@
     "wellNumber": "K0123393",
     "name": "社南抽水井",
     "station": "山腳",
-    "district": "苑裡鎮鎮",
-    "section": "安段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮鎮安段23-1地號",
     "latitude": 24.3791844,
     "longitude": 120.6983584,
@@ -2758,7 +2758,7 @@
     "diameterMm": 200,
     "pumpHorsepower": 10.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.016,
     "benefitedAreaHa": 8.877913,
     "registeredFlowCms": 0,
     "irrigationSystem": "大安溪苑裡圳社苓支線",
@@ -2767,8 +2767,8 @@
     "nextApplicationPeriod": "116.07.31",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-89-0703-35-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2782,7 +2782,7 @@
         "mimeType": "application/pdf",
         "size": 578335,
         "storedName": "山腳-K0123393-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2792,7 +2792,7 @@
         "mimeType": "image/jpeg",
         "size": 124518,
         "storedName": "山腳-K0123393-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-山腳-k0123393-2",
@@ -2800,19 +2800,19 @@
         "mimeType": "image/jpeg",
         "size": 218626,
         "storedName": "山腳-K0123393-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2820,8 +2820,8 @@
     "wellNumber": "K0123725",
     "name": "濁一抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "啟心段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮啟心段1248-1地號",
     "latitude": 24.36925,
     "longitude": 120.7016939,
@@ -2832,7 +2832,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.038,
     "benefitedAreaHa": 9.203787,
     "registeredFlowCms": 0.038,
     "irrigationSystem": "大安溪苑裡圳 濁水支線",
@@ -2841,8 +2841,8 @@
     "nextApplicationPeriod": "115.09.31",
     "completionDate": "99.12.09",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0887-20-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2856,7 +2856,7 @@
         "mimeType": "application/pdf",
         "size": 582377,
         "storedName": "山腳-K0123725-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2866,19 +2866,19 @@
         "mimeType": "image/jpeg",
         "size": 513290,
         "storedName": "山腳-K0123725-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2886,8 +2886,8 @@
     "wellNumber": "K0123768",
     "name": "啟心抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "啟心段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮啟心段728地號",
     "latitude": 24.3735717,
     "longitude": 120.7046509,
@@ -2898,7 +2898,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 70.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.03,
     "benefitedAreaHa": 13.0317,
     "registeredFlowCms": 0.03,
     "irrigationSystem": "大安溪苑裡圳啟心支線",
@@ -2907,8 +2907,8 @@
     "nextApplicationPeriod": "117.08.30",
     "completionDate": "102.11.22",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0792-45-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2922,7 +2922,7 @@
         "mimeType": "application/pdf",
         "size": 571108,
         "storedName": "山腳-K0123768-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2932,19 +2932,19 @@
         "mimeType": "image/jpeg",
         "size": 388296,
         "storedName": "山腳-K0123768-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -2952,8 +2952,8 @@
     "wellNumber": "K0124362",
     "name": "山柑二號抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "社柑段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮社柑段2201-1地號",
     "latitude": 24.4031361,
     "longitude": 120.671217,
@@ -2964,7 +2964,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 20.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 9.796735,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大安溪苑裡圳山柑支線",
@@ -2973,8 +2973,8 @@
     "nextApplicationPeriod": "118.04.10",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0144-50-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -2988,7 +2988,7 @@
         "mimeType": "application/pdf",
         "size": 587756,
         "storedName": "山腳-K0124362-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -2998,7 +2998,7 @@
         "mimeType": "image/jpeg",
         "size": 776812,
         "storedName": "山腳-K0124362-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-山腳-k0124362-2",
@@ -3006,19 +3006,19 @@
         "mimeType": "image/jpeg",
         "size": 879441,
         "storedName": "山腳-K0124362-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3026,8 +3026,8 @@
     "wellNumber": "K0124336",
     "name": "山柑三號抽水井-已申請消滅登記",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "社柑段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮社柑段2323-1地號",
     "latitude": 24.400972,
     "longitude": 120.6683831,
@@ -3038,7 +3038,7 @@
     "diameterMm": 2000,
     "pumpHorsepower": 15.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0326,
     "benefitedAreaHa": 8.906613,
     "registeredFlowCms": 0.0326,
     "irrigationSystem": "大安溪苑裡圳山柑支線",
@@ -3047,8 +3047,8 @@
     "nextApplicationPeriod": "118.01.20",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0148-31-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -3062,7 +3062,7 @@
         "mimeType": "application/pdf",
         "size": 615937,
         "storedName": "山腳-K0124336-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3072,19 +3072,19 @@
         "mimeType": "image/jpeg",
         "size": 139323,
         "storedName": "山腳-K0124336-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3092,8 +3092,8 @@
     "wellNumber": "K1140087",
     "name": "山柑一號抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "火炎山段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮火炎山段401地號",
     "latitude": 24.3681662,
     "longitude": 120.696975,
@@ -3104,7 +3104,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 40.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 9.616475,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "苑裡圳山柑支線",
@@ -3113,8 +3113,8 @@
     "nextApplicationPeriod": "119.05.10",
     "completionDate": "114.10.25",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-87-1038-90-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -3128,7 +3128,7 @@
         "mimeType": "application/pdf",
         "size": 517076,
         "storedName": "山腳-K1140087-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3138,19 +3138,19 @@
         "mimeType": "image/jpeg",
         "size": 520205,
         "storedName": "山腳-K1140087-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3158,8 +3158,8 @@
     "wellNumber": "K1140122",
     "name": "濁水二號抽水井",
     "station": "山腳",
-    "district": "苑裡鎮",
-    "section": "火炎山段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮火炎山段974-1地號",
     "latitude": 24.3612734,
     "longitude": 120.7089571,
@@ -3170,7 +3170,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 40.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.023,
     "benefitedAreaHa": 6.279985,
     "registeredFlowCms": 0.023,
     "irrigationSystem": "大安溪苑裡圳濁水支線",
@@ -3179,8 +3179,8 @@
     "nextApplicationPeriod": "119.07.10",
     "completionDate": "115.05.12",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-86-0850-10-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "山腳工作站",
@@ -3194,7 +3194,7 @@
         "mimeType": "application/pdf",
         "size": 529015,
         "storedName": "山腳-K1140122-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3204,19 +3204,19 @@
         "mimeType": "image/jpeg",
         "size": 430224,
         "storedName": "山腳-K1140122-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3224,8 +3224,8 @@
     "wellNumber": "B0115482",
     "name": "日南站一號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段69-52地號",
     "latitude": 24.3689203,
     "longitude": 120.6903788,
@@ -3236,7 +3236,7 @@
     "diameterMm": 2000,
     "pumpHorsepower": 25.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.064,
     "benefitedAreaHa": 11.371539,
     "registeredFlowCms": 0.064,
     "irrigationSystem": "大安溪日南圳",
@@ -3245,8 +3245,8 @@
     "nextApplicationPeriod": "119.06.30",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0648-29-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3260,7 +3260,7 @@
         "mimeType": "application/pdf",
         "size": 607768,
         "storedName": "日南-B0115482-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3270,7 +3270,7 @@
         "mimeType": "image/jpeg",
         "size": 197793,
         "storedName": "日南-B0115482-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0115482-2",
@@ -3278,19 +3278,19 @@
         "mimeType": "image/jpeg",
         "size": 186574,
         "storedName": "日南-B0115482-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3298,8 +3298,8 @@
     "wellNumber": "B0110761",
     "name": "日南站二號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "新興段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區新興段186地號",
     "latitude": 24.3644897,
     "longitude": 120.6829281,
@@ -3310,7 +3310,7 @@
     "diameterMm": 1000,
     "pumpHorsepower": 20.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.08,
     "benefitedAreaHa": 9.935129,
     "registeredFlowCms": 0.08,
     "irrigationSystem": "大安溪日南圳",
@@ -3319,8 +3319,8 @@
     "nextApplicationPeriod": "118.06.15",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-92-0478-00-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3334,7 +3334,7 @@
         "mimeType": "application/pdf",
         "size": 489448,
         "storedName": "日南-B0110761-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3344,7 +3344,7 @@
         "mimeType": "image/jpeg",
         "size": 162717,
         "storedName": "日南-B0110761-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0110761-2",
@@ -3352,19 +3352,19 @@
         "mimeType": "image/jpeg",
         "size": 268589,
         "storedName": "日南-B0110761-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3372,8 +3372,8 @@
     "wellNumber": "B0990027",
     "name": "日南站三號抽水井(深水井)",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段551-1地號",
     "latitude": 24.3615657,
     "longitude": 120.6924075,
@@ -3384,7 +3384,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.035,
     "benefitedAreaHa": 12.861636,
     "registeredFlowCms": 0.035,
     "irrigationSystem": "大安溪日南圳",
@@ -3393,8 +3393,8 @@
     "nextApplicationPeriod": "117.09.31",
     "completionDate": "99.11.11",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0649-28-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3408,7 +3408,7 @@
         "mimeType": "application/pdf",
         "size": 508398,
         "storedName": "日南-B0990027-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3418,7 +3418,7 @@
         "mimeType": "image/jpeg",
         "size": 182776,
         "storedName": "日南-B0990027-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0990027-2",
@@ -3426,19 +3426,19 @@
         "mimeType": "image/jpeg",
         "size": 222428,
         "storedName": "日南-B0990027-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3446,8 +3446,8 @@
     "wellNumber": "B0120538",
     "name": "日南站三號抽水井(淺水井)",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段551-1地號",
     "latitude": 24.3615303,
     "longitude": 120.6923306,
@@ -3458,7 +3458,7 @@
     "diameterMm": 2000,
     "pumpHorsepower": 20.0,
     "pumpOutletInch": 10.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.083,
     "benefitedAreaHa": 9.780269,
     "registeredFlowCms": 0.083,
     "irrigationSystem": "大安溪日南圳",
@@ -3467,8 +3467,8 @@
     "nextApplicationPeriod": "116.09.31",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0648-27-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3482,7 +3482,7 @@
         "mimeType": "application/pdf",
         "size": 493976,
         "storedName": "日南-B0120538-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3492,7 +3492,7 @@
         "mimeType": "image/jpeg",
         "size": 248609,
         "storedName": "日南-B0120538-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0120538-2",
@@ -3500,19 +3500,19 @@
         "mimeType": "image/jpeg",
         "size": 344556,
         "storedName": "日南-B0120538-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3520,8 +3520,8 @@
     "wellNumber": "B0115526",
     "name": "日南站四號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段6-302地號",
     "latitude": 24.3640693,
     "longitude": 120.6936532,
@@ -3532,7 +3532,7 @@
     "diameterMm": 3000,
     "pumpHorsepower": 20.0,
     "pumpOutletInch": 10.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.085,
     "benefitedAreaHa": 16.245999,
     "registeredFlowCms": 0.085,
     "irrigationSystem": "大安溪日南圳",
@@ -3541,8 +3541,8 @@
     "nextApplicationPeriod": "117.09.31",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0648-23-6",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3556,7 +3556,7 @@
         "mimeType": "application/pdf",
         "size": 511565,
         "storedName": "日南-B0115526-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3566,7 +3566,7 @@
         "mimeType": "image/jpeg",
         "size": 240527,
         "storedName": "日南-B0115526-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0115526-2",
@@ -3574,19 +3574,19 @@
         "mimeType": "image/jpeg",
         "size": 260440,
         "storedName": "日南-B0115526-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3594,8 +3594,8 @@
     "wellNumber": "B1020065",
     "name": "日南站五號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段6-627地號",
     "latitude": 24.3723327,
     "longitude": 120.6856982,
@@ -3606,7 +3606,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0378,
     "benefitedAreaHa": 7.718237,
     "registeredFlowCms": 0.0378,
     "irrigationSystem": "大安溪日南圳",
@@ -3615,8 +3615,8 @@
     "nextApplicationPeriod": "117.04.31",
     "completionDate": "102.05.27",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0649-01-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3630,7 +3630,7 @@
         "mimeType": "application/pdf",
         "size": 542695,
         "storedName": "日南-B1020065-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3640,7 +3640,7 @@
         "mimeType": "image/jpeg",
         "size": 221509,
         "storedName": "日南-B1020065-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b1020065-2",
@@ -3648,19 +3648,19 @@
         "mimeType": "image/jpeg",
         "size": 112382,
         "storedName": "日南-B1020065-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3668,8 +3668,8 @@
     "wellNumber": "B1000076",
     "name": "日南站六號抽水井(深水井)",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段551-2地號",
     "latitude": 24.360849,
     "longitude": 120.6951788,
@@ -3680,7 +3680,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.034,
     "benefitedAreaHa": 7.879466,
     "registeredFlowCms": 0.034,
     "irrigationSystem": "大安溪日南圳",
@@ -3689,8 +3689,8 @@
     "nextApplicationPeriod": "115.08.30",
     "completionDate": "111.01.12",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0649-17-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3704,7 +3704,7 @@
         "mimeType": "application/pdf",
         "size": 619278,
         "storedName": "日南-B1000076-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3714,7 +3714,7 @@
         "mimeType": "image/jpeg",
         "size": 165379,
         "storedName": "日南-B1000076-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b1000076-2",
@@ -3722,19 +3722,19 @@
         "mimeType": "image/jpeg",
         "size": 156443,
         "storedName": "日南-B1000076-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3742,8 +3742,8 @@
     "wellNumber": "B0117179",
     "name": "日南站六號抽水井(淺水井)",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日新段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日新段551-2地號",
     "latitude": 24.360849,
     "longitude": 120.6951788,
@@ -3754,7 +3754,7 @@
     "diameterMm": 2000,
     "pumpHorsepower": 25.0,
     "pumpOutletInch": 10.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.08,
     "benefitedAreaHa": 7.300767,
     "registeredFlowCms": 0.08,
     "irrigationSystem": "大安溪日南圳",
@@ -3763,8 +3763,8 @@
     "nextApplicationPeriod": "115.05.01",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-93-0648-18-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3778,7 +3778,7 @@
         "mimeType": "application/pdf",
         "size": 610267,
         "storedName": "日南-B0117179-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3788,7 +3788,7 @@
         "mimeType": "image/jpeg",
         "size": 170321,
         "storedName": "日南-B0117179-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0117179-2",
@@ -3796,19 +3796,19 @@
         "mimeType": "image/jpeg",
         "size": 150510,
         "storedName": "日南-B0117179-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3816,8 +3816,8 @@
     "wellNumber": "B0108729",
     "name": "日南站七號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "九張犁段九張犁小段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區九張犁段九張犁小段499-32地號",
     "latitude": 24.3893361,
     "longitude": 120.6417361,
@@ -3828,7 +3828,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.064,
     "benefitedAreaHa": 13.7194,
     "registeredFlowCms": 0.064,
     "irrigationSystem": "大安溪九張犁圳",
@@ -3837,8 +3837,8 @@
     "nextApplicationPeriod": "117.08.30",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-94-2145-50-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3852,7 +3852,7 @@
         "mimeType": "application/pdf",
         "size": 523648,
         "storedName": "日南-B0108729-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3862,7 +3862,7 @@
         "mimeType": "image/jpeg",
         "size": 201768,
         "storedName": "日南-B0108729-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b0108729-2",
@@ -3870,19 +3870,19 @@
         "mimeType": "image/jpeg",
         "size": 306709,
         "storedName": "日南-B0108729-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3890,8 +3890,8 @@
     "wellNumber": "B1050044",
     "name": "日南站八號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "日南段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區日南段741-43地號",
     "latitude": 24.3889774,
     "longitude": 120.6505408,
@@ -3902,7 +3902,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 4.3873,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大安溪日南圳",
@@ -3911,8 +3911,8 @@
     "nextApplicationPeriod": "117.09.31",
     "completionDate": "105.02.28",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-91-0273-60-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -3926,7 +3926,7 @@
         "mimeType": "application/pdf",
         "size": 529720,
         "storedName": "日南-B1050044-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -3936,7 +3936,7 @@
         "mimeType": "image/jpeg",
         "size": 151844,
         "storedName": "日南-B1050044-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-日南-b1050044-2",
@@ -3944,19 +3944,19 @@
         "mimeType": "image/jpeg",
         "size": 372156,
         "storedName": "日南-B1050044-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -3964,8 +3964,8 @@
     "wellNumber": "B1070150",
     "name": "日南站九號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "九張犁段九張犁小段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區九張犁段九張犁小段834-3地號",
     "latitude": 24.3837594,
     "longitude": 120.6431024,
@@ -3976,7 +3976,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 65.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0336,
     "benefitedAreaHa": 5.878,
     "registeredFlowCms": 0.03,
     "irrigationSystem": "大安溪九張犁圳",
@@ -3985,8 +3985,8 @@
     "nextApplicationPeriod": "117.05.09",
     "completionDate": "107.08.02",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-91-0294-60-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -4000,7 +4000,7 @@
         "mimeType": "application/pdf",
         "size": 491523,
         "storedName": "日南-B1070150-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4010,19 +4010,19 @@
         "mimeType": "image/jpeg",
         "size": 251568,
         "storedName": "日南-B1070150-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4030,8 +4030,8 @@
     "wellNumber": "B1080171",
     "name": "日南站十號抽水井",
     "station": "日南",
-    "district": "大甲區",
-    "section": "五里牌段",
+    "district": "",
+    "section": "",
     "address": "臺中市大甲區五里牌段378-2地號",
     "latitude": 24.3925375,
     "longitude": 120.6363343,
@@ -4042,7 +4042,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.057,
     "benefitedAreaHa": 9.0677,
     "registeredFlowCms": 0.057,
     "irrigationSystem": "大安溪九張犁圳",
@@ -4051,8 +4051,8 @@
     "nextApplicationPeriod": "117.09.31",
     "completionDate": "108.11.02",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-94-2139-75-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "日南工作站",
@@ -4066,7 +4066,7 @@
         "mimeType": "application/pdf",
         "size": 503274,
         "storedName": "日南-B1080171-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4076,19 +4076,19 @@
         "mimeType": "image/jpeg",
         "size": 371075,
         "storedName": "日南-B1080171-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4096,8 +4096,8 @@
     "wellNumber": "B1090023",
     "name": "后里圳幹線抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "四月段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區四月段264地號",
     "latitude": 24.3146888,
     "longitude": 120.6693655,
@@ -4108,7 +4108,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.033,
     "benefitedAreaHa": 3.121956,
     "registeredFlowCms": 0.033,
     "irrigationSystem": "大安溪后里圳幹線",
@@ -4117,8 +4117,8 @@
     "nextApplicationPeriod": "118.11.28",
     "completionDate": "108.12.20",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-9410-15-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4132,7 +4132,7 @@
         "mimeType": "application/pdf",
         "size": 568407,
         "storedName": "月眉-B1090023-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4142,19 +4142,19 @@
         "mimeType": "image/jpeg",
         "size": 435194,
         "storedName": "月眉-B1090023-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4162,8 +4162,8 @@
     "wellNumber": "B0130304",
     "name": "月眉舊辦公廳地下水抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "后寶段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區后寶段792地號",
     "latitude": 24.3152804,
     "longitude": 120.6851621,
@@ -4174,7 +4174,7 @@
     "diameterMm": 25,
     "pumpHorsepower": 15.0,
     "pumpOutletInch": 3.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.009,
     "benefitedAreaHa": 0.5,
     "registeredFlowCms": 0.009,
     "irrigationSystem": "舊有辦公廳綠化",
@@ -4183,8 +4183,8 @@
     "nextApplicationPeriod": "116.11.29",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-61-7568-10-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4198,7 +4198,7 @@
         "mimeType": "application/pdf",
         "size": 478795,
         "storedName": "月眉-B0130304-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4208,19 +4208,19 @@
         "mimeType": "image/jpeg",
         "size": 946463,
         "storedName": "月眉-B0130304-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4228,8 +4228,8 @@
     "wellNumber": "B1070176",
     "name": "后里圳月眉排水補給抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "四塊庄段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區四塊庄段350地號",
     "latitude": 24.30452,
     "longitude": 120.6806271,
@@ -4240,7 +4240,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.034,
     "benefitedAreaHa": 4.7724,
     "registeredFlowCms": 0.034,
     "irrigationSystem": "大安溪后里圳月眉排水支線",
@@ -4249,8 +4249,8 @@
     "nextApplicationPeriod": "117.06.20",
     "completionDate": "107.08.11",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-8734-20-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4264,7 +4264,7 @@
         "mimeType": "application/pdf",
         "size": 564546,
         "storedName": "月眉-B1070176-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4274,19 +4274,19 @@
         "mimeType": "image/jpeg",
         "size": 480140,
         "storedName": "月眉-B1070176-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4294,8 +4294,8 @@
     "wellNumber": "B1060117",
     "name": "后里圳三支線上游補給抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "眉山西段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區眉山西段279地號",
     "latitude": 24.3120236,
     "longitude": 120.6870685,
@@ -4306,7 +4306,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 5.060208,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大安溪后里圳三支線",
@@ -4315,8 +4315,8 @@
     "nextApplicationPeriod": "116.07.22",
     "completionDate": "106.08.20",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-9565-10-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4330,7 +4330,7 @@
         "mimeType": "application/pdf",
         "size": 671094,
         "storedName": "月眉-B1060117-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4340,19 +4340,19 @@
         "mimeType": "image/jpeg",
         "size": 349475,
         "storedName": "月眉-B1060117-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4360,8 +4360,8 @@
     "wellNumber": "B1040345",
     "name": "后里圳三支線中游補給抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "四塊庄段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區四塊庄段401地號",
     "latitude": 24.3101867,
     "longitude": 120.6759786,
@@ -4372,7 +4372,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 70.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.033,
     "benefitedAreaHa": 8.365843,
     "registeredFlowCms": 0.033,
     "irrigationSystem": "大安溪后里圳三支線",
@@ -4381,8 +4381,8 @@
     "nextApplicationPeriod": "119.04.01",
     "completionDate": "103.12.31",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-8926-10-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4396,7 +4396,7 @@
         "mimeType": "application/pdf",
         "size": 461314,
         "storedName": "月眉-B1040345-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4406,19 +4406,19 @@
         "mimeType": "image/jpeg",
         "size": 302767,
         "storedName": "月眉-B1040345-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4426,8 +4426,8 @@
     "wellNumber": "B1100675",
     "name": "后里圳三支線中游二號抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "四月段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區四月段433地號",
     "latitude": 24.3100856,
     "longitude": 120.6695342,
@@ -4438,7 +4438,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0344,
     "benefitedAreaHa": 2.465661,
     "registeredFlowCms": 0.0344,
     "irrigationSystem": "大安溪后里圳三支線",
@@ -4447,8 +4447,8 @@
     "nextApplicationPeriod": "115.06.19",
     "completionDate": "110.09.30",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-9068-50-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4462,7 +4462,7 @@
         "mimeType": "application/pdf",
         "size": 650251,
         "storedName": "月眉-B1100675-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4472,19 +4472,19 @@
         "mimeType": "image/jpeg",
         "size": 500114,
         "storedName": "月眉-B1100675-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4492,8 +4492,8 @@
     "wellNumber": "B1030025",
     "name": "后里圳三支線下游補給抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "口庄段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區口庄段162地號",
     "latitude": 24.3115134,
     "longitude": 120.6648948,
@@ -4504,7 +4504,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.032,
     "benefitedAreaHa": 9.224496,
     "registeredFlowCms": 0.032,
     "irrigationSystem": "大安溪后里圳三支線",
@@ -4513,8 +4513,8 @@
     "nextApplicationPeriod": "117.12.30",
     "completionDate": "102.08.03",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-9182-10-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4528,7 +4528,7 @@
         "mimeType": "application/pdf",
         "size": 573670,
         "storedName": "月眉-B1030025-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4538,19 +4538,19 @@
         "mimeType": "image/jpeg",
         "size": 413364,
         "storedName": "月眉-B1030025-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4558,8 +4558,8 @@
     "wellNumber": "B1090151",
     "name": "后里圳三支線下游二號抽水井",
     "station": "月眉",
-    "district": "后里區",
-    "section": "口庄段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區口庄段162地號",
     "latitude": 24.3141536,
     "longitude": 120.6572216,
@@ -4570,7 +4570,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0277,
     "benefitedAreaHa": 3.0739,
     "registeredFlowCms": 0.0277,
     "irrigationSystem": "大安溪后里圳三支線",
@@ -4579,8 +4579,8 @@
     "nextApplicationPeriod": "119.07.22",
     "completionDate": "109.09.16",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-41-9338-88-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4594,7 +4594,7 @@
         "mimeType": "application/pdf",
         "size": 660588,
         "storedName": "月眉-B1090151-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4604,19 +4604,19 @@
         "mimeType": "image/jpeg",
         "size": 309511,
         "storedName": "月眉-B1090151-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4624,8 +4624,8 @@
     "wellNumber": "B1050164",
     "name": "后里圳四支線中下游抽水井",
     "station": "月眉",
-    "district": "外埔區",
-    "section": "三崁段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區三崁段50地號",
     "latitude": 24.3161,
     "longitude": 120.6439,
@@ -4636,7 +4636,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0282,
     "benefitedAreaHa": 6.537497,
     "registeredFlowCms": 0.0282,
     "irrigationSystem": "大安溪后里圳四支線",
@@ -4645,8 +4645,8 @@
     "nextApplicationPeriod": "115.10.09",
     "completionDate": "105.12.11",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1652-93-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4660,7 +4660,7 @@
         "mimeType": "application/pdf",
         "size": 613361,
         "storedName": "月眉-B1050164-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4670,19 +4670,19 @@
         "mimeType": "image/jpeg",
         "size": 840196,
         "storedName": "月眉-B1050164-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4690,8 +4690,8 @@
     "wellNumber": "B1080096",
     "name": "后里圳五支線補給抽水井",
     "station": "月眉",
-    "district": "外埔區",
-    "section": "三崁段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區三崁段279地號",
     "latitude": 24.3219509,
     "longitude": 120.6623577,
@@ -4702,7 +4702,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0359,
     "benefitedAreaHa": 8.334606,
     "registeredFlowCms": 0.0359,
     "irrigationSystem": "大安溪后里圳五支線",
@@ -4711,8 +4711,8 @@
     "nextApplicationPeriod": "118.02.22",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1565-90-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4726,7 +4726,7 @@
         "mimeType": "application/pdf",
         "size": 531625,
         "storedName": "月眉-B1080096-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4736,19 +4736,19 @@
         "mimeType": "image/jpeg",
         "size": 437947,
         "storedName": "月眉-B1080096-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4756,8 +4756,8 @@
     "wellNumber": "B1050034",
     "name": "后里圳五支線中下游抽水井",
     "station": "月眉",
-    "district": "外埔區",
-    "section": "三崁段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區三崁段279-2地號",
     "latitude": 24.3206582,
     "longitude": 120.652698,
@@ -4768,7 +4768,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0243,
     "benefitedAreaHa": 5.052352,
     "registeredFlowCms": 0.0243,
     "irrigationSystem": "大安溪后里圳五支線",
@@ -4777,8 +4777,8 @@
     "nextApplicationPeriod": "120.02.09",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1609-96-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4792,7 +4792,7 @@
         "mimeType": "application/pdf",
         "size": 560678,
         "storedName": "月眉-B1050034-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4802,19 +4802,19 @@
         "mimeType": "image/jpeg",
         "size": 574568,
         "storedName": "月眉-B1050034-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4822,8 +4822,8 @@
     "wellNumber": "B1090135",
     "name": "后里圳五支線下游抽水井",
     "station": "月眉",
-    "district": "外埔區",
-    "section": "三崁段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區三崁段279-2地號",
     "latitude": 24.3181764,
     "longitude": 120.6409609,
@@ -4834,7 +4834,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 55.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.037,
     "benefitedAreaHa": 7.63833,
     "registeredFlowCms": 0.037,
     "irrigationSystem": "大安溪后里圳五支線",
@@ -4843,8 +4843,8 @@
     "nextApplicationPeriod": "119.06.24",
     "completionDate": "109.10.12",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1649-90-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "月眉工作站",
@@ -4858,7 +4858,7 @@
         "mimeType": "application/pdf",
         "size": 552180,
         "storedName": "月眉-B1090135-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4868,19 +4868,19 @@
         "mimeType": "image/jpeg",
         "size": 979673,
         "storedName": "月眉-B1090135-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4888,8 +4888,8 @@
     "wellNumber": "B1130271",
     "name": "沙鹿區鹿寮段1000-4地號抽水井",
     "station": "沙鹿",
-    "district": "沙鹿區",
-    "section": "鹿寮段",
+    "district": "",
+    "section": "",
     "address": "臺中市沙鹿區鹿寮段1000-4地號",
     "latitude": 24.2508545,
     "longitude": 120.5614515,
@@ -4900,7 +4900,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.036,
     "benefitedAreaHa": 4.3477,
     "registeredFlowCms": 0.036,
     "irrigationSystem": "大甲溪五福圳幹線",
@@ -4909,8 +4909,8 @@
     "nextApplicationPeriod": "118.07.13",
     "completionDate": "114.3.11",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-32-9496-83-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "沙鹿工作站",
@@ -4924,7 +4924,7 @@
         "mimeType": "application/pdf",
         "size": 535239,
         "storedName": "沙鹿-B1130271-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -4934,19 +4934,19 @@
         "mimeType": "image/jpeg",
         "size": 174803,
         "storedName": "沙鹿-B1130271-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -4954,8 +4954,8 @@
     "wellNumber": "B1140143",
     "name": "梧棲區忠孝段895地號抽水井",
     "station": "沙鹿",
-    "district": "梧棲區",
-    "section": "忠孝段",
+    "district": "",
+    "section": "",
     "address": "臺中市梧棲區忠孝段 895地號",
     "latitude": 24.2395581,
     "longitude": 120.548768,
@@ -4966,7 +4966,7 @@
     "diameterMm": 0,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0273,
     "benefitedAreaHa": 2.4466,
     "registeredFlowCms": 0,
     "irrigationSystem": "大甲溪五福圳幹線",
@@ -4975,8 +4975,8 @@
     "nextApplicationPeriod": "",
     "completionDate": "114.9.12",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-33-0034-86-9",
+    "agriculturalPower": "無",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "沙鹿工作站",
@@ -4990,7 +4990,7 @@
         "mimeType": "application/pdf",
         "size": 616832,
         "storedName": "沙鹿-B1140143-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5000,19 +5000,19 @@
         "mimeType": "image/png",
         "size": 548580,
         "storedName": "沙鹿-B1140143-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5020,8 +5020,8 @@
     "wellNumber": "B0130278",
     "name": "新店圳一號抽水井",
     "station": "泰安",
-    "district": "后里區",
-    "section": "新店東段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區新店東段42地號",
     "latitude": 24.3435126,
     "longitude": 120.7332117,
@@ -5032,7 +5032,7 @@
     "diameterMm": 6000,
     "pumpHorsepower": 90.0,
     "pumpOutletInch": 16.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.076,
     "benefitedAreaHa": 23.758244,
     "registeredFlowCms": 0.076,
     "irrigationSystem": "大安溪新店圳",
@@ -5041,8 +5041,8 @@
     "nextApplicationPeriod": "116.10.31",
     "completionDate": "92.2.10",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-61-9167-90-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "泰安工作站",
@@ -5056,7 +5056,7 @@
         "mimeType": "application/pdf",
         "size": 547081,
         "storedName": "泰安-B0130278-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5066,7 +5066,7 @@
         "mimeType": "image/jpeg",
         "size": 461254,
         "storedName": "泰安-B0130278-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-泰安-b0130278-2",
@@ -5074,19 +5074,19 @@
         "mimeType": "image/jpeg",
         "size": 965171,
         "storedName": "泰安-B0130278-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5094,8 +5094,8 @@
     "wellNumber": "B0130267",
     "name": "七公圳一號井",
     "station": "泰安",
-    "district": "后里區",
-    "section": "泰安段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區泰安段348地號",
     "latitude": 24.3280827,
     "longitude": 120.7495916,
@@ -5106,7 +5106,7 @@
     "diameterMm": 6000,
     "pumpHorsepower": 90.0,
     "pumpOutletInch": 16.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.076,
     "benefitedAreaHa": 23.946354,
     "registeredFlowCms": 0.076,
     "irrigationSystem": "大安溪七公圳",
@@ -5115,8 +5115,8 @@
     "nextApplicationPeriod": "116.10.31",
     "completionDate": "92.03.03",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-61-9506-50-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "泰安工作站",
@@ -5130,7 +5130,7 @@
         "mimeType": "application/pdf",
         "size": 669891,
         "storedName": "泰安-B0130267-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5140,7 +5140,7 @@
         "mimeType": "image/jpeg",
         "size": 550439,
         "storedName": "泰安-B0130267-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-泰安-b0130267-2",
@@ -5148,19 +5148,19 @@
         "mimeType": "image/jpeg",
         "size": 707049,
         "storedName": "泰安-B0130267-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5168,8 +5168,8 @@
     "wellNumber": "B1040342",
     "name": "七公圳二號抽水井",
     "station": "泰安",
-    "district": "后里區",
-    "section": "里城段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區里城段1地號東側",
     "latitude": 24.3307764,
     "longitude": 120.7460093,
@@ -5180,7 +5180,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 90.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0482,
     "benefitedAreaHa": 17.177722,
     "registeredFlowCms": 0.0482,
     "irrigationSystem": "大安溪七公圳新店支線",
@@ -5189,8 +5189,8 @@
     "nextApplicationPeriod": "119.03.23",
     "completionDate": "104.03.21",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-61-9464-95-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "泰安工作站",
@@ -5204,7 +5204,7 @@
         "mimeType": "application/pdf",
         "size": 571104,
         "storedName": "泰安-B1040342-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5214,7 +5214,7 @@
         "mimeType": "image/jpeg",
         "size": 294286,
         "storedName": "泰安-B1040342-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-泰安-b1040342-2",
@@ -5222,19 +5222,19 @@
         "mimeType": "image/jpeg",
         "size": 955042,
         "storedName": "泰安-B1040342-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5242,8 +5242,8 @@
     "wellNumber": "B1140020",
     "name": "新店二號抽水井",
     "station": "泰安",
-    "district": "后里區",
-    "section": "新店西段",
+    "district": "",
+    "section": "",
     "address": "臺中市后里區新店西段531-1地號",
     "latitude": 24.3464749,
     "longitude": 120.7181456,
@@ -5254,7 +5254,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 35.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.032,
     "benefitedAreaHa": 2.041091,
     "registeredFlowCms": 0.032,
     "irrigationSystem": "大安溪新店圳",
@@ -5263,8 +5263,8 @@
     "nextApplicationPeriod": "118.10.07",
     "completionDate": "115.03.06",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1917-95-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "泰安工作站",
@@ -5278,7 +5278,7 @@
         "mimeType": "application/pdf",
         "size": 663775,
         "storedName": "泰安-B1140020-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5288,19 +5288,19 @@
         "mimeType": "image/jpeg",
         "size": 708322,
         "storedName": "泰安-B1140020-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5308,8 +5308,8 @@
     "wellNumber": "B1140033",
     "name": "新店三號抽水井",
     "station": "泰安",
-    "district": "外埔區",
-    "section": "上土城段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區上土城段37-1地號",
     "latitude": 24.3513931,
     "longitude": 120.7133645,
@@ -5320,7 +5320,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 5.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0359,
     "benefitedAreaHa": 2.335306,
     "registeredFlowCms": 0.028,
     "irrigationSystem": "大安溪新店圳",
@@ -5329,8 +5329,8 @@
     "nextApplicationPeriod": "118.10.19",
     "completionDate": "115.03.06",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1907-90-2",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "泰安工作站",
@@ -5344,7 +5344,7 @@
         "mimeType": "application/pdf",
         "size": 531053,
         "storedName": "泰安-B1140033-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5354,19 +5354,19 @@
         "mimeType": "image/jpeg",
         "size": 363537,
         "storedName": "泰安-B1140033-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5374,8 +5374,8 @@
     "wellNumber": "B1120069",
     "name": "王田烏日區高學田抽水井",
     "station": "王田",
-    "district": "烏日區",
-    "section": "高學田段",
+    "district": "",
+    "section": "",
     "address": "臺中市烏日區高學田段307地號",
     "latitude": 24.1222315,
     "longitude": 120.6095653,
@@ -5386,7 +5386,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.017,
     "benefitedAreaHa": 0.726075,
     "registeredFlowCms": 0.017,
     "irrigationSystem": "烏溪王田圳",
@@ -5395,8 +5395,8 @@
     "nextApplicationPeriod": "117.01.24",
     "completionDate": "112.08.24",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-70-2545-02-6",
+    "agriculturalPower": "辧理中",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "王田工作站",
@@ -5410,7 +5410,7 @@
         "mimeType": "application/pdf",
         "size": 630197,
         "storedName": "王田-B1120069-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5420,19 +5420,19 @@
         "mimeType": "image/png",
         "size": 174173,
         "storedName": "王田-B1120069-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5440,8 +5440,8 @@
     "wellNumber": "B1130072",
     "name": "王田大肚區福德抽水井",
     "station": "王田",
-    "district": "大肚區",
-    "section": "福德段",
+    "district": "",
+    "section": "",
     "address": "臺中市大肚區福德段1地號",
     "latitude": 24.1430433,
     "longitude": 120.5549986,
@@ -5452,7 +5452,7 @@
     "diameterMm": 100,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.021,
     "benefitedAreaHa": 1.730867,
     "registeredFlowCms": 0.021,
     "irrigationSystem": "烏溪知高本線",
@@ -5461,8 +5461,8 @@
     "nextApplicationPeriod": "117.12.03",
     "completionDate": "113.06.21",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-73-0649-91-8",
+    "agriculturalPower": "辧理中",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "王田工作站",
@@ -5476,7 +5476,7 @@
         "mimeType": "application/pdf",
         "size": 577891,
         "storedName": "王田-B1130072-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5486,19 +5486,19 @@
         "mimeType": "image/png",
         "size": 498498,
         "storedName": "王田-B1130072-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5506,8 +5506,8 @@
     "wellNumber": "B112603",
     "name": "后里圳一號公井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "頂竹圍段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區頂竹圍段104地號",
     "latitude": 24.3381328,
     "longitude": 120.6867977,
@@ -5518,7 +5518,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 60.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.023,
     "benefitedAreaHa": 9.0875,
     "registeredFlowCms": 0.023,
     "irrigationSystem": "大安溪后里圳幹線",
@@ -5527,8 +5527,8 @@
     "nextApplicationPeriod": "118.07.30",
     "completionDate": "83.09.14",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1201-50-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5542,7 +5542,7 @@
         "mimeType": "application/pdf",
         "size": 523706,
         "storedName": "磁瑤-B112603-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5552,7 +5552,7 @@
         "mimeType": "image/jpeg",
         "size": 379292,
         "storedName": "磁瑤-B112603-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-磁瑤-b112603-2",
@@ -5560,19 +5560,19 @@
         "mimeType": "image/jpeg",
         "size": 277403,
         "storedName": "磁瑤-B112603-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5580,8 +5580,8 @@
     "wellNumber": "B0930053",
     "name": "后里圳三號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "下鐵山段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區下鐵山段862地號",
     "latitude": 24.3494172,
     "longitude": 120.6526994,
@@ -5592,7 +5592,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.016,
     "benefitedAreaHa": 2.2667,
     "registeredFlowCms": 0.016,
     "irrigationSystem": "大安溪后里圳幹線",
@@ -5601,8 +5601,8 @@
     "nextApplicationPeriod": "118.09.15",
     "completionDate": "93.10.6",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-0515-65-5",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5616,7 +5616,7 @@
         "mimeType": "application/pdf",
         "size": 495737,
         "storedName": "磁瑤-B0930053-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5626,7 +5626,7 @@
         "mimeType": "image/jpeg",
         "size": 488395,
         "storedName": "磁瑤-B0930053-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-磁瑤-b0930053-2",
@@ -5634,19 +5634,19 @@
         "mimeType": "image/jpeg",
         "size": 204148,
         "storedName": "磁瑤-B0930053-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5654,8 +5654,8 @@
     "wellNumber": "B0950059",
     "name": "后里圳四號抽水井-已申請消滅登記",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "上鐵山段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區上鐵山段137地號",
     "latitude": 24.352556,
     "longitude": 120.6591956,
@@ -5666,7 +5666,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0053,
     "benefitedAreaHa": 0.4965,
     "registeredFlowCms": 0.0053,
     "irrigationSystem": "大安溪后里圳幹線",
@@ -5675,8 +5675,8 @@
     "nextApplicationPeriod": "115.05.31",
     "completionDate": "95.09.4",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-0580-76-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5690,7 +5690,7 @@
         "mimeType": "application/pdf",
         "size": 632543,
         "storedName": "磁瑤-B0950059-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5700,19 +5700,19 @@
         "mimeType": "image/jpeg",
         "size": 318627,
         "storedName": "磁瑤-B0950059-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5720,8 +5720,8 @@
     "wellNumber": "B1070109",
     "name": "后里圳七支線二號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "永吉段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區永吉段1182地號",
     "latitude": 24.3352807,
     "longitude": 120.6500773,
@@ -5732,7 +5732,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.016,
     "benefitedAreaHa": 1.910968,
     "registeredFlowCms": 0.016,
     "irrigationSystem": "大安溪后里圳七支線第一分線",
@@ -5741,8 +5741,8 @@
     "nextApplicationPeriod": "117.03.21",
     "completionDate": "107.04.25",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-0295-93-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5756,7 +5756,7 @@
         "mimeType": "application/pdf",
         "size": 455103,
         "storedName": "磁瑤-B1070109-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5766,7 +5766,7 @@
         "mimeType": "image/jpeg",
         "size": 461206,
         "storedName": "磁瑤-B1070109-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-磁瑤-b1070109-2",
@@ -5774,19 +5774,19 @@
         "mimeType": "image/png",
         "size": 448356,
         "storedName": "磁瑤-B1070109-photo-2.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5794,8 +5794,8 @@
     "wellNumber": "B1080127",
     "name": "后里圳六支線一號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "三崁段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區三崁段366地號",
     "latitude": 24.3252861,
     "longitude": 120.6582537,
@@ -5806,7 +5806,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 45.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.028,
     "benefitedAreaHa": 4.1021,
     "registeredFlowCms": 0.028,
     "irrigationSystem": "大安溪后里圳六支線",
@@ -5815,8 +5815,8 @@
     "nextApplicationPeriod": "118.04.20",
     "completionDate": "108.06.05",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1763-35-1",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5830,7 +5830,7 @@
         "mimeType": "application/pdf",
         "size": 534996,
         "storedName": "磁瑤-B1080127-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5840,19 +5840,19 @@
         "mimeType": "image/jpeg",
         "size": 473385,
         "storedName": "磁瑤-B1080127-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5860,8 +5860,8 @@
     "wellNumber": "B1100779",
     "name": "后里圳七支線一號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "新六分段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區新六分段564地號",
     "latitude": 24.3340503,
     "longitude": 120.6732876,
@@ -5872,7 +5872,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 25.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.008,
     "benefitedAreaHa": 2.187488,
     "registeredFlowCms": 0.008,
     "irrigationSystem": "大安溪后里圳七支線",
@@ -5881,8 +5881,8 @@
     "nextApplicationPeriod": "115.08.30",
     "completionDate": "110.10.14",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1299-91-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5896,7 +5896,7 @@
         "mimeType": "application/pdf",
         "size": 611838,
         "storedName": "磁瑤-B1100779-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5906,19 +5906,19 @@
         "mimeType": "image/jpeg",
         "size": 340693,
         "storedName": "磁瑤-B1100779-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5926,8 +5926,8 @@
     "wellNumber": "B1140109",
     "name": "后里圳二號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "頂竹圍段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區頂竹圍段105地號",
     "latitude": 24.341361,
     "longitude": 120.6804136,
@@ -5938,7 +5938,7 @@
     "diameterMm": 305,
     "pumpHorsepower": 25.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0116,
     "benefitedAreaHa": 1.785797,
     "registeredFlowCms": 0.0116,
     "irrigationSystem": "大安溪后里圳",
@@ -5947,8 +5947,8 @@
     "nextApplicationPeriod": "119.02.12",
     "completionDate": "114.07.28",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-1210-90-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -5962,7 +5962,7 @@
         "mimeType": "application/pdf",
         "size": 534437,
         "storedName": "磁瑤-B1140109-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -5972,19 +5972,19 @@
         "mimeType": "image/jpeg",
         "size": 461206,
         "storedName": "磁瑤-B1140109-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -5992,8 +5992,8 @@
     "wellNumber": "B1140110",
     "name": "后里圳七支線三號抽水井",
     "station": "磁瑤",
-    "district": "外埔區",
-    "section": "新磁瑤段",
+    "district": "",
+    "section": "",
     "address": "臺中市外埔區新磁瑤段138地號",
     "latitude": 24.3358644,
     "longitude": 120.6487059,
@@ -6004,7 +6004,7 @@
     "diameterMm": 305,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 4.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0162,
     "benefitedAreaHa": 0.835569,
     "registeredFlowCms": 0.0162,
     "irrigationSystem": "大安溪后里圳七支線第一分線",
@@ -6013,8 +6013,8 @@
     "nextApplicationPeriod": "119.02.12",
     "completionDate": "114.07.28",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-40-0296-96-7",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "磁瑤工作站",
@@ -6028,7 +6028,7 @@
         "mimeType": "application/pdf",
         "size": 494704,
         "storedName": "磁瑤-B1140110-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6038,19 +6038,19 @@
         "mimeType": "image/jpeg",
         "size": 209546,
         "storedName": "磁瑤-B1140110-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6058,8 +6058,8 @@
     "wellNumber": "K0123688",
     "name": "新復1號抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "新復東段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮新復東段702地號",
     "latitude": 24.4070133,
     "longitude": 120.6566635,
@@ -6070,7 +6070,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 100.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0613,
     "benefitedAreaHa": 20.9084,
     "registeredFlowCms": 0.0613,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6079,8 +6079,8 @@
     "nextApplicationPeriod": "115.09.31",
     "completionDate": "98.10.19",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-95-0972-11-8",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6094,7 +6094,7 @@
         "mimeType": "application/pdf",
         "size": 627000,
         "storedName": "苑裡-K0123688-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6104,7 +6104,7 @@
         "mimeType": "image/jpeg",
         "size": 220897,
         "storedName": "苑裡-K0123688-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       },
       {
         "id": "photo-苑裡-k0123688-2",
@@ -6112,19 +6112,19 @@
         "mimeType": "image/jpeg",
         "size": 698107,
         "storedName": "苑裡-K0123688-photo-2.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6132,8 +6132,8 @@
     "wellNumber": "K0123786",
     "name": "新復2號抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "新復東段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮新復東段277-1地號",
     "latitude": 24.4109842,
     "longitude": 120.6558442,
@@ -6144,7 +6144,7 @@
     "diameterMm": 508,
     "pumpHorsepower": 90.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.046,
     "benefitedAreaHa": 9.373183,
     "registeredFlowCms": 0.046,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6153,8 +6153,8 @@
     "nextApplicationPeriod": "117.10.31",
     "completionDate": "103.12.28",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-95-0988-35-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6168,7 +6168,7 @@
         "mimeType": "application/pdf",
         "size": 542291,
         "storedName": "苑裡-K0123786-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6178,19 +6178,19 @@
         "mimeType": "image/jpeg",
         "size": 1027614,
         "storedName": "苑裡-K0123786-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6198,8 +6198,8 @@
     "wellNumber": "K0123766",
     "name": "田心小組抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "田中段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮田中段620地號",
     "latitude": 24.4046253,
     "longitude": 120.6627633,
@@ -6210,7 +6210,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 75.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.07,
     "benefitedAreaHa": 34.9451,
     "registeredFlowCms": 0.07,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6219,8 +6219,8 @@
     "nextApplicationPeriod": "117.08.30",
     "completionDate": "103.09.01",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-94-0851-21-3",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6234,7 +6234,7 @@
         "mimeType": "application/pdf",
         "size": 655417,
         "storedName": "苑裡-K0123766-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6244,19 +6244,19 @@
         "mimeType": "image/jpeg",
         "size": 924533,
         "storedName": "苑裡-K0123766-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6264,8 +6264,8 @@
     "wellNumber": "K0124420",
     "name": "田心二號抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "田中段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮田中段1068地號",
     "latitude": 24.4094444,
     "longitude": 120.6657677,
@@ -6276,7 +6276,7 @@
     "diameterMm": 508,
     "pumpHorsepower": 75.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0525,
     "benefitedAreaHa": 12.9296,
     "registeredFlowCms": 0.0525,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6285,8 +6285,8 @@
     "nextApplicationPeriod": "118.12.31",
     "completionDate": "109.02.21",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-85-0768-62-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6300,7 +6300,7 @@
         "mimeType": "application/pdf",
         "size": 553494,
         "storedName": "苑裡-K0124420-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6310,19 +6310,19 @@
         "mimeType": "image/jpeg",
         "size": 1007457,
         "storedName": "苑裡-K0124420-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6330,8 +6330,8 @@
     "wellNumber": "K0123779",
     "name": "西勢支線抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "西海段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮西海段452地號",
     "latitude": 24.4445884,
     "longitude": 120.6472907,
@@ -6342,7 +6342,7 @@
     "diameterMm": 508,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 5.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.0175,
     "benefitedAreaHa": 4.3805,
     "registeredFlowCms": 0.0175,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6351,8 +6351,8 @@
     "nextApplicationPeriod": "117.10.31",
     "completionDate": "103.12.30",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-77-2528-50-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6366,7 +6366,7 @@
         "mimeType": "application/pdf",
         "size": 540893,
         "storedName": "苑裡-K0123779-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6376,19 +6376,19 @@
         "mimeType": "image/png",
         "size": 2845627,
         "storedName": "苑裡-K0123779-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6396,8 +6396,8 @@
     "wellNumber": "K0124485",
     "name": "砂埤支線抽水井",
     "station": "苑裡",
-    "district": "苑裡鎮",
-    "section": "舊社段",
+    "district": "",
+    "section": "",
     "address": "臺中市苑裡鎮舊社段644-5地號",
     "latitude": 24.4157161,
     "longitude": 120.6766275,
@@ -6408,7 +6408,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 30.0,
     "pumpOutletInch": 5.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.025,
     "benefitedAreaHa": 6.1158,
     "registeredFlowCms": 0.025,
     "irrigationSystem": "大安溪苑裡圳",
@@ -6417,8 +6417,8 @@
     "nextApplicationPeriod": "119.05.31",
     "completionDate": "109.05.22",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "21-85-0768-62-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "苑裡工作站",
@@ -6432,7 +6432,7 @@
         "mimeType": "application/pdf",
         "size": 542892,
         "storedName": "苑裡-K0124485-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6442,19 +6442,19 @@
         "mimeType": "image/jpeg",
         "size": 1185244,
         "storedName": "苑裡-K0124485-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:01"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6462,8 +6462,8 @@
     "wellNumber": "B1120251",
     "name": "紅圳三角埤抽水井",
     "station": "西屯",
-    "district": "大雅區",
-    "section": "自立段",
+    "district": "",
+    "section": "",
     "address": "臺中市大雅區自立段303-54地號(重測後陽明段638地號)",
     "latitude": 24.2221533,
     "longitude": 120.6417426,
@@ -6474,7 +6474,7 @@
     "diameterMm": 400,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 6.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.045,
     "benefitedAreaHa": 0.69687,
     "registeredFlowCms": 0.045,
     "irrigationSystem": "大甲溪紅圳 三角埤支線",
@@ -6483,8 +6483,8 @@
     "nextApplicationPeriod": "117.07.19",
     "completionDate": "112.12.17",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-46-1596-89-9",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "西屯工作站",
@@ -6498,7 +6498,7 @@
         "mimeType": "application/pdf",
         "size": 543808,
         "storedName": "西屯-B1120251-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6508,19 +6508,19 @@
         "mimeType": "image/jpeg",
         "size": 404107,
         "storedName": "西屯-B1120251-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6528,8 +6528,8 @@
     "wellNumber": "B1150081",
     "name": "光復一號抽水井",
     "station": "西屯",
-    "district": "大雅區",
-    "section": "中和段",
+    "district": "",
+    "section": "",
     "address": "臺中市大雅區中和段49地號",
     "latitude": 24.2131478,
     "longitude": 120.6441305,
@@ -6540,7 +6540,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.045,
     "benefitedAreaHa": 1.655864,
     "registeredFlowCms": 0.045,
     "irrigationSystem": "大甲溪葫蘆墩圳 光復一圳及 光復二圳",
@@ -6549,8 +6549,8 @@
     "nextApplicationPeriod": "120.03.04",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-46-3873-35-4",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "西屯工作站",
@@ -6564,7 +6564,7 @@
         "mimeType": "application/pdf",
         "size": 572075,
         "storedName": "西屯-B1150081-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6581,12 +6581,12 @@
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6594,8 +6594,8 @@
     "wellNumber": "B1150080",
     "name": "光復二號抽水井",
     "station": "西屯",
-    "district": "大雅區",
-    "section": "山德段",
+    "district": "",
+    "section": "",
     "address": "臺中市大雅區山德段1203地號",
     "latitude": 24.204242,
     "longitude": 120.6390559,
@@ -6606,7 +6606,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.045,
     "benefitedAreaHa": 3.963164,
     "registeredFlowCms": 0.045,
     "irrigationSystem": "大甲溪葫蘆墩圳 光復二圳下段",
@@ -6615,8 +6615,8 @@
     "nextApplicationPeriod": "120.03.04",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "07-38-0180-83-0",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "西屯工作站",
@@ -6630,7 +6630,7 @@
         "mimeType": "application/pdf",
         "size": 665737,
         "storedName": "西屯-B1150080-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6640,19 +6640,19 @@
         "mimeType": "image/jpeg",
         "size": 334773,
         "storedName": "西屯-B1150080-photo-1.jpg",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   },
   {
@@ -6660,8 +6660,8 @@
     "wellNumber": "B1150103",
     "name": "紅圳六角亭抽水井",
     "station": "西屯",
-    "district": "大雅區",
-    "section": "科雅段",
+    "district": "",
+    "section": "",
     "address": "臺中市大雅區科雅段429-4地號",
     "latitude": 24.2098552,
     "longitude": 120.6265669,
@@ -6672,7 +6672,7 @@
     "diameterMm": 500,
     "pumpHorsepower": 50.0,
     "pumpOutletInch": 8.0,
-    "planFlowCms": 0,
+    "planFlowCms": 0.045,
     "benefitedAreaHa": 5.471844,
     "registeredFlowCms": 0.045,
     "irrigationSystem": "紅圳1-3-9之二",
@@ -6681,8 +6681,8 @@
     "nextApplicationPeriod": "120.04.14",
     "completionDate": "",
     "constructionYear": "",
-    "electricityNo": "",
-    "agriculturalPower": "",
+    "electricityNo": "辦理中",
+    "agriculturalPower": "有",
     "startedAt": "",
     "status": "使用中",
     "managementUnit": "西屯工作站",
@@ -6696,7 +6696,7 @@
         "mimeType": "application/pdf",
         "size": 41929,
         "storedName": "西屯-B1150103-water-right-1.pdf",
-        "uploadedAt": "2026-08-05T11:19:29"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "photos": [
@@ -6706,19 +6706,19 @@
         "mimeType": "image/png",
         "size": 418430,
         "storedName": "西屯-B1150103-photo-1.png",
-        "uploadedAt": "2026-08-05T11:19:28"
+        "uploadedAt": "2026-08-06T15:35:02"
       }
     ],
     "auditTrail": [
       {
         "action": "imported",
         "actor": "system",
-        "at": "2026-08-05T11:19:29"
+        "at": "2026-08-06T15:35:02"
       }
     ],
-    "createdAt": "2026-08-05T11:19:29",
+    "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-08-05T11:19:29",
+    "updatedAt": "2026-08-06T15:35:02",
     "updatedBy": "system"
   }
 ]
