@@ -162,6 +162,11 @@ function markerPosition(latitude, longitude) {
   ];
 }
 
+function focusMarker(marker) {
+  marker.openPopup();
+  state.map.setView(marker.getLatLng(), 15, { animate: true });
+}
+
 function updateMap(wells) {
   state.markers.forEach((marker) => marker.remove());
   state.markers.clear();
@@ -262,7 +267,7 @@ function renderPublicList(wells) {
         ${state.expiringOnly
           ? `<span class="tag tag-station">${escapeHtml(well.station || "未填寫")}站</span>
             <span class="tag tag-expiry">到期日 ${escapeHtml(waterRightEndLabel(well.waterRightPeriod))}</span>`
-          : `<span class="tag">${escapeHtml(well.district)}</span>
+          : `${well.district ? `<span class="tag">${escapeHtml(well.district)}</span>` : ""}
             <span class="tag">${escapeHtml(well.status)}</span>
             ${!hasNumericCoordinate(well.latitude, well.longitude)
               ? `<span class="tag">座標待補</span>`
@@ -325,8 +330,7 @@ async function showPublicDetail(id) {
   `;
   const marker = state.markers.get(id);
   if (marker) {
-    state.map.setView(marker.getLatLng(), 15);
-    marker.openPopup();
+    focusMarker(marker);
   }
 }
 
@@ -483,8 +487,7 @@ $("publicResults").addEventListener("click", (event) => {
   if (button.dataset.locate) {
     const marker = state.markers.get(id);
     if (marker) {
-      state.map.setView(marker.getLatLng(), 15);
-      marker.openPopup();
+      focusMarker(marker);
     }
   }
   if (button.dataset.waterRight) {
