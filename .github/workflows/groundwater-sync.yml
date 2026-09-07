@@ -139,3 +139,20 @@ jobs:
             ${{ runner.temp }}/public-sync/sync-summary.json
             ${{ runner.temp }}/public-sync/sync-index.json
           if-no-files-found: ignore
+
+      - name: Upload Drive index artifact for Apps Script
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: groundwater-drive-indexes
+          path: |
+            ${{ runner.temp }}/groundwater-sync/well-index.json
+            ${{ runner.temp }}/groundwater-sync/station-index.json
+            ${{ runner.temp }}/groundwater-sync/warnings.csv
+            ${{ runner.temp }}/groundwater-sync/water-right-attachment-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-month-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-warnings.json
+            ${{ runner.temp }}/groundwater-sync/sync-index.json
+            ${{ runner.temp }}/groundwater-sync/sync-summary.md
+          if-no-files-found: ignore

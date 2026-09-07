@@ -7,8 +7,9 @@
 1. Google Drive 保存原始資料與索引資料。
 2. Apps Script 每週一早上 6 點觸發 GitHub repository dispatch。
 3. GitHub Actions 下載 Drive 來源、比對 Drive 索引、只處理有變動的 Excel / 水權狀 / 抽水紀錄。
-4. GitHub Actions 產生公開頁 JSON 與同步報告。
-5. 有變更時才 commit 到 GitHub Pages repository。
+4. GitHub Actions 產生公開頁 JSON、同步報告與 `groundwater-drive-indexes` artifact。
+5. Apps Script 下載 `groundwater-drive-indexes` artifact，使用 `shinhuei0928307617@gmail.com` 的 Drive 權限寫回 `00_系統索引資料`。
+6. 有變更時才 commit 到 GitHub Pages repository。
 
 ## Apps Script 設定
 
@@ -21,12 +22,13 @@
 | `GITHUB_REPO` | 是 | repository 名稱，例如 `groundwater-well-management`。 |
 | `GITHUB_EVENT_TYPE` | 否 | 預設 `groundwater-sync`。 |
 | `GROUNDWATER_ROOT_FOLDER_ID` | 否 | `shinhuei0928307617@gmail.com` 的 `農業用水資料統計` 根目錄。 |
+| `DRIVE_INDEX_FOLDER_ID` | 否 | `00_系統索引資料` 資料夾 ID。留空時 Apps Script 會從根目錄尋找，找不到就用你的帳號建立。 |
 | `REGISTRY_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `抽水井一覽表`。 |
 | `WELL_INDEX_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `00_系統索引資料`。 |
 | `PUMPING_INDEX_FOLDER_ID` | 否 | 可留空；目前共用 `00_系統索引資料`。 |
 | `WATER_RIGHT_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `地下水水權狀`。 |
 
-第一次設定後，手動執行一次 `installWeeklyTrigger()`，授權完成後會建立每週一 06:00 的排程。若要立即測試，執行 `testTriggerGroundwaterSync()`。
+第一次設定後，手動執行一次 `installWeeklyTrigger()`，授權完成後會建立每週一 06:00 的排程。若要立即測試，執行 `testTriggerGroundwaterSync()`；GitHub Actions 完成後，Apps Script 會自動延後檢查並寫回索引。若只想把最近一次成功 workflow 的索引補寫回 Drive，執行 `testSyncDriveIndexesFromLatestGitHubRun()`。
 
 ## GitHub 設定
 
@@ -37,6 +39,8 @@
 | 名稱 | 說明 |
 | --- | --- |
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | Google service account JSON。該 service account 必須被分享進地下水井 Drive 根目錄與索引資料夾。 |
+
+GitHub Actions 仍會嘗試直接更新 Drive 索引；若因 service account 沒有個人 Drive 儲存空間而失敗，流程會繼續。穩定寫回 Drive 的責任由 Apps Script 接手，因為 Apps Script 是用 `shinhuei0928307617@gmail.com` 的 Google 帳號權限建立與更新檔案。
 
 建議設定 repository variables，作為 Apps Script payload 缺漏時的備援：
 
@@ -78,3 +82,17 @@ workflow 會呼叫兩段程式：
 - 若水權狀 PDF 在 Drive 有更新，只處理該檔案匹配到的井。
 - 若抽水紀錄來源檔未變，跳過抽水紀錄重建。
 - 若水權期限已過期，摘要中提醒更換掃描最新水權狀；無法判斷期限或匹配關係時才需要人工確認。
+
+## Apps Script 寫回 Drive 的索引檔
+
+`syncDriveIndexesFromLatestGitHubRun()` 會從 GitHub Actions 的 `groundwater-drive-indexes` artifact 寫回以下檔案：
+
+- `well-index.json`
+- `station-index.json`
+- `warnings.csv`
+- `water-right-attachment-index.json`
+- `pumping-index.json`
+- `pumping-month-index.json`
+- `pumping-warnings.json`
+- `sync-index.json`
+- `sync-summary.md`
