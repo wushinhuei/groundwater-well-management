@@ -228,11 +228,33 @@ function downloadArtifactBlobs_(owner, repo, token, artifactId) {
     method: 'get',
     headers: githubHeaders_(token),
     muteHttpExceptions: true,
-    followRedirects: true,
+    followRedirects: false,
   });
   const status = response.getResponseCode();
+  if (status >= 300 && status < 400) {
+    const headers = response.getAllHeaders();
+    const location = headers.Location || headers.location;
+    if (!location) {
+      throw new Error('GitHub artifact download redirect did not include a Location header.');
+    }
+    return downloadRedirectedArtifactBlobs_(location);
+  }
+  return unzipArtifactResponse_(response, 'GitHub artifact download failed');
+}
+
+function downloadRedirectedArtifactBlobs_(url) {
+  const response = UrlFetchApp.fetch(url, {
+    method: 'get',
+    muteHttpExceptions: true,
+    followRedirects: true,
+  });
+  return unzipArtifactResponse_(response, 'GitHub redirected artifact download failed');
+}
+
+function unzipArtifactResponse_(response, messagePrefix) {
+  const status = response.getResponseCode();
   if (status < 200 || status >= 300) {
-    throw new Error('GitHub artifact download failed: HTTP ' + status + ' ' + response.getContentText());
+    throw new Error(messagePrefix + ': HTTP ' + status + ' ' + response.getContentText());
   }
   return Utilities.unzip(response.getBlob().setName(INDEX_ARTIFACT_NAME + '.zip'));
 }
