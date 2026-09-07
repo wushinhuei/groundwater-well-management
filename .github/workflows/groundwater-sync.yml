@@ -81,11 +81,19 @@ jobs:
           else
             PUBLIC_SYNC_SCRIPT=work/sync_public_data.py
           fi
+          SITE_WELLS=public/data/wells.json
+          SITE_PUMPING_HISTORY=public/data/pumping-history.json
+          if [ ! -s "$SITE_WELLS" ] && [ -s docs/data/wells.json ]; then
+            SITE_WELLS=docs/data/wells.json
+          fi
+          if [ ! -s "$SITE_PUMPING_HISTORY" ] && [ -s docs/data/pumping-history.json ]; then
+            SITE_PUMPING_HISTORY=docs/data/pumping-history.json
+          fi
           python "$PUBLIC_SYNC_SCRIPT" \
             --well-index "$RUNNER_TEMP/groundwater-sync/well-index.json" \
-            --site-wells public/data/wells.json \
+            --site-wells "$SITE_WELLS" \
             --pumping-index "$RUNNER_TEMP/groundwater-sync/pumping-index.json" \
-            --site-pumping-history public/data/pumping-history.json \
+            --site-pumping-history "$SITE_PUMPING_HISTORY" \
             --out-dir "$RUNNER_TEMP/public-sync" \
             --expiration-warning-days "$EXPIRATION_WARNING_DAYS"
 
