@@ -31,10 +31,11 @@ jobs:
 
     env:
       SYNC_SCOPE: ${{ github.event.client_payload.syncScope || inputs.sync_scope || 'all' }}
-      GROUNDWATER_ROOT_FOLDER_ID: ${{ github.event.client_payload.drive.groundwaterRootFolderId || vars.GROUNDWATER_ROOT_FOLDER_ID || '10ntiTPQl7190Tcmim_oTPDIs1eCDTctq' }}
-      WELL_INDEX_FOLDER_ID: ${{ github.event.client_payload.drive.wellIndexFolderId || vars.WELL_INDEX_FOLDER_ID || '16GN_DaR8slqnWH3d57l-jM-BLMAgDUsG' }}
-      PUMPING_INDEX_FOLDER_ID: ${{ github.event.client_payload.drive.pumpingIndexFolderId || vars.PUMPING_INDEX_FOLDER_ID || '1DsnG04mvDZ4r01opr0i-wcFbqAd_FiOV' }}
-      WATER_RIGHT_FOLDER_ID: ${{ github.event.client_payload.drive.waterRightFolderId || vars.WATER_RIGHT_FOLDER_ID || '193PcI2sW9IleuMYdtqE3h_aEj8aKx3K5' }}
+      GROUNDWATER_ROOT_FOLDER_ID: ${{ github.event.client_payload.drive.groundwaterRootFolderId || vars.GROUNDWATER_ROOT_FOLDER_ID || '1TLw8JdrVw_OagddkzZz96effiJ51q3F5' }}
+      REGISTRY_FOLDER_ID: ${{ github.event.client_payload.drive.registryFolderId || vars.REGISTRY_FOLDER_ID || '' }}
+      WELL_INDEX_FOLDER_ID: ${{ github.event.client_payload.drive.wellIndexFolderId || vars.WELL_INDEX_FOLDER_ID || '' }}
+      PUMPING_INDEX_FOLDER_ID: ${{ github.event.client_payload.drive.pumpingIndexFolderId || vars.PUMPING_INDEX_FOLDER_ID || '' }}
+      WATER_RIGHT_FOLDER_ID: ${{ github.event.client_payload.drive.waterRightFolderId || vars.WATER_RIGHT_FOLDER_ID || '' }}
       EXPIRATION_WARNING_DAYS: 90
 
     steps:
@@ -66,6 +67,7 @@ jobs:
             --service-account "$RUNNER_TEMP/google-service-account.json" \
             --sync-scope "$SYNC_SCOPE" \
             --groundwater-root-folder-id "$GROUNDWATER_ROOT_FOLDER_ID" \
+            --registry-folder-id "$REGISTRY_FOLDER_ID" \
             --well-index-folder-id "$WELL_INDEX_FOLDER_ID" \
             --pumping-index-folder-id "$PUMPING_INDEX_FOLDER_ID" \
             --water-right-folder-id "$WATER_RIGHT_FOLDER_ID" \
@@ -128,4 +130,21 @@ jobs:
             ${{ runner.temp }}/public-sync/sync-summary.md
             ${{ runner.temp }}/public-sync/sync-summary.json
             ${{ runner.temp }}/public-sync/sync-index.json
+          if-no-files-found: ignore
+
+      - name: Upload Drive index artifact for Apps Script
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: groundwater-drive-indexes
+          path: |
+            ${{ runner.temp }}/groundwater-sync/well-index.json
+            ${{ runner.temp }}/groundwater-sync/station-index.json
+            ${{ runner.temp }}/groundwater-sync/warnings.csv
+            ${{ runner.temp }}/groundwater-sync/water-right-attachment-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-month-index.json
+            ${{ runner.temp }}/groundwater-sync/pumping-warnings.json
+            ${{ runner.temp }}/groundwater-sync/sync-index.json
+            ${{ runner.temp }}/groundwater-sync/sync-summary.md
           if-no-files-found: ignore
