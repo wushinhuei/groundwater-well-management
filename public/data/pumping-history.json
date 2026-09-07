@@ -18974,5 +18974,6 @@
       "sourceTotalM3": 0,
       "anomalies": []
     }
-  ]
+  ],
+  "preservedBecauseIndexEmpty": true
 }

@@ -1,119 +1,294 @@
 {
   "wells": {
-    "added": [
-      "B0108729",
-      "B0110761",
-      "B0112603",
-      "B0113848",
-      "B0115482",
-      "B0115526",
-      "B0117178",
-      "B0117179",
-      "B0118814",
-      "B0120538",
-      "B0130087",
-      "B0130088",
-      "B0130267",
-      "B0130278",
-      "B0130292",
-      "B0130304",
-      "B0930053",
-      "B0950059",
-      "B0960027",
-      "B0970027",
-      "B0970028",
-      "B0970046",
-      "B0990021",
-      "B0990027",
-      "B1000076",
-      "B1020065",
-      "B1020099",
-      "B1020100",
-      "B1020119",
-      "B1030009",
-      "B1030025",
-      "B1040342",
-      "B1040345",
-      "B1050034",
-      "B1050044",
-      "B1050080",
-      "B1050164",
-      "B1060111",
-      "B1060117",
-      "B1060151",
-      "B1070014",
-      "B1070109",
-      "B1070150",
-      "B1070161",
-      "B1070175",
-      "B1070176",
-      "B1080051",
-      "B1080096",
-      "B1080127",
-      "B1080171",
-      "B1090023",
-      "B1090031",
-      "B1090091",
-      "B1090135",
-      "B1090136",
-      "B1090151",
-      "B1100047",
-      "B1100087",
-      "B1100662",
-      "B1100675",
-      "B1100760",
-      "B1100779",
-      "B1120003",
-      "B1120069",
-      "B1120077",
-      "B1120200",
-      "B1120251",
-      "B1130014",
-      "B1130052",
-      "B1130072",
-      "B1130145",
-      "B1130250",
-      "B1130251",
-      "B1130271",
-      "B1140020",
-      "B1140033",
-      "B1140034",
-      "B1140035",
-      "B1140037",
-      "B1140109",
-      "B1140110",
-      "B1140111",
-      "B1140139",
-      "B1140143",
-      "B1140177",
-      "B1150050",
-      "B1150051",
-      "B1150052",
-      "B1150057",
-      "B1150066",
-      "B1150080",
-      "B1150081",
-      "B1150095",
-      "B1150096",
-      "B1150103",
-      "K0086033",
-      "K0086034",
-      "K0123393",
-      "K0123688",
-      "K0123725",
-      "K0123766",
-      "K0123768",
-      "K0123779",
-      "K0123786",
-      "K0124239",
-      "K0124336",
-      "K0124362",
-      "K0124420",
-      "K0124485",
-      "K1140087",
-      "K1140122"
+    "added": [],
+    "changed": [
+      {
+        "waterRightNo": "B0108729",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0110761",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0115482",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0115526",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0117178",
+        "fields": [
+          "waterRightPeriod",
+          "nextApplicationPeriod"
+        ]
+      },
+      {
+        "waterRightNo": "B0117179",
+        "fields": [
+          "waterRightPeriod",
+          "nextApplicationPeriod",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0118814",
+        "fields": [
+          "waterRightPeriod",
+          "nextApplicationPeriod",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0120538",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0130304",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0950059",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B0990027",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1000076",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1020065",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1050044",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1050080",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1070150",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1080051",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1080171",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1090136",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1100047",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1100087",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1100662",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1100675",
+        "fields": [
+          "waterRightPeriod",
+          "nextApplicationPeriod"
+        ]
+      },
+      {
+        "waterRightNo": "B1100760",
+        "fields": [
+          "address",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1100779",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1120077",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1130014",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1130250",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1130251",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1140139",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1140143",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1140177",
+        "fields": [
+          "electricityNo",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150050",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150051",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150052",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150057",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150066",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150080",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150081",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150095",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150096",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "B1150103",
+        "fields": [
+          "electricityNo",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "K0123688",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "K0123725",
+        "fields": [
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "K1140087",
+        "fields": [
+          "electricityNo",
+          "publicNote"
+        ]
+      },
+      {
+        "waterRightNo": "K1140122",
+        "fields": [
+          "publicNote"
+        ]
+      }
     ],
-    "changed": [],
     "missingFromIndex": [],
     "expired": [
       "B0950059",
@@ -127,8 +302,8 @@
     "photoRefreshNeeded": []
   },
   "pumping": {
-    "recordCount": 0,
-    "monthlyRecordCount": 0,
+    "recordCount": 824,
+    "monthlyRecordCount": 9888,
     "yearFrom": 100,
     "yearTo": 115
   }
