@@ -267,6 +267,21 @@ def resolve_child_folder_id(
     )
 
 
+def try_resolve_child_folder_id(
+    service,
+    root_folder_id: str,
+    configured_folder_id: str,
+    expected_names: list[str],
+    notes: list[str],
+) -> str:
+    try:
+        return resolve_child_folder_id(service, root_folder_id, configured_folder_id, expected_names, notes)
+    except Exception as exc:
+        notes.append(f"Could not resolve Drive folder {', '.join(expected_names)}: {exc}")
+        print(f"warning: could not resolve Drive folder {', '.join(expected_names)}: {exc}", file=sys.stderr)
+        return ""
+
+
 def newest_file(files: list[dict[str, Any]], predicate) -> dict[str, Any] | None:
     candidates = [file for file in files if predicate(file)]
     if not candidates:
@@ -745,14 +760,14 @@ def main() -> int:
         ["00_系統索引資料", "00_系統索引"],
         notes,
     )
-    pumping_index_folder_id = resolve_child_folder_id(
+    pumping_index_folder_id = try_resolve_child_folder_id(
         service,
         args.groundwater_root_folder_id,
         args.pumping_index_folder_id,
         ["00_系統索引資料", "00_系統索引"],
         notes,
-    )
-    water_right_folder_id = resolve_child_folder_id(
+    ) or well_index_folder_id
+    water_right_folder_id = try_resolve_child_folder_id(
         service,
         args.groundwater_root_folder_id,
         args.water_right_folder_id,
@@ -761,12 +776,14 @@ def main() -> int:
     )
 
     sync_index_path = args.work_dir / INDEX_FILENAMES["sync"]
-    previous_sync_exists = download_index_if_exists(
-        service,
-        well_index_folder_id,
-        INDEX_FILENAMES["sync"],
-        sync_index_path,
-    )
+    previous_sync_exists = False
+    if well_index_folder_id:
+        previous_sync_exists = download_index_if_exists(
+            service,
+            well_index_folder_id,
+            INDEX_FILENAMES["sync"],
+            sync_index_path,
+        )
     previous_sync = read_json_if_exists(sync_index_path, {}) if previous_sync_exists else {}
 
     root_files = list_tree(service, args.groundwater_root_folder_id)
@@ -804,8 +821,18 @@ def main() -> int:
         well_records = read_json_if_exists(args.work_dir / INDEX_FILENAMES["well"], [])
         station_records = read_json_if_exists(args.work_dir / INDEX_FILENAMES["station"], {})
 
-    water_right_files = list_tree(service, water_right_folder_id)
-    attachment_records, attachment_warnings = water_right_attachment_index(water_right_files)
+    if water_right_folder_id:
+        water_right_files = list_tree(service, water_right_folder_id)
+        attachment_records, attachment_warnings = water_right_attachment_index(water_right_files)
+    else:
+        attachment_records = []
+        attachment_warnings = [{
+            "wellKey": "",
+            "station": "",
+            "sourceRow": "",
+            "reason": "water_right_folder_unavailable",
+        }]
+        notes.append("Water-right folder unavailable; existing public-site attachments will be preserved.")
     write_json(args.work_dir / INDEX_FILENAMES["attachments"], attachment_records)
     if attachment_warnings:
         well_warnings.extend(attachment_warnings)
