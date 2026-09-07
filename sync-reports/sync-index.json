@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-07T08:25:40.524806+00:00",
+  "sources": {
+    "wellIndex": {
+      "path": "/home/runner/work/_temp/groundwater-sync/well-index.json",
+      "exists": true,
+      "size": 126106,
+      "modifiedAt": "2026-09-07T08:25:30.852132+00:00",
+      "sha256": "c653043de6e36b6195e734414831ce046cac3b2fb24b295e09f6a477b7c34931"
+    },
+    "siteWells": {
+      "path": "public/data/wells.json",
+      "exists": false,
+      "size": 0,
+      "modifiedAt": "",
+      "sha256": ""
+    },
+    "pumpingIndex": {
+      "path": "/home/runner/work/_temp/groundwater-sync/pumping-index.json",
+      "exists": false,
+      "size": 0,
+      "modifiedAt": "",
+      "sha256": ""
+    },
+    "sitePumpingHistory": {
+      "path": "public/data/pumping-history.json",
+      "exists": true,
+      "size": 357459,
+      "modifiedAt": "2026-09-07T08:24:55.546175+00:00",
+      "sha256": "f2e2f0250777cb35e9814e539bb9d49348f5aca894b7c6c6a47a5a31bbc8071c"
+    }
+  },
+  "outputs": {
+    "wells": {
+      "recordCount": 111,
+      "expiredWaterRights": 2,
+      "expiringSoonWaterRights": 3
+    },
+    "pumping": {
+      "recordCount": 0,
+      "monthlyRecordCount": 0,
+      "yearFrom": 100,
+      "yearTo": 115
+    }
+  }
+}
