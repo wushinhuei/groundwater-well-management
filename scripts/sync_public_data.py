@@ -267,6 +267,25 @@ def merge_wells(existing_wells: list[dict], index_records: list[dict], today: da
 
 
 def build_pumping_history(existing_payload: dict, pumping_index: list[dict]) -> dict:
+    if not pumping_index:
+        records = existing_payload.get("records")
+        if not isinstance(records, list):
+            records = []
+        years = [record.get("yearMinguo") for record in records if isinstance(record.get("yearMinguo"), int)]
+        payload = dict(existing_payload)
+        payload["records"] = records
+        payload["recordCount"] = len(records)
+        payload["monthlyRecordCount"] = sum(
+            len(record.get("monthlyM3") or [])
+            for record in records
+            if isinstance(record, dict)
+        )
+        if years:
+            payload["yearFrom"] = min(years)
+            payload["yearTo"] = max(years)
+        payload["preservedBecauseIndexEmpty"] = True
+        return payload
+
     records = []
     for item in pumping_index:
         records.append({
