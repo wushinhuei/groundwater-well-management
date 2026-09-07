@@ -263,6 +263,18 @@ def upload_or_update(service, folder_id: str, path: Path, mime_type: str | None 
     ).execute()
 
 
+def upload_indexes(service, folder_id: str, names: list[str], work_dir: Path, label: str, notes: list[str]) -> None:
+    for name in names:
+        path = work_dir / name
+        if not path.exists():
+            continue
+        try:
+            upload_or_update(service, folder_id, path)
+        except Exception as exc:
+            notes.append(f"Could not upload {label} index {name} to Drive folder {folder_id}: {exc}")
+            print(f"warning: could not upload {label} index {name}: {exc}", file=sys.stderr)
+
+
 def find_header_row(sheet, required: set[str], max_scan: int = 20) -> tuple[int, dict[str, int]]:
     for row_index in range(1, max_scan + 1):
         values = [normalize_text(cell.value) for cell in sheet[row_index]]
@@ -746,20 +758,14 @@ def main() -> int:
         INDEX_FILENAMES["sync"],
         INDEX_FILENAMES["summary"],
     ]
-    for name in well_uploads:
-        path = args.work_dir / name
-        if path.exists():
-            upload_or_update(service, args.well_index_folder_id, path)
+    upload_indexes(service, args.well_index_folder_id, well_uploads, args.work_dir, "well", notes)
 
     pumping_uploads = [
         INDEX_FILENAMES["pumping"],
         INDEX_FILENAMES["pumpingMonth"],
         INDEX_FILENAMES["pumpingWarnings"],
     ]
-    for name in pumping_uploads:
-        path = args.work_dir / name
-        if path.exists():
-            upload_or_update(service, args.pumping_index_folder_id, path)
+    upload_indexes(service, args.pumping_index_folder_id, pumping_uploads, args.work_dir, "pumping", notes)
 
     print(json.dumps(summary, ensure_ascii=False))
     return 0
