@@ -1,8 +1,8 @@
 # Groundwater Public Sync Summary
 
-- Generated at: 2026-09-07T08:39:38.180602+00:00
+- Generated at: 2026-09-07T08:54:57.097327+00:00
 - Added wells: 0
-- Changed wells: 46
+- Changed wells: 2
 - Existing wells missing from index: 0
 - Expired water rights: 2
 - Expiring soon water rights: 3
