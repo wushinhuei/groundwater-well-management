@@ -72,7 +72,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067579+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497724+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "97",
@@ -82,7 +82,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-12",
-      "daysUntilExpiration": 400
+      "daysUntilExpiration": 398
     }
   },
   {
@@ -166,7 +166,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071127+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500048+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "98",
@@ -176,7 +176,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-02-19",
-      "daysUntilExpiration": 896
+      "daysUntilExpiration": 894
     }
   },
   {
@@ -260,7 +260,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071380+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500194+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "99",
@@ -270,7 +270,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-04-29",
-      "daysUntilExpiration": 965
+      "daysUntilExpiration": 963
     }
   },
   {
@@ -346,7 +346,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072995+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501223+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "100",
@@ -356,7 +356,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-18",
-      "daysUntilExpiration": 1441
+      "daysUntilExpiration": 1439
     }
   },
   {
@@ -432,7 +432,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075278+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502725+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "2",
@@ -442,7 +442,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-07",
-      "daysUntilExpiration": 700
+      "daysUntilExpiration": 698
     }
   },
   {
@@ -526,7 +526,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063634+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495193+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "94",
@@ -536,7 +536,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-06-30",
-      "daysUntilExpiration": 1027
+      "daysUntilExpiration": 1025
     }
   },
   {
@@ -620,7 +620,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064919+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496034+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "95",
@@ -630,7 +630,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-11-30",
-      "daysUntilExpiration": 449
+      "daysUntilExpiration": 447
     }
   },
   {
@@ -706,7 +706,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067341+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497575+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "96",
@@ -716,7 +716,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-06-30",
-      "daysUntilExpiration": -69
+      "daysUntilExpiration": -71
     }
   },
   {
@@ -792,7 +792,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065396+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496331+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "86",
@@ -802,7 +802,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-06-30",
-      "daysUntilExpiration": 296
+      "daysUntilExpiration": 294
     }
   },
   {
@@ -878,7 +878,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070795+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499828+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "87",
@@ -888,7 +888,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-20",
-      "daysUntilExpiration": 744
+      "daysUntilExpiration": 742
     }
   },
   {
@@ -964,7 +964,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072073+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500628+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "89",
@@ -974,7 +974,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-20",
-      "daysUntilExpiration": 1231
+      "daysUntilExpiration": 1229
     }
   },
   {
@@ -1050,7 +1050,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072185+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500701+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "88",
@@ -1060,7 +1060,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-20",
-      "daysUntilExpiration": 1231
+      "daysUntilExpiration": 1229
     }
   },
   {
@@ -1136,7 +1136,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072312+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500772+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "90",
@@ -1146,7 +1146,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-22",
-      "daysUntilExpiration": 1233
+      "daysUntilExpiration": 1231
     }
   },
   {
@@ -1222,7 +1222,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073464+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501512+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "91",
@@ -1232,7 +1232,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-04",
-      "daysUntilExpiration": 1700
+      "daysUntilExpiration": 1698
     }
   },
   {
@@ -1308,7 +1308,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073915+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501812+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "92",
@@ -1318,7 +1318,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-28",
-      "daysUntilExpiration": 1755
+      "daysUntilExpiration": 1753
     }
   },
   {
@@ -1394,7 +1394,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074026+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501888+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "93",
@@ -1404,7 +1404,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-28",
-      "daysUntilExpiration": 1755
+      "daysUntilExpiration": 1753
     }
   },
   {
@@ -1488,7 +1488,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063982+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495415+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "75",
@@ -1498,7 +1498,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-08-01",
-      "daysUntilExpiration": 1789
+      "daysUntilExpiration": 1787
     }
   },
   {
@@ -1582,7 +1582,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064209+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495559+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "74",
@@ -1592,7 +1592,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-09-30",
-      "daysUntilExpiration": 1849
+      "daysUntilExpiration": 1847
     }
   },
   {
@@ -1676,7 +1676,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065733+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496548+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "76",
@@ -1686,7 +1686,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-30",
-      "daysUntilExpiration": 845
+      "daysUntilExpiration": 843
     }
   },
   {
@@ -1770,7 +1770,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065843+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496619+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "77",
@@ -1780,7 +1780,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-11-30",
-      "daysUntilExpiration": 1180
+      "daysUntilExpiration": 1178
     }
   },
   {
@@ -1864,7 +1864,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066287+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496921+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "78",
@@ -1874,7 +1874,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-15",
-      "daysUntilExpiration": 769
+      "daysUntilExpiration": 767
     }
   },
   {
@@ -1958,7 +1958,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066416+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496994+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "80",
@@ -1968,7 +1968,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-15",
-      "daysUntilExpiration": 769
+      "daysUntilExpiration": 767
     }
   },
   {
@@ -2052,7 +2052,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066529+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497067+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "79",
@@ -2062,7 +2062,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-20",
-      "daysUntilExpiration": 774
+      "daysUntilExpiration": 772
     }
   },
   {
@@ -2146,7 +2146,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069307+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498866+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "81",
@@ -2156,7 +2156,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-24",
-      "daysUntilExpiration": 1386
+      "daysUntilExpiration": 1384
     }
   },
   {
@@ -2232,7 +2232,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070455+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499598+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "82",
@@ -2242,7 +2242,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-08",
-      "daysUntilExpiration": 488
+      "daysUntilExpiration": 486
     }
   },
   {
@@ -2318,7 +2318,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073107+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501296+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "83",
@@ -2328,7 +2328,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1692
+      "daysUntilExpiration": 1690
     }
   },
   {
@@ -2404,7 +2404,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073217+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501368+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "84",
@@ -2414,7 +2414,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1692
+      "daysUntilExpiration": 1690
     }
   },
   {
@@ -2490,7 +2490,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073347+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501440+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "85",
@@ -2500,7 +2500,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1692
+      "daysUntilExpiration": 1690
     }
   },
   {
@@ -2584,7 +2584,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064460+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495712+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "110",
@@ -2594,7 +2594,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-15",
-      "daysUntilExpiration": 1377
+      "daysUntilExpiration": 1375
     }
   },
   {
@@ -2678,7 +2678,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064573+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495785+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "109",
@@ -2688,7 +2688,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-15",
-      "daysUntilExpiration": 1377
+      "daysUntilExpiration": 1375
     }
   },
   {
@@ -2764,7 +2764,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068250+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498173+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "101",
@@ -2774,7 +2774,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-20",
-      "daysUntilExpiration": 713
+      "daysUntilExpiration": 711
     }
   },
   {
@@ -2850,7 +2850,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073575+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501585+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "102",
@@ -2860,7 +2860,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-19",
-      "daysUntilExpiration": 1715
+      "daysUntilExpiration": 1713
     }
   },
   {
@@ -2944,7 +2944,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065511+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496403+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "24",
@@ -2954,7 +2954,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 693
+      "daysUntilExpiration": 691
     }
   },
   {
@@ -3038,7 +3038,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065623+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496476+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "23",
@@ -3048,7 +3048,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 693
+      "daysUntilExpiration": 691
     }
   },
   {
@@ -3132,7 +3132,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067917+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497957+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "25",
@@ -3142,7 +3142,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-24",
-      "daysUntilExpiration": 504
+      "daysUntilExpiration": 502
     }
   },
   {
@@ -3226,7 +3226,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070214+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499453+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "26",
@@ -3236,7 +3236,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-14",
-      "daysUntilExpiration": 68
+      "daysUntilExpiration": 66
     }
   },
   {
@@ -3320,7 +3320,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072663+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501005+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "27",
@@ -3330,7 +3330,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1343
+      "daysUntilExpiration": 1341
     }
   },
   {
@@ -3414,7 +3414,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074252+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502036+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "3",
@@ -3424,7 +3424,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-03-31",
-      "daysUntilExpiration": 205
+      "daysUntilExpiration": 203
     }
   },
   {
@@ -3508,7 +3508,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074388+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502112+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "4",
@@ -3518,7 +3518,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-03-31",
-      "daysUntilExpiration": 205
+      "daysUntilExpiration": 203
     }
   },
   {
@@ -3602,7 +3602,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074502+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502185+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "5",
@@ -3612,7 +3612,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-31",
-      "daysUntilExpiration": 419
+      "daysUntilExpiration": 417
     }
   },
   {
@@ -3696,7 +3696,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074725+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502366+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "6",
@@ -3706,7 +3706,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2026-12-31",
-      "daysUntilExpiration": 115
+      "daysUntilExpiration": 113
     }
   },
   {
@@ -3790,7 +3790,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074947+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502510+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "7",
@@ -3800,7 +3800,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 815
+      "daysUntilExpiration": 813
     }
   },
   {
@@ -3864,7 +3864,7 @@
     "twd97Y": "2699471",
     "latitude": 24.400972,
     "longitude": 120.6683831,
-    "updatedAt": "2026-09-07T08:54:57.075424+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502833+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "10",
@@ -3874,7 +3874,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-04-20",
-      "daysUntilExpiration": 956
+      "daysUntilExpiration": 954
     },
     "completionDate": "",
     "constructionYear": ""
@@ -3960,7 +3960,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075541+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502911+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "9",
@@ -3970,7 +3970,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-07-10",
-      "daysUntilExpiration": 1037
+      "daysUntilExpiration": 1035
     }
   },
   {
@@ -4046,7 +4046,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075880+00:00",
+    "updatedAt": "2026-09-09T21:23:32.503134+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "8",
@@ -4056,7 +4056,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-10",
-      "daysUntilExpiration": 1433
+      "daysUntilExpiration": 1431
     }
   },
   {
@@ -4132,7 +4132,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075991+00:00",
+    "updatedAt": "2026-09-09T21:23:32.503206+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "11",
@@ -4142,7 +4142,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-10-10",
-      "daysUntilExpiration": 1494
+      "daysUntilExpiration": 1492
     }
   },
   {
@@ -4226,7 +4226,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063192+00:00",
+    "updatedAt": "2026-09-09T21:23:32.494913+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "61",
@@ -4236,7 +4236,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 815
+      "daysUntilExpiration": 813
     }
   },
   {
@@ -4320,7 +4320,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063383+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495026+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "54",
@@ -4330,7 +4330,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-15",
-      "daysUntilExpiration": 1104
+      "daysUntilExpiration": 1102
     }
   },
   {
@@ -4414,7 +4414,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063752+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495269+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "53",
@@ -4424,7 +4424,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-09-30",
-      "daysUntilExpiration": 1484
+      "daysUntilExpiration": 1482
     }
   },
   {
@@ -4508,7 +4508,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063867+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495342+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "57",
@@ -4518,7 +4518,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -4602,7 +4602,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064095+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495487+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "60",
@@ -4612,7 +4612,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-08-01",
-      "daysUntilExpiration": 1789
+      "daysUntilExpiration": 1787
     }
   },
   {
@@ -4696,7 +4696,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064343+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495634+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "56",
@@ -4706,7 +4706,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-12-31",
-      "daysUntilExpiration": 480
+      "daysUntilExpiration": 478
     }
   },
   {
@@ -4790,7 +4790,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065954+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496691+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "55",
@@ -4800,7 +4800,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -4884,7 +4884,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066065+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496762+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "59",
@@ -4894,7 +4894,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-30",
-      "daysUntilExpiration": 84
+      "daysUntilExpiration": 82
     }
   },
   {
@@ -4978,7 +4978,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066176+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496846+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "58",
@@ -4988,7 +4988,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 693
+      "daysUntilExpiration": 691
     }
   },
   {
@@ -5072,7 +5072,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067202+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497501+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "62",
@@ -5082,7 +5082,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5158,7 +5158,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068140+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498101+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "63",
@@ -5168,7 +5168,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-09",
-      "daysUntilExpiration": 702
+      "daysUntilExpiration": 700
     }
   },
   {
@@ -5247,7 +5247,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068619+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498387+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "66",
@@ -5257,7 +5257,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5333,7 +5333,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068954+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498603+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "64",
@@ -5343,7 +5343,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5414,7 +5414,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069539+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499018+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "65",
@@ -5424,7 +5424,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5503,7 +5503,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069767+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499163+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "67",
@@ -5513,7 +5513,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5584,7 +5584,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069878+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499236+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "68",
@@ -5594,7 +5594,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 846
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -5665,7 +5665,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070684+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499745+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "69",
@@ -5675,7 +5675,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-04-30",
-      "daysUntilExpiration": 601
+      "daysUntilExpiration": 599
     }
   },
   {
@@ -5737,7 +5737,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071016+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499975+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "70",
@@ -5747,7 +5747,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-17",
-      "daysUntilExpiration": 863
+      "daysUntilExpiration": 861
     }
   },
   {
@@ -5818,7 +5818,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071503+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500265+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "72",
@@ -5828,7 +5828,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-18",
-      "daysUntilExpiration": 1107
+      "daysUntilExpiration": 1105
     }
   },
   {
@@ -5899,7 +5899,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071617+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500336+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "71",
@@ -5909,7 +5909,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-18",
-      "daysUntilExpiration": 1107
+      "daysUntilExpiration": 1105
     }
   },
   {
@@ -5980,7 +5980,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072774+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501077+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "73",
@@ -5990,7 +5990,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-01",
-      "daysUntilExpiration": 1393
+      "daysUntilExpiration": 1391
     }
   },
   {
@@ -6066,7 +6066,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065036+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496109+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "37",
@@ -6076,7 +6076,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-02-29",
-      "daysUntilExpiration": 540
+      "daysUntilExpiration": 538
     }
   },
   {
@@ -6138,7 +6138,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066643+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497139+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "49",
@@ -6148,7 +6148,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-06",
-      "daysUntilExpiration": 911
+      "daysUntilExpiration": 909
     }
   },
   {
@@ -6232,7 +6232,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066754+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497211+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "42",
@@ -6242,7 +6242,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-30",
-      "daysUntilExpiration": 935
+      "daysUntilExpiration": 933
     }
   },
   {
@@ -6326,7 +6326,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066979+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497356+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "40",
@@ -6336,7 +6336,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-01",
-      "daysUntilExpiration": 1393
+      "daysUntilExpiration": 1391
     }
   },
   {
@@ -6420,7 +6420,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067090+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497429+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "46",
@@ -6430,7 +6430,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-09",
-      "daysUntilExpiration": 1705
+      "daysUntilExpiration": 1703
     }
   },
   {
@@ -6514,7 +6514,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067466+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497651+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "44",
@@ -6524,7 +6524,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-01-09",
-      "daysUntilExpiration": 124
+      "daysUntilExpiration": 122
     }
   },
   {
@@ -6608,7 +6608,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067692+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497807+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "39",
@@ -6618,7 +6618,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-22",
-      "daysUntilExpiration": 410
+      "daysUntilExpiration": 408
     }
   },
   {
@@ -6680,7 +6680,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.067804+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497884+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "50",
@@ -6690,7 +6690,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-12-10",
-      "daysUntilExpiration": 459
+      "daysUntilExpiration": 457
     }
   },
   {
@@ -6761,7 +6761,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068395+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498244+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "48",
@@ -6771,7 +6771,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-24",
-      "daysUntilExpiration": 748
+      "daysUntilExpiration": 746
     }
   },
   {
@@ -6847,7 +6847,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068508+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498315+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "38",
@@ -6857,7 +6857,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-20",
-      "daysUntilExpiration": 744
+      "daysUntilExpiration": 742
     }
   },
   {
@@ -6941,7 +6941,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068733+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498459+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "45",
@@ -6951,7 +6951,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-05-22",
-      "daysUntilExpiration": 988
+      "daysUntilExpiration": 986
     }
   },
   {
@@ -7035,7 +7035,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069065+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498675+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "36",
@@ -7045,7 +7045,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-02-28",
-      "daysUntilExpiration": 1270
+      "daysUntilExpiration": 1268
     }
   },
   {
@@ -7124,7 +7124,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069180+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498750+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "52",
@@ -7134,7 +7134,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-03-03",
-      "daysUntilExpiration": 1273
+      "daysUntilExpiration": 1271
     }
   },
   {
@@ -7218,7 +7218,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069423+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498942+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "47",
@@ -7228,7 +7228,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-09-24",
-      "daysUntilExpiration": 1478
+      "daysUntilExpiration": 1476
     }
   },
   {
@@ -7312,7 +7312,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069653+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499091+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "43",
@@ -7322,7 +7322,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-10-22",
-      "daysUntilExpiration": 1506
+      "daysUntilExpiration": 1504
     }
   },
   {
@@ -7401,7 +7401,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.069989+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499308+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "51",
@@ -7411,7 +7411,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-08-24",
-      "daysUntilExpiration": 1812
+      "daysUntilExpiration": 1810
     }
   },
   {
@@ -7495,7 +7495,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070104+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499381+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "41",
@@ -7505,7 +7505,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-09-19",
-      "daysUntilExpiration": 1838
+      "daysUntilExpiration": 1836
     }
   },
   {
@@ -7581,7 +7581,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071734+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500409+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "107",
@@ -7591,7 +7591,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-10-13",
-      "daysUntilExpiration": 1132
+      "daysUntilExpiration": 1130
     }
   },
   {
@@ -7667,7 +7667,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072884+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501149+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "108",
@@ -7677,7 +7677,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-06",
-      "daysUntilExpiration": 1398
+      "daysUntilExpiration": 1396
     }
   },
   {
@@ -7761,7 +7761,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064689+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495883+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "19",
@@ -7771,7 +7771,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-31",
-      "daysUntilExpiration": 511
+      "daysUntilExpiration": 509
     }
   },
   {
@@ -7855,7 +7855,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.064807+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495960+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "18",
@@ -7865,7 +7865,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-31",
-      "daysUntilExpiration": 511
+      "daysUntilExpiration": 509
     }
   },
   {
@@ -7949,7 +7949,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.066868+00:00",
+    "updatedAt": "2026-09-09T21:23:32.497285+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "20",
@@ -7959,7 +7959,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-23",
-      "daysUntilExpiration": 1385
+      "daysUntilExpiration": 1383
     }
   },
   {
@@ -8035,7 +8035,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071849+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500483+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "21",
@@ -8045,7 +8045,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-07",
-      "daysUntilExpiration": 1218
+      "daysUntilExpiration": 1216
     }
   },
   {
@@ -8121,7 +8121,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071960+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500555+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "22",
@@ -8131,7 +8131,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-19",
-      "daysUntilExpiration": 1230
+      "daysUntilExpiration": 1228
     }
   },
   {
@@ -8207,7 +8207,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070566+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499670+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "111",
@@ -8217,7 +8217,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-04-24",
-      "daysUntilExpiration": 595
+      "daysUntilExpiration": 593
     }
   },
   {
@@ -8293,7 +8293,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.071237+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500120+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "112",
@@ -8303,7 +8303,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-03",
-      "daysUntilExpiration": 908
+      "daysUntilExpiration": 906
     }
   },
   {
@@ -8387,7 +8387,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.063510+00:00",
+    "updatedAt": "2026-09-09T21:23:32.495112+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "28",
@@ -8397,7 +8397,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-10-30",
-      "daysUntilExpiration": 1149
+      "daysUntilExpiration": 1147
     }
   },
   {
@@ -8481,7 +8481,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065149+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496182+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "29",
@@ -8491,7 +8491,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-12-15",
-      "daysUntilExpiration": 1195
+      "daysUntilExpiration": 1193
     }
   },
   {
@@ -8567,7 +8567,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.065260+00:00",
+    "updatedAt": "2026-09-09T21:23:32.496256+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "30",
@@ -8577,7 +8577,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-08-31",
-      "daysUntilExpiration": -7
+      "daysUntilExpiration": -9
     }
   },
   {
@@ -8661,7 +8661,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068030+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498029+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "31",
@@ -8671,7 +8671,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-06-21",
-      "daysUntilExpiration": 653
+      "daysUntilExpiration": 651
     }
   },
   {
@@ -8747,7 +8747,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.068844+00:00",
+    "updatedAt": "2026-09-09T21:23:32.498531+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "32",
@@ -8757,7 +8757,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-07-20",
-      "daysUntilExpiration": 1047
+      "daysUntilExpiration": 1045
     }
   },
   {
@@ -8833,7 +8833,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070342+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499525+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "33",
@@ -8843,7 +8843,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-30",
-      "daysUntilExpiration": 84
+      "daysUntilExpiration": 82
     }
   },
   {
@@ -8919,7 +8919,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072432+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500857+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "34",
@@ -8929,7 +8929,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1343
+      "daysUntilExpiration": 1341
     }
   },
   {
@@ -9005,7 +9005,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.072552+00:00",
+    "updatedAt": "2026-09-09T21:23:32.500932+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "35",
@@ -9015,7 +9015,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1343
+      "daysUntilExpiration": 1341
     }
   },
   {
@@ -9099,7 +9099,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074614+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502282+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "12",
@@ -9109,7 +9109,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2026-12-31",
-      "daysUntilExpiration": 115
+      "daysUntilExpiration": 113
     }
   },
   {
@@ -9185,7 +9185,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074837+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502438+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "14",
@@ -9195,7 +9195,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 815
+      "daysUntilExpiration": 813
     }
   },
   {
@@ -9271,7 +9271,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075057+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502582+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "16",
@@ -9281,7 +9281,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-31",
-      "daysUntilExpiration": 877
+      "daysUntilExpiration": 875
     }
   },
   {
@@ -9365,7 +9365,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075168+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502654+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "13",
@@ -9375,7 +9375,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-31",
-      "daysUntilExpiration": 877
+      "daysUntilExpiration": 875
     }
   },
   {
@@ -9451,7 +9451,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075653+00:00",
+    "updatedAt": "2026-09-09T21:23:32.502984+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "15",
@@ -9461,7 +9461,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-03-31",
-      "daysUntilExpiration": 1301
+      "daysUntilExpiration": 1299
     }
   },
   {
@@ -9537,7 +9537,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.075764+00:00",
+    "updatedAt": "2026-09-09T21:23:32.503058+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "17",
@@ -9547,7 +9547,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-31",
-      "daysUntilExpiration": 1454
+      "daysUntilExpiration": 1452
     }
   },
   {
@@ -9623,7 +9623,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.070906+00:00",
+    "updatedAt": "2026-09-09T21:23:32.499903+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "103",
@@ -9633,7 +9633,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-19",
-      "daysUntilExpiration": 773
+      "daysUntilExpiration": 771
     }
   },
   {
@@ -9709,7 +9709,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073689+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501659+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "104",
@@ -9719,7 +9719,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-04",
-      "daysUntilExpiration": 1731
+      "daysUntilExpiration": 1729
     }
   },
   {
@@ -9795,7 +9795,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.073804+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501732+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "105",
@@ -9805,7 +9805,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-04",
-      "daysUntilExpiration": 1731
+      "daysUntilExpiration": 1729
     }
   },
   {
@@ -9881,7 +9881,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-07T08:54:57.074139+00:00",
+    "updatedAt": "2026-09-09T21:23:32.501962+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "106",
@@ -9891,7 +9891,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-07-14",
-      "daysUntilExpiration": 1771
+      "daysUntilExpiration": 1769
     }
   }
 ]
