@@ -1,6 +1,6 @@
 # Groundwater Public Sync Summary
 
-- Generated at: 2026-09-16T21:17:56.234097+00:00
+- Generated at: 2026-09-17T21:17:46.030130+00:00
 - Added wells: 0
 - Changed wells: 2
 - Existing wells missing from index: 0
