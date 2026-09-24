@@ -1,0 +1,22 @@
+{
+  "records": 829,
+  "monthlyRecords": 9948,
+  "warnings": 5,
+  "parsed": true,
+  "changedMonths": 8,
+  "yearMinguo": 115,
+  "reportedWellsByMonth": {
+    "1": 111,
+    "2": 111,
+    "3": 111,
+    "4": 111,
+    "5": 111,
+    "6": 111,
+    "7": 110,
+    "8": 110,
+    "9": 9,
+    "10": 1,
+    "11": 1,
+    "12": 1
+  }
+}

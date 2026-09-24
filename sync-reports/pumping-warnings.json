@@ -1,0 +1,26 @@
+[
+  {
+    "waterRightNo": "B0108729",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B0110761",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B0115526",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B1150091",
+    "reason": "not_in_current_well_registry"
+  }
+]

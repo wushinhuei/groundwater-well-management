@@ -1,16 +1,11 @@
 # Groundwater Public Sync Summary
 
-- Generated at: 2026-09-23T21:17:47.330068+00:00
+- Generated at: 2026-09-24T05:12:48.132803+00:00
 - Added wells: 0
-- Changed wells: 2
+- Changed wells: 0
 - Existing wells missing from index: 0
-- Expired water rights: 2
-- Expiring soon water rights: 3
+- Expired water rights: 0
+- Expiring soon water rights: 0
 - Photo refresh needed: 0
-- Pumping yearly records: 824
-- Pumping monthly records: 9888
-
-## Expired Water Rights
-
-- B0950059
-- B1050080
+- Pumping yearly records: 828
+- Pumping monthly records: 9936
