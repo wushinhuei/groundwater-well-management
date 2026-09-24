@@ -1,98 +1,34 @@
-# Groundwater Weekly Sync Automation
+# 地下水井資料更新規則
 
-這個設計讓使用者只需要把原始 Excel、水權狀 PDF、抽水紀錄來源檔放到 Google Drive。Apps Script 每週觸發 GitHub Actions，GitHub Actions 再依照 `groundwater-well-sync` 與 `groundwater-pumping-sync` 的規則更新公開頁面的 `data/wells.json` 與 `data/pumping-history.json`。
+所有時間以 Asia/Taipei 計算。Apps Script 時間觸發器約有正負 15 分鐘誤差。
 
-## 架構
+| 工作 | 日期 | 約定時間 | 範圍 |
+|---|---|---|---|
+| 井籍 | 每月 1、3、5…29 日 | 05:17 | 111 口井依井號排序，輪流更新一批，每批約 7–8 口 |
+| 抽水量 | 每月 6、16、26 日 | 13:43 | 檢查來源版本，有變更才匯入 |
 
-1. Google Drive 保存原始資料與索引資料。
-2. Apps Script 每週一早上 6 點觸發 GitHub repository dispatch。
-3. GitHub Actions 下載 Drive 來源、比對 Drive 索引、只處理有變動的 Excel / 水權狀 / 抽水紀錄。
-4. GitHub Actions 產生公開頁 JSON、同步報告與 `groundwater-drive-indexes` artifact。
-5. Apps Script 下載 `groundwater-drive-indexes` artifact，使用 `shinhuei0928307617@gmail.com` 的 Drive 權限寫回 `00_系統索引資料`。
-6. 有變更時才 commit 到 GitHub Pages repository。
+井籍觸發器每日醒來，但偶數日及 31 日立即返回，不發出網路請求。2 月按當月實際可用的 14 或 15 個日期分批，避免漏井。安裝函式是 `installStaggeredTriggers()`；舊安裝函式亦會轉到此函式，避免重新啟用舊週排程。
 
-## Apps Script 設定
+同一天同類工作只派送一次；Apps Script 使用執行鎖，偵測已排隊／執行中的同步便跳過。GitHub Actions 共用單一 concurrency group，不取消進行中的工作。Drive 請求依序處理，每次至少間隔 0.5 秒，暫時性失敗最多重試 3 次。索引回寫每 10 分鐘檢查，最多 6 次。這些措施降低請求量，不能保證第三方網站永遠不會限流。
 
-把 `apps-script/Code.gs` 貼到 Apps Script 專案，並在「專案設定 > 指令碼屬性」設定：
+## 抽水來源與匯入
 
-| 名稱 | 必填 | 說明 |
-| --- | --- | --- |
-| `GITHUB_TOKEN` | 是 | GitHub token，需要可呼叫 repository dispatch。 |
-| `GITHUB_OWNER` | 是 | repository owner，例如 `wushinhuei`。 |
-| `GITHUB_REPO` | 是 | repository 名稱，例如 `groundwater-well-management`。 |
-| `GITHUB_EVENT_TYPE` | 否 | 預設 `groundwater-sync`。 |
-| `GROUNDWATER_ROOT_FOLDER_ID` | 否 | `shinhuei0928307617@gmail.com` 的 `農業用水資料統計` 根目錄。 |
-| `DRIVE_INDEX_FOLDER_ID` | 否 | `00_系統索引資料` 資料夾 ID。留空時 Apps Script 會從根目錄尋找，找不到就用你的帳號建立。 |
-| `REGISTRY_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `抽水井一覽表`。 |
-| `WELL_INDEX_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `00_系統索引資料`。 |
-| `PUMPING_INDEX_FOLDER_ID` | 否 | 可留空；目前共用 `00_系統索引資料`。 |
-| `WATER_RIGHT_FOLDER_ID` | 否 | 可留空；程式會從根目錄尋找 `地下水水權狀`。 |
+目前來源：[115 年地下水水權用水紀錄表](https://docs.google.com/spreadsheets/d/1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q/edit)。GitHub variable `PUMPING_SOURCE_FILE_ID` 指向此檔案。Google 試算表透過 Drive API 匯出 Excel；亦支援指定 `.xlsx` 或 `.xlsm`。更換年度來源時更新此 variable，舊年度仍保留。
 
-第一次設定後，手動執行一次 `installWeeklyTrigger()`，授權完成後會建立每週一 06:00 的排程。若要立即測試，執行 `testTriggerGroundwaterSync()`；GitHub Actions 完成後，Apps Script 會自動延後檢查並寫回索引。若只想把最近一次成功 workflow 的索引補寫回 Drive，執行 `testSyncDriveIndexesFromLatestGitHubRun()`。
+1. 先讀取索引和公開歷史資料，再比較來源 ID、修改時間、大小與 MD5（若來源提供）。未改變就不下載 Excel。
+2. 解析「月實取水量表」，以水權狀號、民國年度、月份合併。公式須有快取結果；能確認為空白的跨表／IF 公式保留空白。
+3. 區分未填報 `null` 與明確填報 `0`。空白不清除既有數值；有效的來源修正值會留下變更紀錄。負值、格式錯誤、衝突重複鍵、年度不明、合計差距超過 0.01 m³ 都中止匯入。
+4. 未列在現行井籍的井號保留在索引並警示，不猜測對應關係、不加入公開井籍。重新計算公開筆數、空缺井號與既有異常規則。
+5. 產出 `pumping-index.json`、`pumping-month-index.json`、`pumping-sync-index.json`、`pumping-warnings.json`、`pumping-changes.json` 和摘要。Apps Script 回寫 Drive，GitHub 保存來源版本供下次比對。
+6. 抽水工作不改井籍檔案；井籍工作不改抽水檔案。失敗不發布部分結果。
 
-## GitHub 設定
+首次修正於 2026-09-24 驗證：原始表 111 筆，與現行井籍相符 110 口；8 月已有值 109 口。`B1050080` 的 8 月仍空白，`K0124336` 未列在來源中，`B1150091` 不在現行井籍，未配對。公開歷史保留民國 100–114 年全部月數值，加入本年填報後共 828 筆年度紀錄。
 
-把 `github-actions/groundwater-sync.yml` 放到 repository 的 `.github/workflows/groundwater-sync.yml`。
+## 驗證
 
-需要設定 GitHub secret：
+```sh
+python -m unittest discover -s scripts -p 'test_*.py'
+node --test
+```
 
-| 名稱 | 說明 |
-| --- | --- |
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | Google service account JSON。該 service account 必須被分享進地下水井 Drive 根目錄與索引資料夾。 |
-
-GitHub Actions 仍會嘗試直接更新 Drive 索引；若因 service account 沒有個人 Drive 儲存空間而失敗，流程會繼續。穩定寫回 Drive 的責任由 Apps Script 接手，因為 Apps Script 是用 `shinhuei0928307617@gmail.com` 的 Google 帳號權限建立與更新檔案。
-
-建議設定 repository variables，作為 Apps Script payload 缺漏時的備援：
-
-| 名稱 | 目前建議值 |
-| --- | --- |
-| `GROUNDWATER_ROOT_FOLDER_ID` | `1TLw8JdrVw_OagddkzZz96effiJ51q3F5` |
-| `REGISTRY_FOLDER_ID` | 留空 |
-| `WELL_INDEX_FOLDER_ID` | 留空 |
-| `PUMPING_INDEX_FOLDER_ID` | 留空 |
-| `WATER_RIGHT_FOLDER_ID` | 留空 |
-
-## Repository 內需要的同步程式
-
-workflow 會呼叫兩段程式：
-
-1. `scripts/groundwater_drive_sync.py`
-   - 從 Drive 找最新一覽表 Excel。
-   - 依登錄日期優先、Drive modifiedTime 備援，判斷是否需要重讀 Excel。
-   - 若 Excel 未變，不重新解析全部內容。
-   - 若 Excel 變了，只解析一次，拆成每口井索引。
-   - 從 Excel 抽出內嵌照片 hash，用每口井 `photoHash` 判斷照片是否變更。
-   - 掃描 Drive 水權狀資料夾 metadata，只下載新增或已修改的檔案。
-   - 更新 Drive 的 `well-index.json`、`station-index.json`、`warnings.csv`、抽水紀錄索引與 `sync-index.json`。
-   - 本工作區已建立雲端執行版範本：[scripts/groundwater_drive_sync.py](../scripts/groundwater_drive_sync.py)。
-
-2. `work/sync_public_data.py`
-   - 讀取最新 Drive 索引與目前公開頁資料。
-   - 合併成公開頁 `data/wells.json` 與 `data/pumping-history.json`。
-   - 檢查過期與即將過期水權狀。
-   - 產出同步摘要。
-
-目前本工作區已有 `scripts/groundwater_drive_sync.py` 與 `work/sync_public_data.py`。搬到實際 GitHub Pages repository 時，建議把兩支都放進 repository，或把 `work/sync_public_data.py` 移到 `scripts/sync_public_data.py`。
-
-## 每週更新策略
-
-- 固定每週一 06:00 由 Apps Script 觸發。
-- 若一覽表 Excel 的登錄日期與 Drive metadata 都未改變，跳過 Excel 全檔解析。
-- 若只有一口井照片變更，仍需讀取該 Excel 一次來取得內嵌圖片，但公開頁只更新該井相關資料與 hash。
-- 若水權狀 PDF 在 Drive 有更新，只處理該檔案匹配到的井。
-- 若抽水紀錄來源檔未變，跳過抽水紀錄重建。
-- 若水權期限已過期，摘要中提醒更換掃描最新水權狀；無法判斷期限或匹配關係時才需要人工確認。
-
-## Apps Script 寫回 Drive 的索引檔
-
-`syncDriveIndexesFromLatestGitHubRun()` 會從 GitHub Actions 的 `groundwater-drive-indexes` artifact 寫回以下檔案：
-
-- `well-index.json`
-- `station-index.json`
-- `warnings.csv`
-- `water-right-attachment-index.json`
-- `pumping-index.json`
-- `pumping-month-index.json`
-- `pumping-warnings.json`
-- `sync-index.json`
-- `sync-summary.md`
+手動同步在 GitHub Actions 的 `Groundwater public data sync` 選擇 `pumping` 或 `wells`，一次只啟動一項。執行結果與異常見 `groundwater-sync-report` artifact，公開更新摘要見 `sync-reports`。

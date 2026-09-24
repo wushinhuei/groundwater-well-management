@@ -5,7 +5,6 @@ from calendar import monthrange
 from pathlib import Path
 from urllib.parse import unquote
 
-import pdfplumber
 
 
 AUTHORITY_BY_PREFIX = {
@@ -62,6 +61,7 @@ def detect_anomalies(record, well):
 
 
 def main():
+    import pdfplumber
     if len(sys.argv) != 4:
         raise SystemExit(
             "Usage: extract_pumping_history.py SOURCE.pdf docs/data/wells.json OUTPUT.json"

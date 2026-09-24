@@ -33,18 +33,18 @@ test("public registry matches all 111 pumping records", async () => {
   assert.equal(wellNumbers.includes("B1150091"), false);
 });
 
-test("official pumping history covers 106 current wells and leaves five wells empty", async () => {
+test("pumping history retains historical years and supplements current wells from Excel", async () => {
   const wells = await readJson("../docs/data/wells.json");
   const history = await readJson("../docs/data/pumping-history.json");
   const historyNumbers = new Set(history.records.map((record) => record.waterRightNo));
-  const expectedEmpty = ["B1150050", "B1150051", "B1150052", "B1150103", "K0124336"];
+  const expectedEmpty = ["K0124336"];
 
   assert.equal(wells.length, 111);
-  assert.equal(history.waterRightCount, 106);
-  assert.equal(history.recordCount, 824);
-  assert.equal(history.monthlyRecordCount, 9888);
-  assert.deepEqual(history.authorityCounts, { 臺中市政府: 91, 苗栗縣政府: 15 });
-  assert.equal(history.records.filter((record) => record.authority === "臺中市政府").length, 708);
+  assert.equal(history.waterRightCount, 110);
+  assert.equal(history.recordCount, 828);
+  assert.equal(history.monthlyRecordCount, 9936);
+  assert.deepEqual(history.authorityCounts, { 臺中市政府: 95, 苗栗縣政府: 15 });
+  assert.equal(history.records.filter((record) => record.authority === "臺中市政府").length, 712);
   assert.equal(history.records.filter((record) => record.authority === "苗栗縣政府").length, 116);
   assert.equal(new Set(history.records.filter((record) => record.waterRightNo.startsWith("K")).map((record) => record.waterRightNo)).size, 15);
   assert.deepEqual(history.emptyWaterRightNos, expectedEmpty);
@@ -57,9 +57,11 @@ test("official pumping history covers 106 current wells and leaves five wells em
     [{ month: 11, reasons: ["單月值明顯高於同年度其他月份"] }]
   );
   assert.deepEqual(
-    history.records.find((record) => record.waterRightNo === "B1150050"),
-    undefined
+    history.records.find((record) => record.waterRightNo === "B1150050" && record.yearMinguo === 115).monthlyM3,
+    [0,0,0,0,0,0,0,0,null,null,null,null]
   );
+  assert.equal(history.records.some((r) => r.waterRightNo === 'B1150091'), false);
+  assert.equal(history.records.filter((r) => r.yearMinguo === 115 && r.monthlyM3[7] != null).length, 109);
 });
 
 test("history table shows the monthly water-right volume", async () => {

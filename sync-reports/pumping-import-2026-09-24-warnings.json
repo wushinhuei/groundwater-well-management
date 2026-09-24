@@ -1,0 +1,290 @@
+[
+  {
+    "waterRightNo": "B0108729",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B0110761",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B0115526",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 10368,
+    "after": 9792.0
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 6480,
+    "after": 6120.0
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 4,
+    "reason": "historical_value_changed",
+    "before": 3888,
+    "after": 3672.0
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 5,
+    "reason": "historical_value_changed",
+    "before": 11664,
+    "after": 11016.0
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 6,
+    "reason": "historical_value_changed",
+    "before": 7776,
+    "after": 7344.0
+  },
+  {
+    "waterRightNo": "B1040345",
+    "yearMinguo": 115,
+    "month": 1,
+    "reason": "historical_value_changed",
+    "before": 3564,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1040345",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 3326.4,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070161",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 28825,
+    "after": 28824.9984
+  },
+  {
+    "waterRightNo": "B1070161",
+    "yearMinguo": 115,
+    "month": 4,
+    "reason": "historical_value_changed",
+    "before": 29793.89,
+    "after": 29793.8916
+  },
+  {
+    "waterRightNo": "B1070161",
+    "yearMinguo": 115,
+    "month": 5,
+    "reason": "historical_value_changed",
+    "before": 26362.75,
+    "after": 26362.7496
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 1,
+    "reason": "historical_value_changed",
+    "before": 990,
+    "after": 3715.2
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 2229,
+    "after": 3467.52
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 2972,
+    "after": 4334.4
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 4,
+    "reason": "historical_value_changed",
+    "before": 3715,
+    "after": 4953.6
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 5,
+    "reason": "historical_value_changed",
+    "before": 743,
+    "after": 4953.6
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 6,
+    "reason": "historical_value_changed",
+    "before": 990,
+    "after": 1609.92
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 7,
+    "reason": "historical_value_changed",
+    "before": 1238,
+    "after": 61.92
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "month": 8,
+    "reason": "historical_value_changed",
+    "before": 1486,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100675",
+    "yearMinguo": 115,
+    "reason": "retained_previous_nonblank_months"
+  },
+  {
+    "waterRightNo": "B1120069",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 14688,
+    "after": 15177.6
+  },
+  {
+    "waterRightNo": "B1120069",
+    "yearMinguo": 115,
+    "month": 7,
+    "reason": "historical_value_changed",
+    "before": 0,
+    "after": 4834.8
+  },
+  {
+    "waterRightNo": "B1120200",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 6.26,
+    "after": 6.264
+  },
+  {
+    "waterRightNo": "B1130052",
+    "yearMinguo": 115,
+    "month": 7,
+    "reason": "historical_value_changed",
+    "before": 48.2,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130072",
+    "yearMinguo": 115,
+    "month": 5,
+    "reason": "historical_value_changed",
+    "before": 9374,
+    "after": 9374.4
+  },
+  {
+    "waterRightNo": "B1140037",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 31.75,
+    "after": 31.752
+  },
+  {
+    "waterRightNo": "K0123725",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 21888,
+    "after": 19836.0
+  },
+  {
+    "waterRightNo": "K0123768",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 15552,
+    "after": 13608.0
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 1,
+    "reason": "historical_value_changed",
+    "before": 26.34,
+    "after": 26.34372
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 2,
+    "reason": "historical_value_changed",
+    "before": 801.26,
+    "after": 801.2628
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 3,
+    "reason": "historical_value_changed",
+    "before": 2255.95,
+    "after": 2255.9472
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 4,
+    "reason": "historical_value_changed",
+    "before": 10.14,
+    "after": 10.13999594
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 6,
+    "reason": "historical_value_changed",
+    "before": 1679.18,
+    "after": 1679.184
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 7,
+    "reason": "historical_value_changed",
+    "before": 906.52,
+    "after": 906.5153916
+  },
+  {
+    "waterRightNo": "K0124362",
+    "yearMinguo": 115,
+    "month": 4,
+    "reason": "historical_value_changed",
+    "before": 20160,
+    "after": 2016.0
+  },
+  {
+    "waterRightNo": "B1150091",
+    "reason": "not_in_current_well_registry"
+  }
+]

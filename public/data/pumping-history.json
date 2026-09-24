@@ -3,28 +3,24 @@
   "title": "本處抽水井歷年每月抽水量",
   "source": "https://wr.wra.gov.tw/WRTInfoFrontEnd/WaterRecord/WaterSearch",
   "sourcePdf": "林雅婷-用水紀錄表填報090604.pdf",
-  "waterRightCount": 106,
+  "waterRightCount": 110,
   "wellCount": 111,
-  "recordCount": 824,
-  "monthlyRecordCount": 9888,
+  "recordCount": 828,
+  "monthlyRecordCount": 9936,
   "yearFrom": 100,
   "yearTo": 115,
   "authorityCounts": {
-    "臺中市政府": 91,
+    "臺中市政府": 95,
     "苗栗縣政府": 15
   },
   "emptyWaterRightNos": [
-    "B1150050",
-    "B1150051",
-    "B1150052",
-    "B1150103",
     "K0124336"
   ],
   "anomalyRecordCount": 9,
   "records": [
     {
       "waterRightNo": "B0108729",
-      "wellName": "日南站七號抽水井",
+      "wellName": "日南站七號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
@@ -32,18 +28,20 @@
         0,
         94003.2,
         9446.4,
-        0,
-        107136,
+        0.0,
+        107136.0,
         23731.2,
-        38016,
-        null,
+        38016.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 272332.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0108729",
@@ -346,26 +344,28 @@
     },
     {
       "waterRightNo": "B0110761",
-      "wellName": "日南站二號抽水井",
+      "wellName": "日南站二號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
         0,
-        83520,
-        93744,
-        90720,
-        133920,
+        83520.0,
+        93744.0,
+        90720.0,
+        133920.0,
         0,
-        67392,
-        null,
+        67392.0,
+        90144.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 469296,
-      "anomalies": []
+      "sourceTotalM3": 559440.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0110761",
@@ -653,18 +653,20 @@
         496.8,
         993.6,
         248.4,
-        0,
-        0,
+        0.0,
+        0.0,
         331.2,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 2070,
-      "anomalies": []
+      "sourceTotalM3": 2070.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0112603",
@@ -956,14 +958,16 @@
         84.6,
         84.6,
         84.6,
-        null,
+        84.6,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 592.2,
-      "anomalies": []
+      "sourceTotalM3": 676.8,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0113848",
@@ -1243,26 +1247,28 @@
     },
     {
       "waterRightNo": "B0115482",
-      "wellName": "日南站一號抽水井",
+      "wellName": "日南站一號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        96768,
-        107136,
-        103680,
-        0,
+        0.0,
+        96768.0,
+        107136.0,
+        103680.0,
+        0.0,
         23731.2,
         53913.6,
-        null,
+        72115.2,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 385228.8,
-      "anomalies": []
+      "sourceTotalM3": 457344.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0115482",
@@ -1519,26 +1525,28 @@
     },
     {
       "waterRightNo": "B0115526",
-      "wellName": "日南站四號抽水井",
+      "wellName": "日南站四號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
         0,
-        128520,
-        113832,
-        110160,
-        227664,
+        128520.0,
+        113832.0,
+        110160.0,
+        227664.0,
         0,
-        71604,
-        null,
+        71604.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 651780,
-      "anomalies": []
+      "sourceTotalM3": 651780.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0115526",
@@ -1745,7 +1753,14 @@
         0
       ],
       "sourceTotalM3": 2016480,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 5,
+          "reasons": [
+            "超過依目前登記流量換算的理論月上限"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B0115526",
@@ -1892,21 +1907,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        25920,
-        32400,
-        9072,
-        17496,
-        9720,
-        0,
-        null,
+        0.0,
+        25920.0,
+        32400.0,
+        9072.0,
+        17496.0,
+        9720.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 94608,
-      "anomalies": []
+      "sourceTotalM3": 94608.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0117178",
@@ -2094,26 +2111,28 @@
     },
     {
       "waterRightNo": "B0117179",
-      "wellName": "日南站六號抽水井(淺水井)",
+      "wellName": "日南站六號抽水井(淺水井)-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        129600,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        129600.0,
+        0.0,
+        0.0,
+        16128.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 129600,
-      "anomalies": []
+      "sourceTotalM3": 145728.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0117179",
@@ -2467,21 +2486,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        10368,
-        6480,
-        3888,
-        11664,
-        7776,
-        0,
-        null,
+        0.0,
+        9792.0,
+        6120.0,
+        3672.0,
+        11016.0,
+        7344.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 40176,
-      "anomalies": []
+      "sourceTotalM3": 37944.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0118814",
@@ -2692,26 +2713,28 @@
     },
     {
       "waterRightNo": "B0120538",
-      "wellName": "日南站三號抽水井(淺水井)",
+      "wellName": "日南站三號抽水井(淺水井)-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        83664,
-        92628,
-        89640,
-        125496,
-        0,
+        0.0,
+        83664.0,
+        92628.0,
+        89640.0,
+        125496.0,
+        0.0,
         69919.2,
-        null,
+        92628.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 461347.2,
-      "anomalies": []
+      "sourceTotalM3": 553975.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0120538",
@@ -2927,21 +2950,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        71136,
-        65664,
-        73872,
-        71136,
-        72504,
-        68400,
-        65664,
-        null,
+        71136.0,
+        65664.0,
+        73872.0,
+        71136.0,
+        72504.0,
+        68400.0,
+        65664.0,
+        61560.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 488376,
-      "anomalies": []
+      "sourceTotalM3": 549936.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130087",
@@ -3203,21 +3228,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        35568,
-        27360,
-        38304,
-        34200,
-        32832,
-        30096,
-        35568,
-        null,
+        35568.0,
+        27360.0,
+        38304.0,
+        34200.0,
+        32832.0,
+        30096.0,
+        35568.0,
+        28728.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 233928,
-      "anomalies": []
+      "sourceTotalM3": 262656.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130088",
@@ -3481,19 +3508,21 @@
       "monthlyM3": [
         7934.4,
         63475.2,
-        140904,
+        140904.0,
         47332.8,
         91929.6,
         13132.8,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 364708.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130267",
@@ -3804,18 +3833,20 @@
         1915.2,
         20793.6,
         203558.4,
-        72504,
+        72504.0,
         113270.4,
         3830.4,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 415872,
-      "anomalies": []
+      "sourceTotalM3": 415872.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130278",
@@ -4123,21 +4154,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130292",
@@ -4422,21 +4455,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0130304",
@@ -4744,21 +4779,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        288,
+        288.0,
         2073.6,
-        1728,
+        1728.0,
         633.6,
-        0,
-        0,
+        0.0,
+        0.0,
         259.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 4982.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0930053",
@@ -5043,21 +5080,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0950059",
@@ -5273,21 +5312,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         50.4,
-        22176,
-        20160,
-        19152,
-        0,
-        4032,
-        null,
-        null,
+        22176.0,
+        20160.0,
+        19152.0,
+        0.0,
+        4032.0,
+        0.0,
+        0.0,
         null,
         null,
         null
       ],
       "sourceTotalM3": 65570.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0960027",
@@ -5365,21 +5406,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        10143,
-        4032,
-        3024,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        10143.0,
+        4032.0,
+        3024.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 17199,
-      "anomalies": []
+      "sourceTotalM3": 17199.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0970027",
@@ -5471,7 +5514,14 @@
         0
       ],
       "sourceTotalM3": 1932,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 11,
+          "reasons": [
+            "單月值明顯高於同年度其他月份"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B0970027",
@@ -5687,21 +5737,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        12825,
-        16740,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        12825.0,
+        16740.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 29565,
-      "anomalies": []
+      "sourceTotalM3": 29565.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0970028",
@@ -5839,7 +5891,14 @@
         0
       ],
       "sourceTotalM3": 9109.8,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 5,
+          "reasons": [
+            "單月值明顯高於同年度其他月份"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B0970028",
@@ -6009,21 +6068,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         1036.8,
         24883.2,
-        10368,
-        7776,
+        10368.0,
+        7776.0,
         6220.8,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 50284.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0970046",
@@ -6308,21 +6369,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0990021",
@@ -6602,26 +6665,28 @@
     },
     {
       "waterRightNo": "B0990027",
-      "wellName": "日南站三號抽水井(深水井)",
+      "wellName": "日南站三號抽水井(深水井)-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        80262,
-        12978,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        80262.0,
+        12978.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 93240,
-      "anomalies": []
+      "sourceTotalM3": 93240.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B0990027",
@@ -6878,26 +6943,28 @@
     },
     {
       "waterRightNo": "B1000076",
-      "wellName": "日南站六號抽水井(深水井)",
+      "wellName": "日南站六號抽水井(深水井)-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        68544,
+        0.0,
+        68544.0,
         12974.4,
         58507.2,
         58507.2,
         12607.2,
         28641.6,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 239781.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1000076",
@@ -7108,26 +7175,28 @@
     },
     {
       "waterRightNo": "B1020065",
-      "wellName": "日南站五號抽水井",
+      "wellName": "日南站五號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        47628,
-        61236,
+        0.0,
+        0.0,
+        47628.0,
+        61236.0,
         63277.2,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 172141.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1020065",
@@ -7435,21 +7504,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        11664,
-        58320,
-        19440,
-        40824,
-        15552,
-        0,
-        null,
+        0.0,
+        11664.0,
+        58320.0,
+        19440.0,
+        40824.0,
+        15552.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 145800,
-      "anomalies": []
+      "sourceTotalM3": 145800.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1020099",
@@ -7757,21 +7828,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        30240,
-        4320,
-        10080,
-        7200,
-        0,
-        null,
+        0.0,
+        0.0,
+        30240.0,
+        4320.0,
+        10080.0,
+        7200.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 51840,
-      "anomalies": []
+      "sourceTotalM3": 51840.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1020100",
@@ -8079,21 +8152,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        29412,
-        9288,
-        27864,
-        6966,
-        0,
-        null,
+        0.0,
+        0.0,
+        29412.0,
+        9288.0,
+        27864.0,
+        6966.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 73530,
-      "anomalies": []
+      "sourceTotalM3": 73530.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1020119",
@@ -8403,19 +8478,21 @@
       "monthlyM3": [
         4406.4,
         4406.4,
-        7344,
+        7344.0,
         5875.2,
         4406.4,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 26438.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1030009",
@@ -8700,21 +8777,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        5184,
-        5760,
+        5184.0,
+        5760.0,
         7603.2,
-        3456,
-        6912,
-        2304,
+        3456.0,
+        6912.0,
+        2304.0,
         57.6,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 31276.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1030025",
@@ -9005,15 +9084,17 @@
         39736.08,
         58302.72,
         8328.96,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 271472.04,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1040342",
@@ -9252,21 +9333,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        3564,
-        3326.4,
-        0,
-        594,
-        4158,
+        0.0,
+        0.0,
+        0.0,
+        594.0,
+        4158.0,
         1425.6,
         59.4,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 13127.4,
-      "anomalies": []
+      "sourceTotalM3": 6237.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1040345",
@@ -9535,14 +9618,16 @@
         4199.04,
         1049.76,
         524.88,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 23619.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1050034",
@@ -9753,26 +9838,28 @@
     },
     {
       "waterRightNo": "B1050044",
-      "wellName": "日南站八號抽水井",
+      "wellName": "日南站八號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1050044",
@@ -10011,12 +10098,12 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
@@ -10024,8 +10111,10 @@
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1050080",
@@ -10140,7 +10229,14 @@
         96422.4
       ],
       "sourceTotalM3": 1950406.4,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 2,
+          "reasons": [
+            "超過依目前登記流量換算的理論月上限"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B1050080",
@@ -10232,7 +10328,14 @@
         96422.4
       ],
       "sourceTotalM3": 1950406.4,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 2,
+          "reasons": [
+            "超過依目前登記流量換算的理論月上限"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B1050164",
@@ -10241,21 +10344,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         1827.36,
         3654.72,
         3654.72,
         3654.72,
         1218.24,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 14009.76,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1050164",
@@ -10478,14 +10583,16 @@
         305.28,
         228.96,
         228.96,
-        null,
+        228.96,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 1831.68,
-      "anomalies": []
+      "sourceTotalM3": 2060.64,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1060111",
@@ -10701,21 +10808,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        10368,
-        6480,
-        11016,
-        3888,
-        10368,
+        10368.0,
+        6480.0,
+        11016.0,
+        3888.0,
+        10368.0,
         3369.6,
         64.8,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 45554.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1060117",
@@ -10938,14 +11047,16 @@
         1594.08,
         531.36,
         265.68,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 9298.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1060151",
@@ -11161,21 +11272,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
+        0.0,
+        0.0,
         6280.56,
         8030.88,
         5302.44,
         4530.24,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 24144.12,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070014",
@@ -11368,21 +11481,31 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        4032,
+        4032.0,
         392889.6,
         1497.6,
         691.2,
         921.6,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 400032,
-      "anomalies": []
+      "sourceTotalM3": 400032.0,
+      "anomalies": [
+        {
+          "month": 2,
+          "reasons": [
+            "單月值明顯高於同年度其他月份",
+            "超過依目前登記流量換算的理論月上限"
+          ]
+        }
+      ],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070109",
@@ -11570,26 +11693,28 @@
     },
     {
       "waterRightNo": "B1070150",
-      "wellName": "日南站九號抽水井",
+      "wellName": "日南站九號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         23708.16,
         52496.64,
         28425.6,
-        54432,
+        54432.0,
         12458.88,
         17902.08,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 189423.36,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070150",
@@ -11782,21 +11907,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        28825,
-        29793.89,
-        26362.75,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        28824.9984,
+        29793.8916,
+        26362.7496,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 84981.64,
-      "anomalies": []
+      "sourceTotalM3": 84981.6396,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070161",
@@ -11996,14 +12123,16 @@
         4544.64,
         1136.16,
         568.08,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 25563.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070175",
@@ -12196,21 +12325,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        3672,
-        3672,
-        7344,
-        3672,
-        7344,
-        2448,
+        3672.0,
+        3672.0,
+        7344.0,
+        3672.0,
+        7344.0,
+        2448.0,
         61.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 28213.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1070176",
@@ -12398,7 +12529,7 @@
     },
     {
       "waterRightNo": "B1080051",
-      "wellName": "日南站六股排水抽水井",
+      "wellName": "日南站六股排水抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
@@ -12406,18 +12537,20 @@
         2534.4,
         26611.2,
         29462.4,
-        28512,
-        49896,
-        14256,
+        28512.0,
+        49896.0,
+        14256.0,
         18532.8,
-        null,
+        24789.6,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 169804.8,
-      "anomalies": []
+      "sourceTotalM3": 194594.4,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1080051",
@@ -12594,14 +12727,16 @@
         10856.16,
         3101.76,
         775.44,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 61259.76,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1080096",
@@ -12775,17 +12910,19 @@
         4334.4,
         2620.8,
         604.8,
-        1512,
+        1512.0,
         705.6,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 14414.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1080127",
@@ -12950,26 +13087,28 @@
     },
     {
       "waterRightNo": "B1080171",
-      "wellName": "日南站十號抽水井",
+      "wellName": "日南站十號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         58276.8,
         76334.4,
-        73872,
-        0,
+        73872.0,
+        0.0,
         18057.6,
         30369.6,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 256910.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1080171",
@@ -13139,21 +13278,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        4752,
-        0,
+        4752.0,
+        0.0,
         6652.8,
-        3564,
+        3564.0,
         6652.8,
         2257.2,
         59.4,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 23938.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090023",
@@ -13307,14 +13448,16 @@
         4354.56,
         1451.52,
         725.76,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 19837.44,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090031",
@@ -13461,21 +13604,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         24998.4,
-        31248,
+        31248.0,
         14842.8,
         32810.4,
         12499.2,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 116398.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090091",
@@ -13624,19 +13769,21 @@
       "monthlyM3": [
         4795.2,
         6393.6,
-        7992,
+        7992.0,
         6393.6,
         6393.6,
         1598.4,
         799.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 34365.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090135",
@@ -13778,26 +13925,28 @@
     },
     {
       "waterRightNo": "B1090136",
-      "wellName": "日南站十一號抽水井",
+      "wellName": "日南站十一號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         25401.6,
         28123.2,
         1209.6,
-        35154,
+        35154.0,
         7786.8,
         11188.8,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 108864,
-      "anomalies": []
+      "sourceTotalM3": 108864.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090136",
@@ -13948,17 +14097,19 @@
         2991.6,
         6581.52,
         3988.8,
-        4986,
+        4986.0,
         1695.24,
         49.86,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 24780.42,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1090151",
@@ -14031,7 +14182,7 @@
     },
     {
       "waterRightNo": "B1100047",
-      "wellName": "日南站十二號抽水井",
+      "wellName": "日南站十二號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
@@ -14039,18 +14190,20 @@
         18091.8,
         36388.8,
         40287.6,
-        32490,
-        0,
+        32490.0,
+        0.0,
         7045.2,
         16963.2,
-        null,
+        3830.4,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 151266.6,
-      "anomalies": []
+      "sourceTotalM3": 155097.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100047",
@@ -14169,26 +14322,28 @@
     },
     {
       "waterRightNo": "B1100087",
-      "wellName": "日南站十三號抽水井",
+      "wellName": "日南站十三號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         48484.8,
         53679.6,
         31435.2,
-        61938,
+        61938.0,
         13719.6,
         19713.6,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 228970.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100087",
@@ -14312,21 +14467,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        1080,
-        2160,
-        5400,
-        4320,
-        3240,
-        1080,
-        540,
-        null,
+        1080.0,
+        2160.0,
+        5400.0,
+        4320.0,
+        3240.0,
+        1080.0,
+        540.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 17820,
-      "anomalies": []
+      "sourceTotalM3": 17820.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100662",
@@ -14404,21 +14561,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        990,
-        2229,
-        2972,
-        3715,
-        743,
-        990,
-        1238,
-        1486,
+        3715.2,
+        3467.52,
+        4334.4,
+        4953.6,
+        4953.6,
+        1609.92,
+        61.92,
+        0.0,
         0,
         0,
         0,
         0
       ],
-      "sourceTotalM3": 14363,
-      "anomalies": []
+      "sourceTotalM3": 23096.16,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100675",
@@ -14542,21 +14701,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
+        0.0,
+        0.0,
         14180.4,
         14180.4,
         9406.8,
         6177.6,
         1825.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 45770.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100760",
@@ -14634,21 +14795,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        2016,
+        2016.0,
         979.2,
         748.8,
         345.6,
         345.6,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 4435.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1100779",
@@ -14726,21 +14889,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        6678,
-        30528,
-        9540,
-        22896,
-        13356,
-        0,
-        null,
+        0.0,
+        6678.0,
+        30528.0,
+        9540.0,
+        22896.0,
+        13356.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 82998,
-      "anomalies": []
+      "sourceTotalM3": 82998.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1120003",
@@ -14820,19 +14985,21 @@
       "monthlyM3": [
         2937.6,
         13708.8,
-        14688,
-        14688,
+        15177.6,
+        14688.0,
         15177.6,
         4957.2,
-        0,
-        null,
+        4834.8,
+        15177.6,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 66157.2,
-      "anomalies": []
+      "sourceTotalM3": 86659.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1120069",
@@ -14905,26 +15072,28 @@
     },
     {
       "waterRightNo": "B1120077",
-      "wellName": "日南站十四號抽水井",
+      "wellName": "日南站十四號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         13127.4,
-        0,
-        44226,
-        0,
-        0,
+        0.0,
+        44226.0,
+        0.0,
+        0.0,
         20779.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 78132.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1120077",
@@ -15002,21 +15171,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        6.26,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
+        0.0,
+        6.264,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        31.32,
+        0.0,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 6.26,
-      "anomalies": []
+      "sourceTotalM3": 37.584,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1120200",
@@ -15094,21 +15265,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        56376,
-        20250,
-        20574,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        56376.0,
+        20250.0,
+        20574.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 97200,
-      "anomalies": []
+      "sourceTotalM3": 97200.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1120251",
@@ -15181,26 +15354,28 @@
     },
     {
       "waterRightNo": "B1130014",
-      "wellName": "日南站十五號抽水井",
+      "wellName": "日南站十五號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         9979.2,
         11048.4,
         4435.2,
-        35640,
-        0,
-        0,
-        null,
+        35640.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 61102.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130014",
@@ -15255,21 +15430,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         48.2,
-        null,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 48.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130052",
@@ -15324,21 +15501,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        9072,
-        13608,
-        9374,
-        9072,
+        0.0,
+        0.0,
+        9072.0,
+        13608.0,
         9374.4,
-        null,
+        9072.0,
+        9374.4,
+        9374.4,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 50500.4,
-      "anomalies": []
+      "sourceTotalM3": 59875.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130072",
@@ -15393,21 +15572,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 2,
-      "anomalies": []
+      "sourceTotalM3": 4.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130145",
@@ -15457,26 +15638,28 @@
     },
     {
       "waterRightNo": "B1130250",
-      "wellName": "日南站十七號抽水井",
+      "wellName": "日南站十七號抽水井-日南圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        6930,
-        11718,
-        11340,
-        58590,
-        12978,
-        11718,
-        null,
+        0.0,
+        6930.0,
+        11718.0,
+        11340.0,
+        58590.0,
+        12978.0,
+        11718.0,
+        11718.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 113274,
-      "anomalies": []
+      "sourceTotalM3": 124992.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130250",
@@ -15526,26 +15709,28 @@
     },
     {
       "waterRightNo": "B1130251",
-      "wellName": "日南站十六號抽水井",
+      "wellName": "日南站十六號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         19998.72,
         22141.44,
         21427.2,
-        0,
-        0,
+        0.0,
+        0.0,
         17049.6,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 80616.96,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130251",
@@ -15600,21 +15785,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
+        0.0,
+        0.0,
         1425.6,
-        0,
-        7776,
-        6480,
+        0.0,
+        7776.0,
+        6480.0,
         4665.6,
-        null,
+        5832.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 20347.2,
-      "anomalies": []
+      "sourceTotalM3": 26179.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1130271",
@@ -15637,7 +15824,14 @@
         0
       ],
       "sourceTotalM3": 18701.28,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 2,
+          "reasons": [
+            "單月值明顯高於同年度其他月份"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "B1130271",
@@ -15669,21 +15863,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        3456,
+        0.0,
+        3456.0,
         68083.2,
-        30528,
+        30528.0,
         41587.2,
-        13248,
-        0,
-        null,
+        13248.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 156902.4,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140020",
@@ -15715,21 +15911,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        3024,
+        0.0,
+        3024.0,
         59572.8,
-        26712,
+        26712.0,
         36388.8,
-        11592,
-        0,
-        null,
+        11592.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 137289.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140033",
@@ -15761,21 +15959,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         2856.96,
         22855.68,
         6249.6,
         13570.56,
-        0,
+        0.0,
         2856.96,
-        null,
-        null,
+        0.0,
+        4285.44,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 48389.76,
-      "anomalies": []
+      "sourceTotalM3": 52675.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140034",
@@ -15807,21 +16007,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         16.56,
         17222.4,
         2649.6,
         3974.4,
-        0,
+        0.0,
         2649.6,
-        null,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null
       ],
       "sourceTotalM3": 26512.56,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140035",
@@ -15853,21 +16055,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        31.75,
-        0,
-        0,
+        0.0,
+        31.752,
+        0.0,
+        0.0,
         7620.48,
-        0,
-        0,
-        null,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 7652.23,
-      "anomalies": []
+      "sourceTotalM3": 7652.232,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140037",
@@ -15902,18 +16106,20 @@
         1461.6,
         501.12,
         2004.48,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 3967.2,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140109",
@@ -15948,18 +16154,20 @@
         1749.6,
         1166.4,
         1049.76,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        87.48,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 3965.76,
-      "anomalies": []
+      "sourceTotalM3": 4053.24,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140110",
@@ -15991,21 +16199,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        5292,
-        12600,
-        10962,
-        4662,
-        0,
-        null,
+        0.0,
+        0.0,
+        5292.0,
+        12600.0,
+        10962.0,
+        4662.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 33516,
-      "anomalies": []
+      "sourceTotalM3": 33516.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140111",
@@ -16032,26 +16242,28 @@
     },
     {
       "waterRightNo": "B1140139",
-      "wellName": "日南站十八號抽水井",
+      "wellName": "日南站十八號抽水井-九張犁圳",
       "station": "日南",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         30335.76,
         33586.02,
         32502.6,
-        0,
+        0.0,
         17168.04,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 113592.42,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140139",
@@ -16084,20 +16296,22 @@
       "yearMinguo": 115,
       "monthlyM3": [
         1572.48,
-        0,
+        0.0,
         3931.2,
-        0,
+        0.0,
         6289.92,
-        4914,
+        4914.0,
         6388.2,
-        null,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 23095.8,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140143",
@@ -16129,21 +16343,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1140177",
@@ -16169,27 +16385,104 @@
       "anomalies": []
     },
     {
+      "waterRightNo": "B1150050",
+      "wellName": "頂店圳十號抽水井",
+      "station": "大甲",
+      "authority": "臺中市政府",
+      "yearMinguo": 115,
+      "monthlyM3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
+    },
+    {
+      "waterRightNo": "B1150051",
+      "wellName": "頂店圳十一號抽水井",
+      "station": "大甲",
+      "authority": "臺中市政府",
+      "yearMinguo": 115,
+      "monthlyM3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
+    },
+    {
+      "waterRightNo": "B1150052",
+      "wellName": "頂店圳十二號抽水井",
+      "station": "大甲",
+      "authority": "臺中市政府",
+      "yearMinguo": 115,
+      "monthlyM3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
+    },
+    {
       "waterRightNo": "B1150057",
       "wellName": "虎眼二圳草湖圳支線抽水井",
       "station": "大安",
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        null,
-        null,
-        null,
-        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         10419.84,
-        0,
-        0,
-        null,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null
       ],
       "sourceTotalM3": 10419.84,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1150066",
@@ -16198,21 +16491,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        null,
-        null,
-        null,
-        null,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1150080",
@@ -16221,21 +16516,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1150081",
@@ -16244,21 +16541,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1150095",
@@ -16267,21 +16566,23 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "B1150096",
@@ -16290,21 +16591,48 @@
       "authority": "臺中市政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
+        null,
+        null
+      ],
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
+    },
+    {
+      "waterRightNo": "B1150103",
+      "wellName": "紅圳六角亭抽水井",
+      "station": "西屯",
+      "authority": "臺中市政府",
+      "yearMinguo": 115,
+      "monthlyM3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0086033",
@@ -16313,21 +16641,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 0,
-      "anomalies": []
+      "sourceTotalM3": 0.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0086033",
@@ -16545,19 +16875,21 @@
       "monthlyM3": [
         302.4,
         21772.8,
-        38556,
-        16632,
-        18144,
-        15120,
-        15120,
-        null,
+        38556.0,
+        16632.0,
+        18144.0,
+        15120.0,
+        15120.0,
+        302.4,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 125647.2,
-      "anomalies": []
+      "sourceTotalM3": 125949.6,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0086034",
@@ -16603,7 +16935,14 @@
         0
       ],
       "sourceTotalM3": 83084.4,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 3,
+          "reasons": [
+            "單月值明顯高於同年度其他月份"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "K0086034",
@@ -16775,19 +17114,21 @@
       "monthlyM3": [
         115.2,
         8294.4,
-        14688,
-        8064,
-        8064,
-        6336,
-        6336,
-        null,
+        14688.0,
+        8064.0,
+        8064.0,
+        6336.0,
+        6336.0,
+        115.2,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 51897.6,
-      "anomalies": []
+      "sourceTotalM3": 52012.8,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123393",
@@ -17118,21 +17459,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
+        0.0,
         52963.2,
         68852.16,
         32881.32,
         41487.84,
         36853.56,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 233038.08,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123688",
@@ -17327,19 +17670,21 @@
       "monthlyM3": [
         273.6,
         19699.2,
-        21888,
+        19836.0,
         6566.4,
         1094.4,
         1094.4,
         1094.4,
-        null,
+        136.8,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 51710.4,
-      "anomalies": []
+      "sourceTotalM3": 49795.2,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123725",
@@ -17417,21 +17762,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        51408,
-        109368,
-        37548,
-        27720,
-        42084,
-        0,
-        null,
+        0.0,
+        51408.0,
+        109368.0,
+        37548.0,
+        27720.0,
+        42084.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 268128,
-      "anomalies": []
+      "sourceTotalM3": 268128.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123766",
@@ -17624,21 +17971,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        216,
-        15552,
-        11232,
-        5184,
-        0,
-        0,
-        0,
-        null,
+        216.0,
+        13608.0,
+        11232.0,
+        5184.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 32184,
-      "anomalies": []
+      "sourceTotalM3": 30240.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123768",
@@ -17808,21 +18157,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        4536,
-        18522,
-        4725,
-        5796,
-        3024,
-        0,
-        null,
+        0.0,
+        4536.0,
+        18522.0,
+        4725.0,
+        5796.0,
+        3024.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 36603,
-      "anomalies": []
+      "sourceTotalM3": 36603.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123779",
@@ -17992,21 +18343,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        32832,
+        0.0,
+        32832.0,
         42681.6,
         26265.6,
         31600.8,
         22845.6,
-        0,
-        null,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
       "sourceTotalM3": 156225.6,
-      "anomalies": []
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0123786",
@@ -18176,21 +18529,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        26.34,
-        801.26,
-        2255.95,
-        10.14,
-        0,
-        1679.18,
-        906.52,
-        null,
+        26.34372,
+        801.2628,
+        2255.9472,
+        10.13999594,
+        0.0,
+        1679.184,
+        906.5153916,
+        436.0195944,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 5679.39,
-      "anomalies": []
+      "sourceTotalM3": 6115.412702,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0124239",
@@ -18213,7 +18568,14 @@
         0
       ],
       "sourceTotalM3": 1699.57,
-      "anomalies": []
+      "anomalies": [
+        {
+          "month": 11,
+          "reasons": [
+            "單月值明顯高於同年度其他月份"
+          ]
+        }
+      ]
     },
     {
       "waterRightNo": "K0124239",
@@ -18383,21 +18745,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        252,
-        18144,
-        20160,
-        20160,
-        2646,
-        3024,
-        15120,
-        null,
+        252.0,
+        18144.0,
+        20160.0,
+        2016.0,
+        2646.0,
+        3024.0,
+        15120.0,
+        252.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 79506,
-      "anomalies": []
+      "sourceTotalM3": 61614.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0124362",
@@ -18567,21 +18931,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        37233,
-        82026,
-        28161,
-        33264,
-        31563,
-        0,
-        null,
+        0.0,
+        37233.0,
+        82026.0,
+        28161.0,
+        33264.0,
+        31563.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 212247,
-      "anomalies": []
+      "sourceTotalM3": 212247.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0124420",
@@ -18728,21 +19094,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        19440,
-        35820,
-        17280,
-        9900,
-        15030,
-        0,
-        null,
+        0.0,
+        19440.0,
+        35820.0,
+        17280.0,
+        9900.0,
+        15030.0,
+        0.0,
+        0.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 97470,
-      "anomalies": []
+      "sourceTotalM3": 97470.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K0124485",
@@ -18889,21 +19257,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        126,
-        630,
-        1008,
-        1008,
-        null,
+        0.0,
+        0.0,
+        0.0,
+        126.0,
+        630.0,
+        1008.0,
+        1008.0,
+        252.0,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 2772,
-      "anomalies": []
+      "sourceTotalM3": 3024.0,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K1140087",
@@ -18935,21 +19305,23 @@
       "authority": "苗栗縣政府",
       "yearMinguo": 115,
       "monthlyM3": [
-        0,
-        0,
-        0,
-        0,
-        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         331.2,
         579.6,
-        null,
+        82.8,
         null,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 910.8,
-      "anomalies": []
+      "sourceTotalM3": 993.6,
+      "anomalies": [],
+      "sourceUrl": "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
+      "sourceModifiedAt": "2026-09-21T08:53:57.345Z"
     },
     {
       "waterRightNo": "K1140122",
@@ -18975,5 +19347,7 @@
       "anomalies": []
     }
   ],
-  "preservedBecauseIndexEmpty": true
+  "supplementalSources": [
+    "https://drive.google.com/open?id=1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q"
+  ]
 }

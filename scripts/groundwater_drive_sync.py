@@ -16,6 +16,7 @@ import json
 import mimetypes
 import re
 import sys
+import time
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -117,8 +118,7 @@ def is_registry_candidate(file: dict[str, Any]) -> bool:
 def is_pumping_candidate(file: dict[str, Any]) -> bool:
     name = file.get("name", "")
     return (
-        "抽水" in name
-        and ("紀錄" in name or "history" in name.lower() or "pumping" in name.lower())
+        ("抽水紀錄" in name or "抽水記錄" in name or "地下水水權用水紀錄" in name or "月實取水量" in name or "pumping-history" in name.lower() or "pumping-records" in name.lower())
         and (is_excel_file(file) or name.lower().endswith(".json"))
     )
 
@@ -126,12 +126,18 @@ def is_pumping_candidate(file: dict[str, Any]) -> bool:
 def drive_service(service_account_path: Path):
     from google.oauth2 import service_account
     from googleapiclient.discovery import build
+    from googleapiclient.http import HttpRequest
+
+    class PacedRequest(HttpRequest):
+        def execute(self, http=None, num_retries=3):
+            time.sleep(0.5)
+            return super().execute(http=http, num_retries=num_retries)
 
     credentials = service_account.Credentials.from_service_account_file(
         service_account_path,
         scopes=["https://www.googleapis.com/auth/drive"],
     )
-    return build("drive", "v3", credentials=credentials, cache_discovery=False)
+    return build("drive", "v3", credentials=credentials, cache_discovery=False, requestBuilder=PacedRequest)
 
 
 def list_children(service, folder_id: str) -> list[dict[str, Any]]:
@@ -346,7 +352,8 @@ def download_file(service, file: dict[str, Any], target: Path) -> Path:
         downloader = MediaIoBaseDownload(fh, request)
         done = False
         while not done:
-            _, done = downloader.next_chunk()
+            time.sleep(0.5)
+            _, done = downloader.next_chunk(num_retries=3)
     return target
 
 
@@ -738,6 +745,11 @@ def main() -> int:
     parser.add_argument("--registry-folder-id", default="")
     parser.add_argument("--well-index-folder-id", default="")
     parser.add_argument("--pumping-index-folder-id", default="")
+    parser.add_argument("--pumping-source-file-id", default="")
+    parser.add_argument("--pumping-source-folder-id", default="")
+    parser.add_argument("--site-pumping-history", type=Path)
+    parser.add_argument("--site-wells", type=Path)
+    parser.add_argument("--pumping-state", type=Path)
     parser.add_argument("--water-right-folder-id", default="")
     parser.add_argument("--work-dir", required=True, type=Path)
     args = parser.parse_args()
@@ -786,7 +798,7 @@ def main() -> int:
         )
     previous_sync = read_json_if_exists(sync_index_path, {}) if previous_sync_exists else {}
 
-    root_files = list_tree(service, args.groundwater_root_folder_id)
+    root_files = []  # Scan pumping sources only on a pumping run.
     registry_files = list_tree(service, registry_folder_id)
     registry_file = newest_file(registry_files, is_registry_candidate)
     if not registry_file and args.sync_scope in {"all", "wells"}:
@@ -821,10 +833,10 @@ def main() -> int:
         well_records = read_json_if_exists(args.work_dir / INDEX_FILENAMES["well"], [])
         station_records = read_json_if_exists(args.work_dir / INDEX_FILENAMES["station"], {})
 
-    if water_right_folder_id:
+    if water_right_folder_id and args.sync_scope != "pumping":
         water_right_files = list_tree(service, water_right_folder_id)
         attachment_records, attachment_warnings = water_right_attachment_index(water_right_files)
-    else:
+    elif args.sync_scope != "pumping":
         attachment_records = []
         attachment_warnings = [{
             "wellKey": "",
@@ -833,6 +845,8 @@ def main() -> int:
             "reason": "water_right_folder_unavailable",
         }]
         notes.append("Water-right folder unavailable; existing public-site attachments will be preserved.")
+    else:
+        attachment_records, attachment_warnings = [], []
     write_json(args.work_dir / INDEX_FILENAMES["attachments"], attachment_records)
     if attachment_warnings:
         well_warnings.extend(attachment_warnings)
@@ -840,32 +854,40 @@ def main() -> int:
 
     pumping_stats = {"records": 0, "monthlyRecords": 0, "warnings": 0}
     if args.sync_scope in {"all", "pumping"}:
-        pumping_file = newest_file(root_files, is_pumping_candidate)
-        if pumping_file and pumping_file.get("name", "").lower().endswith(".json"):
-            target = args.work_dir / "source-pumping-history.json"
-            download_file(service, pumping_file, target)
-            pumping_stats = build_pumping_indexes(target, args.work_dir)
-        elif pumping_file:
-            notes.append(
-                "Pumping source appears to be an Excel file; add a pumping Excel parser before replacing public pumping data."
-            )
-        else:
-            notes.append("No pumping source candidate found; reused Drive-stored pumping indexes when available.")
-        for name in [INDEX_FILENAMES["pumping"], INDEX_FILENAMES["pumpingMonth"], INDEX_FILENAMES["pumpingWarnings"]]:
-            path = args.work_dir / name
-            if not path.exists():
-                download_index_if_exists(service, pumping_index_folder_id, name, path)
-        existing_pumping = read_json_if_exists(args.work_dir / INDEX_FILENAMES["pumping"], [])
-        existing_monthly = read_json_if_exists(args.work_dir / INDEX_FILENAMES["pumpingMonth"], [])
-        existing_warnings = read_json_if_exists(args.work_dir / INDEX_FILENAMES["pumpingWarnings"], [])
-        pumping_stats = {
-            "records": len(existing_pumping),
-            "monthlyRecords": len(existing_monthly),
-            "warnings": len(existing_warnings),
-        }
-    else:
-        for name in [INDEX_FILENAMES["pumping"], INDEX_FILENAMES["pumpingMonth"], INDEX_FILENAMES["pumpingWarnings"]]:
+        from pumping_sync import import_source, write_outputs
+        for name in ['pumping-index.json', 'pumping-sync-index.json', 'pumping-warnings.json']:
             download_index_if_exists(service, pumping_index_folder_id, name, args.work_dir / name)
+        published = read_json_if_exists(args.site_pumping_history, {}) if args.site_pumping_history else {}
+        prior = read_json_if_exists(args.work_dir / 'pumping-index.json', [])
+        previous = {(r['waterRightNo'], r['yearMinguo']): r for r in prior}
+        previous.update({(r['waterRightNo'], r['yearMinguo']): r for r in published.get('records', [])})
+        previous = list(previous.values())
+        state = read_json_if_exists(args.pumping_state, {}) if args.pumping_state else {}
+        if not state:
+            state = read_json_if_exists(args.work_dir / 'pumping-sync-index.json', {})
+        if args.pumping_source_file_id:
+            pumping_file = service.files().get(fileId=args.pumping_source_file_id, fields='id,name,mimeType,modifiedTime,size,md5Checksum', supportsAllDrives=True).execute()
+        else:
+            root_files = list_tree(service, args.pumping_source_folder_id or args.groundwater_root_folder_id)
+            candidates = [f for f in root_files if is_pumping_candidate(f)]
+            candidates.sort(key=lambda f: (f.get('modifiedTime', ''), f['id']), reverse=True)
+            if len(candidates) > 1 and candidates[0].get('modifiedTime') == candidates[1].get('modifiedTime'):
+                raise RuntimeError('Ambiguous pumping sources with identical modifiedTime; configure a source file id')
+            pumping_file = candidates[0] if candidates else None
+        if not pumping_file:
+            raise RuntimeError('No readable pumping source. Configure PUMPING_SOURCE_FILE_ID or PUMPING_SOURCE_FOLDER_ID; existing public data preserved.')
+        try:
+            records, warnings, changes, state, parsed = import_source(pumping_file, previous, state, lambda f, p: download_file(service, f, p), args.work_dir)
+            if not parsed:
+                warnings = read_json_if_exists(args.work_dir / 'pumping-warnings.json', [])
+            if parsed and args.site_wells:
+                wells = read_json_if_exists(args.site_wells, [])
+                keys = {w['waterRightNo'] for w in wells}
+                warnings.extend({'waterRightNo': key, 'reason': 'not_in_current_well_registry'} for key in sorted({r['waterRightNo'] for r in records} - keys))
+            pumping_stats = write_outputs(args.work_dir, records, warnings, changes, state, parsed)
+        except (ValueError, KeyError) as exc:
+            write_json(args.work_dir / 'pumping-import-error.json', {'error': str(exc), 'sourceId': pumping_file['id']})
+            raise
 
     generated_at = datetime.now(timezone.utc).isoformat()
     sync_index = {
@@ -918,14 +940,20 @@ def main() -> int:
         INDEX_FILENAMES["sync"],
         INDEX_FILENAMES["summary"],
     ]
-    upload_indexes(service, well_index_folder_id, well_uploads, args.work_dir, "well", notes)
+    if args.sync_scope != 'pumping':
+        upload_indexes(service, well_index_folder_id, well_uploads, args.work_dir, "well", notes)
 
     pumping_uploads = [
         INDEX_FILENAMES["pumping"],
         INDEX_FILENAMES["pumpingMonth"],
         INDEX_FILENAMES["pumpingWarnings"],
+        'pumping-sync-index.json',
+        'pumping-sync-summary.md',
+        'pumping-sync-summary.json',
+        'pumping-changes.json',
     ]
-    upload_indexes(service, pumping_index_folder_id, pumping_uploads, args.work_dir, "pumping", notes)
+    if args.sync_scope in {'all', 'pumping'} and pumping_stats.get('parsed'):
+        upload_indexes(service, pumping_index_folder_id, pumping_uploads, args.work_dir, "pumping", notes)
 
     print(json.dumps(summary, ensure_ascii=False))
     return 0

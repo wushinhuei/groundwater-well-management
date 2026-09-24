@@ -20,6 +20,10 @@ const DEFAULT_EVENT_TYPE = 'groundwater-sync';
 const DEFAULT_TIMEZONE = 'Asia/Taipei';
 const DEFAULT_TRIGGER_HOUR = 6;
 const DEFAULT_TRIGGER_WEEKDAY = ScriptApp.WeekDay.MONDAY;
+const DEFAULT_DISTRIBUTED_TRIGGER_HOUR = 5;
+const DISTRIBUTED_DAYS_PER_MONTH = 30;
+const DISTRIBUTED_BATCH_SIZE_FALLBACK = 5;
+const DISTRIBUTED_LOOKBACK_DAYS = 31;
 const INDEX_WRITEBACK_DELAY_MINUTES = 10;
 const INDEX_WRITEBACK_MAX_ATTEMPTS = 6;
 const INDEX_ARTIFACT_NAME = 'groundwater-drive-indexes';
@@ -35,11 +39,51 @@ const DEFAULT_DRIVE_IDS = {
 };
 
 function triggerGroundwaterSync() {
-  dispatchGroundwaterSync_();
+  dispatchGroundwaterSync_({
+    schedule: 'weekly',
+    syncScope: 'all',
+  });
   scheduleIndexWriteback_(INDEX_WRITEBACK_DELAY_MINUTES);
 }
 
-function dispatchGroundwaterSync_() {
+function triggerDistributedMonthlyGroundwaterSync() {
+  const day = Number(Utilities.formatDate(new Date(), DEFAULT_TIMEZONE, 'd'));
+  if (day > 29 || day % 2 === 0) return;
+  dispatchScheduledSync_('wells');
+}
+
+function triggerPumpingMonthlySync() {
+  const day = Number(Utilities.formatDate(new Date(), DEFAULT_TIMEZONE, 'd'));
+  if ([6, 16, 26].indexOf(day) === -1) return;
+  dispatchScheduledSync_('pumping');
+}
+
+function dispatchScheduledSync_(scope) {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(1000)) return;
+  try {
+    const properties = PropertiesService.getScriptProperties();
+    const date = Utilities.formatDate(new Date(), DEFAULT_TIMEZONE, 'yyyy-MM-dd');
+    const key = 'LAST_SCHEDULED_' + scope.toUpperCase();
+    if (properties.getProperty(key) === date) return;
+    const token = requiredProperty_(properties, 'GITHUB_TOKEN');
+    const base = githubApiBase_(requiredProperty_(properties, 'GITHUB_OWNER'), requiredProperty_(properties, 'GITHUB_REPO'));
+    const runs = githubJson_(base + '/actions/workflows/groundwater-sync.yml/runs?per_page=20', token).workflow_runs || [];
+    if (runs.some(run => run.status !== 'completed')) {
+      console.log('An update is already queued or running; skipped this trigger.');
+      return;
+    }
+    const batch = scope === 'wells' ? monthlyDistributedWellBatch_(properties) : null;
+    dispatchGroundwaterSync_({schedule: 'staggered-monthly', syncScope: scope, batch: batch});
+    properties.setProperty(key, date);
+    scheduleIndexWriteback_(INDEX_WRITEBACK_DELAY_MINUTES);
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function dispatchGroundwaterSync_(options) {
+  const runOptions = options || {};
   const properties = PropertiesService.getScriptProperties();
   const token = requiredProperty_(properties, 'GITHUB_TOKEN');
   const owner = requiredProperty_(properties, 'GITHUB_OWNER');
@@ -51,8 +95,9 @@ function dispatchGroundwaterSync_() {
     source: 'google-apps-script',
     triggeredAt: triggeredAt,
     timezone: DEFAULT_TIMEZONE,
-    schedule: 'weekly',
-    syncScope: 'all',
+    schedule: runOptions.schedule || 'weekly',
+    syncScope: runOptions.syncScope || 'all',
+    batch: runOptions.batch || null,
     rules: {
       wellRegistry: 'groundwater-well-sync',
       pumpingHistory: 'groundwater-pumping-sync',
@@ -72,6 +117,8 @@ function dispatchGroundwaterSync_() {
         properties.getProperty('WELL_INDEX_FOLDER_ID') ||
         properties.getProperty('DRIVE_INDEX_FOLDER_ID') ||
         DEFAULT_DRIVE_IDS.wellIndexFolderId,
+      pumpingSourceFileId: properties.getProperty('PUMPING_SOURCE_FILE_ID') || '',
+      pumpingSourceFolderId: properties.getProperty('PUMPING_SOURCE_FOLDER_ID') || '',
       pumpingIndexFolderId:
         properties.getProperty('PUMPING_INDEX_FOLDER_ID') ||
         properties.getProperty('DRIVE_INDEX_FOLDER_ID') ||
@@ -119,19 +166,30 @@ function dispatchGroundwaterSync_() {
   console.log('Groundwater sync workflow dispatched: ' + eventType);
 }
 
-function installWeeklyTrigger() {
+// Legacy installer names now install the same separated schedule.
+function installWeeklyTrigger() { installStaggeredTriggers(); }
+function installDistributedMonthlyTrigger() { installStaggeredTriggers(); }
+
+function installStaggeredTriggers() {
   deleteGroundwaterAutomationTriggers();
-  ScriptApp.newTrigger('triggerGroundwaterSync')
-    .timeBased()
-    .onWeekDay(DEFAULT_TRIGGER_WEEKDAY)
-    .atHour(DEFAULT_TRIGGER_HOUR)
-    .nearMinute(0)
-    .inTimezone(DEFAULT_TIMEZONE)
-    .create();
+  ScriptApp.newTrigger('triggerDistributedMonthlyGroundwaterSync')
+    .timeBased().everyDays(1).atHour(5).nearMinute(17)
+    .inTimezone(DEFAULT_TIMEZONE).create();
+  [6, 16, 26].forEach(day => {
+    ScriptApp.newTrigger('triggerPumpingMonthlySync')
+      .timeBased().onMonthDay(day).atHour(13).nearMinute(43)
+      .inTimezone(DEFAULT_TIMEZONE).create();
+  });
+  console.log('Asia/Taipei: wells odd dates 1–29 at about 05:17; pumping 6/16/26 at about 13:43 (Apps Script ±15 minutes).');
 }
 
 function deleteGroundwaterAutomationTriggers() {
-  const handlers = ['triggerGroundwaterSync', 'syncDriveIndexesFromLatestGitHubRun'];
+  const handlers = [
+    'triggerGroundwaterSync',
+    'triggerDistributedMonthlyGroundwaterSync',
+    'triggerPumpingMonthlySync',
+    'syncDriveIndexesFromLatestGitHubRun',
+  ];
   ScriptApp.getProjectTriggers()
     .filter((trigger) => handlers.indexOf(trigger.getHandlerFunction()) !== -1)
     .forEach((trigger) => ScriptApp.deleteTrigger(trigger));
@@ -139,6 +197,59 @@ function deleteGroundwaterAutomationTriggers() {
 
 function testTriggerGroundwaterSync() {
   triggerGroundwaterSync();
+}
+
+function testTriggerDistributedMonthlyGroundwaterSync() {
+  triggerDistributedMonthlyGroundwaterSync();
+}
+
+function monthlyDistributedWellBatch_(properties) {
+  const today = new Date();
+  const dayOfMonth = Number(Utilities.formatDate(today, DEFAULT_TIMEZONE, 'd'));
+  const year = Number(Utilities.formatDate(today, DEFAULT_TIMEZONE, 'yyyy'));
+  const month = Number(Utilities.formatDate(today, DEFAULT_TIMEZONE, 'M'));
+  const slots = Math.ceil(Math.min(new Date(Date.UTC(year, month, 0)).getUTCDate(), 29) / 2);
+  const batchDay = Math.floor((dayOfMonth - 1) / 2);
+  const keys = loadWellKeysFromDriveIndex_(properties);
+  if (!keys.length) throw new Error('Well index is empty; cannot build a safe batch.');
+  const selected = keys.filter((key, i) => i % slots === batchDay);
+  const batch = {
+    strategy: 'odd-date-round-robin', daysPerMonth: slots,
+    dayOfMonth: dayOfMonth, batchDay: batchDay + 1,
+    totalWellCount: keys.length, wellKeys: selected,
+    maxExpectedBatchSize: Math.ceil(keys.length / slots),
+  };
+  properties.setProperty('LAST_GROUNDWATER_DISTRIBUTED_BATCH', JSON.stringify(batch));
+  return batch;
+}
+
+function loadWellKeysFromDriveIndex_(properties) {
+  const indexFolder = getIndexFolder_(properties);
+  const files = indexFolder.getFilesByName('well-index.json');
+  if (!files.hasNext()) {
+    return [];
+  }
+  const records = JSON.parse(files.next().getBlob().getDataAsString('UTF-8'));
+  const seen = {};
+  const keys = [];
+  records.forEach((record) => {
+    const key = String(record.wellKey || '').trim().toUpperCase();
+    if (key && !seen[key]) {
+      seen[key] = true;
+      keys.push(key);
+    }
+  });
+  keys.sort();
+  return keys;
+}
+
+function monthlyBucketForWellKey_(key) {
+  let hash = 0;
+  const text = String(key || '');
+  for (let i = 0; i < text.length; i += 1) {
+    hash = (hash * 31 + text.charCodeAt(i)) >>> 0;
+  }
+  return (hash % DISTRIBUTED_DAYS_PER_MONTH) + 1;
 }
 
 function syncDriveIndexesFromLatestGitHubRun() {
@@ -172,6 +283,7 @@ function syncDriveIndexesFromLatestGitHubRun() {
     if (!allowedNames[name]) {
       return;
     }
+    Utilities.sleep(500);
     upsertTextFile_(indexFolder, name, blob.getDataAsString('UTF-8'), mimeTypeFor_(name));
     written += 1;
   });
@@ -202,7 +314,7 @@ function findLatestSuccessfulGroundwaterRun_(owner, repo, token, dispatchedAt) {
   for (let i = 0; i < runs.length; i += 1) {
     const run = runs[i];
     const createdTime = new Date(run.created_at).getTime();
-    if (run.conclusion === 'success' && (!dispatchedTime || createdTime >= dispatchedTime - 60000)) {
+    if (run.conclusion === 'success' && (!dispatchedTime || createdTime >= dispatchedTime - 1000)) {
       return run;
     }
   }
@@ -298,6 +410,10 @@ function allowedIndexFilenames_() {
     'pumping-index.json': true,
     'pumping-month-index.json': true,
     'pumping-warnings.json': true,
+    'pumping-sync-index.json': true,
+    'pumping-sync-summary.md': true,
+    'pumping-sync-summary.json': true,
+    'pumping-changes.json': true,
     'sync-index.json': true,
     'sync-summary.md': true,
   };

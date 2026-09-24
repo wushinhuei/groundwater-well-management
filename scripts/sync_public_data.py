@@ -165,7 +165,7 @@ def equivalent(field: str, left, right) -> bool:
     return text(left) == text(right)
 
 
-def merge_wells(existing_wells: list[dict], index_records: list[dict], today: date, warning_days: int):
+def merge_wells(existing_wells: list[dict], index_records: list[dict], today: date, warning_days: int, selected_keys=None):
     existing_by_key = {text(well.get("waterRightNo") or well.get("wellNumber")): well for well in existing_wells}
     index_by_key = {record.get("wellKey"): record for record in index_records}
     merged = []
@@ -204,6 +204,10 @@ def merge_wells(existing_wells: list[dict], index_records: list[dict], today: da
     ]
 
     for key in sorted(index_by_key):
+        if selected_keys is not None and key not in selected_keys:
+            if key in existing_by_key:
+                merged.append(existing_by_key[key])
+            continue
         patch = well_patch(index_by_key[key], today, warning_days)
         before = existing_by_key.get(key, {})
         after = {**before}
@@ -227,8 +231,9 @@ def merge_wells(existing_wells: list[dict], index_records: list[dict], today: da
         after.setdefault("auditTrail", before.get("auditTrail", []))
         after.setdefault("createdAt", before.get("createdAt", ""))
         after.setdefault("createdBy", before.get("createdBy", "system"))
-        after["updatedAt"] = datetime.now(timezone.utc).isoformat()
-        after["updatedBy"] = "groundwater-sync-pipeline"
+        if after != before:
+            after["updatedAt"] = datetime.now(timezone.utc).isoformat()
+            after["updatedBy"] = "groundwater-sync-pipeline"
 
         if not before:
             added.append(key)
@@ -266,7 +271,7 @@ def merge_wells(existing_wells: list[dict], index_records: list[dict], today: da
     }
 
 
-def build_pumping_history(existing_payload: dict, pumping_index: list[dict]) -> dict:
+def build_pumping_history(existing_payload: dict, pumping_index: list[dict], wells=None) -> dict:
     if not pumping_index:
         records = existing_payload.get("records")
         if not isinstance(records, list):
@@ -286,8 +291,12 @@ def build_pumping_history(existing_payload: dict, pumping_index: list[dict]) -> 
         payload["preservedBecauseIndexEmpty"] = True
         return payload
 
+    from extract_pumping_history import detect_anomalies
+    well_lookup = {w['waterRightNo']: w for w in wells} if wells is not None else None
     records = []
     for item in pumping_index:
+        if well_lookup is not None and item.get('waterRightNo') not in well_lookup:
+            continue
         records.append({
             "waterRightNo": item.get("waterRightNo"),
             "wellName": item.get("wellName"),
@@ -298,6 +307,11 @@ def build_pumping_history(existing_payload: dict, pumping_index: list[dict]) -> 
             "sourceTotalM3": item.get("sourceTotalM3"),
             "anomalies": item.get("anomalies") or [],
         })
+        if well_lookup is not None:
+            records[-1]['anomalies'] = detect_anomalies(records[-1], well_lookup[item['waterRightNo']])
+        if item.get('source', {}).get('id'):
+            records[-1]['sourceUrl'] = 'https://drive.google.com/open?id=' + item['source']['id']
+            records[-1]['sourceModifiedAt'] = item['source'].get('modifiedTime', '')
     records.sort(key=lambda item: (text(item.get("waterRightNo")), -(item.get("yearMinguo") or 0)))
 
     years = [record["yearMinguo"] for record in records if isinstance(record.get("yearMinguo"), int)]
@@ -308,6 +322,17 @@ def build_pumping_history(existing_payload: dict, pumping_index: list[dict]) -> 
         payload["yearFrom"] = min(years)
         payload["yearTo"] = max(years)
     payload["records"] = records
+    rights = {r['waterRightNo'] for r in records}
+    payload['waterRightCount'] = len(rights)
+    payload['authorityCounts'] = {a: len({r['waterRightNo'] for r in records if r['authority'] == a}) for a in sorted({r['authority'] for r in records})}
+    payload['anomalyRecordCount'] = sum(len(r['anomalies']) for r in records)
+    if well_lookup is not None:
+        payload['wellCount'] = len(well_lookup)
+        payload['emptyWaterRightNos'] = sorted(set(well_lookup) - rights)
+    sources = {r['sourceUrl'] for r in records if r.get('sourceUrl')}
+    if sources:
+        payload['supplementalSources'] = sorted(sources)
+    payload.pop("preservedBecauseIndexEmpty", None)
     return payload
 
 
@@ -384,6 +409,8 @@ def main() -> int:
     parser.add_argument("--out-dir", required=True, type=Path)
     parser.add_argument("--today", default=date.today().isoformat())
     parser.add_argument("--expiration-warning-days", type=int, default=90)
+    parser.add_argument("--sync-scope", choices=['all', 'wells', 'pumping'], default='all')
+    parser.add_argument("--event-path", type=Path)
     args = parser.parse_args()
 
     today = date.fromisoformat(args.today)
@@ -392,8 +419,23 @@ def main() -> int:
     pumping_index = read_json(args.pumping_index, [])
     site_pumping_history = read_json(args.site_pumping_history, {})
 
-    merged_wells, well_summary = merge_wells(site_wells, well_index, today, args.expiration_warning_days)
-    pumping_payload = build_pumping_history(site_pumping_history, pumping_index)
+    event = read_json(args.event_path, {}) if args.event_path else {}
+    batch = (event.get('client_payload') or {}).get('batch')
+    selected = None
+    if batch is not None:
+        selected = batch.get('wellKeys')
+        if not isinstance(selected, list) or any(not isinstance(k, str) for k in selected):
+            raise ValueError('batch.wellKeys must be an array of well keys')
+        selected = set(selected)
+        unknown = selected - {r.get('wellKey') for r in well_index}
+        if args.sync_scope != 'pumping' and unknown:
+            raise ValueError(f'Unknown batch well keys: {sorted(unknown)}')
+    if args.sync_scope == 'pumping':
+        merged_wells = site_wells
+        well_summary = {k: [] for k in ['added', 'changed', 'missingFromIndex', 'expired', 'expiringSoon', 'photoRefreshNeeded']}
+    else:
+        merged_wells, well_summary = merge_wells(site_wells, well_index, today, args.expiration_warning_days, selected)
+    pumping_payload = site_pumping_history if args.sync_scope == 'wells' else build_pumping_history(site_pumping_history, pumping_index, site_wells)
 
     write_json(args.out_dir / "data" / "wells.json", merged_wells)
     write_json(args.out_dir / "data" / "pumping-history.json", pumping_payload)
