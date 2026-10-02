@@ -1,4 +1,5 @@
 name: Groundwater public data sync
+run-name: ${{ github.event.client_payload.schedule || 'manual-groundwater-sync' }}
 
 on:
   repository_dispatch:
