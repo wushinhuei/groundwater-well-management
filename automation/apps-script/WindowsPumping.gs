@@ -66,12 +66,12 @@ function syncWindowsPumpingSource() {
   } finally {lock.releaseLock();}
 }
 
-/** Activate after a real browser result was verified in Drive. */
+/** The listener can wait safely for the first verified browser upload. */
 function installWindowsPumpingHandoff() {
   const p=PropertiesService.getScriptProperties();
   const id=requiredProperty_(p,'WRA_WINDOWS_SOURCE_FILE_ID');
   const source=JSON.parse(DriveApp.getFileById(id).getBlob().getDataAsString('UTF-8'));
-  if(!source.browserSync || !source.browserSync.completedAt) throw new Error('Run Windows browser-to-Drive verification first.');
+  if(!Array.isArray(source.records)||!source.records.length) throw new Error('Invalid Windows source baseline.');
   ScriptApp.getProjectTriggers().filter(t=>['triggerPumpingMonthlySync','syncWindowsPumpingSource'].includes(t.getHandlerFunction())).forEach(t=>ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('syncWindowsPumpingSource').timeBased().everyHours(1).nearMinute(43).create();
   console.log('Windows uploads only; hourly Drive handoff check installed.');
