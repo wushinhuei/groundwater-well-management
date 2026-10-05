@@ -10,7 +10,9 @@ async function restoreSession(context,config) {
   await context.addCookies(cookies.filter(c=>c.expires===-1||c.expires>Date.now()/1000));
 }
 async function saveSession(context,config) {
-  const cookies=(await context.cookies('https://wr.wra.gov.tw')).filter(isWra);
+  // Authentication cookies may be scoped to /WRTInfoFrontEnd; querying the
+  // origin alone omits them. Retain all cookie paths for this exact WRA host.
+  const cookies=(await context.cookies()).filter(isWra);
   fs.mkdirSync(config.stateDirectory,{recursive:true});
   const file=sessionFile(config);
   fs.writeFileSync(file+'.tmp',JSON.stringify(cookies),{mode:0o600});

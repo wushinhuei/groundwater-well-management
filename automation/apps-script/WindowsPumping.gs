@@ -76,3 +76,10 @@ function installWindowsPumpingHandoff() {
   ScriptApp.newTrigger('syncWindowsPumpingSource').timeBased().everyHours(1).nearMinute(43).create();
   console.log('Windows uploads only; hourly Drive handoff check installed.');
 }
+
+function inspectWindowsPumpingStatus() {
+  const p=PropertiesService.getScriptProperties();
+  const id=requiredProperty_(p,'WRA_WINDOWS_SOURCE_FILE_ID');
+  const source=JSON.parse(DriveApp.getFileById(id).getBlob().getDataAsString('UTF-8'));
+  console.log(JSON.stringify({records:source.records.length,browserSync:source.browserSync||null,lastSuccess:p.getProperty('WRA_WINDOWS_LAST_SUCCESS'),pending:JSON.parse(p.getProperty('WRA_WINDOWS_PENDING')||'null'),triggers:ScriptApp.getProjectTriggers().map(t=>t.getHandlerFunction())}));
+}

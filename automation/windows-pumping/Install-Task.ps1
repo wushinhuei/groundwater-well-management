@@ -11,7 +11,7 @@ $enabledText=if($Enable){'true'}else{'false'}
 if(Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) { throw 'Task already exists; inspect before replacing it.' }
 $sid=[System.Security.Principal.WindowsIdentity]::GetCurrent().User.Value
 $runner=Join-Path $PSScriptRoot 'Run.ps1'
-$arguments='-NoProfile -WindowStyle Hidden -File "'+$runner+'" -Config "'+$configPath+'"'
+$arguments='-NoProfile -ExecutionPolicy RemoteSigned -WindowStyle Hidden -File "'+$runner+'" -Config "'+$configPath+'"'
 $escaped=[System.Security.SecurityElement]::Escape($arguments)
 $triggers=@(@{Day=6;Time='12:43:00'},@{Day=16;Time='14:13:00'},@{Day=26;Time='15:23:00'}) | ForEach-Object {
  '<CalendarTrigger><StartBoundary>2026-10-01T'+$_.Time+'</StartBoundary><Enabled>true</Enabled><ScheduleByMonth><DaysOfMonth><Day>'+ $_.Day +'</Day></DaysOfMonth><Months><January/><February/><March/><April/><May/><June/><July/><August/><September/><October/><November/><December/></Months></ScheduleByMonth></CalendarTrigger>'
