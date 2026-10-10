@@ -706,7 +706,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.303180+00:00",
+    "updatedAt": "2026-10-10T21:14:27.416723+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "96",
@@ -716,7 +716,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-06-30",
-      "daysUntilExpiration": -85
+      "daysUntilExpiration": -102
     }
   },
   {
@@ -878,7 +878,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.306228+00:00",
+    "updatedAt": "2026-10-10T21:14:27.416978+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "87",
@@ -888,7 +888,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-20",
-      "daysUntilExpiration": 728
+      "daysUntilExpiration": 711
     }
   },
   {
@@ -3038,7 +3038,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.301655+00:00",
+    "updatedAt": "2026-10-10T21:14:27.416593+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "23",
@@ -3048,7 +3048,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 677
+      "daysUntilExpiration": 660
     }
   },
   {
@@ -3414,7 +3414,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.309413+00:00",
+    "updatedAt": "2026-10-10T21:14:27.417263+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "3",
@@ -3424,7 +3424,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-03-31",
-      "daysUntilExpiration": 189
+      "daysUntilExpiration": 172
     }
   },
   {
@@ -4132,7 +4132,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.310949+00:00",
+    "updatedAt": "2026-10-10T21:14:27.417383+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "11",
@@ -4142,7 +4142,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-10-10",
-      "daysUntilExpiration": 1478
+      "daysUntilExpiration": 1461
     }
   },
   {
@@ -4508,7 +4508,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.300130+00:00",
+    "updatedAt": "2026-10-10T21:14:27.416436+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "57",
@@ -4518,7 +4518,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 830
+      "daysUntilExpiration": 813
     }
   },
   {
@@ -7035,7 +7035,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.304690+00:00",
+    "updatedAt": "2026-10-10T21:14:27.416856+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "36",
@@ -7045,7 +7045,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-02-28",
-      "daysUntilExpiration": 1254
+      "daysUntilExpiration": 1237
     }
   },
   {
@@ -9005,7 +9005,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-09-23T21:17:47.307884+00:00",
+    "updatedAt": "2026-10-10T21:14:27.417135+00:00",
     "updatedBy": "groundwater-sync-pipeline",
     "sync": {
       "sourceRow": "35",
@@ -9015,7 +9015,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1327
+      "daysUntilExpiration": 1310
     }
   },
   {
