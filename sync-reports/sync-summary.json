@@ -4,7 +4,9 @@
     "changed": [],
     "missingFromIndex": [],
     "expired": [],
-    "expiringSoon": [],
+    "expiringSoon": [
+      "K0123688"
+    ],
     "photoRefreshNeeded": []
   },
   "pumping": {
