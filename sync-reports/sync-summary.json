@@ -1,11 +1,19 @@
 {
   "wells": {
     "added": [],
-    "changed": [],
+    "changed": [
+      {
+        "waterRightNo": "B1140177",
+        "fields": [
+          "electricityNo"
+        ]
+      }
+    ],
     "missingFromIndex": [],
     "expired": [],
     "expiringSoon": [
-      "K0123688"
+      "B1000076",
+      "K0123725"
     ],
     "photoRefreshNeeded": []
   },
