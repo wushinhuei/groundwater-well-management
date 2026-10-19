@@ -1,58 +1,667 @@
 [
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0108729",
     "yearMinguo": 115,
-    "month": 1,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0110761",
     "yearMinguo": 115,
-    "month": 2,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0112603",
     "yearMinguo": 115,
-    "month": 3,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0113848",
     "yearMinguo": 115,
-    "month": 4,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0115482",
     "yearMinguo": 115,
-    "month": 5,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0115526",
     "yearMinguo": 115,
-    "month": 6,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0117178",
     "yearMinguo": 115,
-    "month": 7,
+    "month": 9,
     "before": null,
     "after": 0.0
   },
   {
-    "waterRightNo": "B1150091",
+    "waterRightNo": "B0117179",
     "yearMinguo": 115,
-    "month": 8,
+    "month": 9,
     "before": null,
     "after": 0.0
+  },
+  {
+    "waterRightNo": "B0118814",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0120538",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0130087",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 69768.0
+  },
+  {
+    "waterRightNo": "B0130088",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 34200.0
+  },
+  {
+    "waterRightNo": "B0130267",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0130278",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0130292",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0130304",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0930053",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0970027",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0970028",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0970046",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0990021",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B0990027",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1000076",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1020065",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1020099",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1020100",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1020119",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1030009",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1030025",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1040342",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1040345",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1050034",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1050044",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1050164",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1060111",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 305.28
+  },
+  {
+    "waterRightNo": "B1060117",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1060151",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070014",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070109",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070150",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070161",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 8927.78
+  },
+  {
+    "waterRightNo": "B1070175",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1070176",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1080051",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1080096",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1080127",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1080171",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090023",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090031",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090091",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090135",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090136",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1090151",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100047",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100087",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100662",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100760",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1100779",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1120003",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1120069",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 14688.0
+  },
+  {
+    "waterRightNo": "B1120077",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1120251",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 81.0
+  },
+  {
+    "waterRightNo": "B1130014",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130052",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130072",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 9072.0
+  },
+  {
+    "waterRightNo": "B1130145",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130250",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130251",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1130271",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140020",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140033",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140109",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140110",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140111",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140139",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140143",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1140177",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1150066",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "B1150080",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 4212.0
+  },
+  {
+    "waterRightNo": "B1150081",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0086033",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0086034",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 302.4
+  },
+  {
+    "waterRightNo": "K0123393",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 115.2
+  },
+  {
+    "waterRightNo": "K0123688",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0123725",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 136.8
+  },
+  {
+    "waterRightNo": "K0123766",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0123768",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0123779",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0123786",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0124239",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0124362",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 378.0
+  },
+  {
+    "waterRightNo": "K0124420",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K0124485",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 0.0
+  },
+  {
+    "waterRightNo": "K1140087",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 378.0
+  },
+  {
+    "waterRightNo": "K1140122",
+    "yearMinguo": 115,
+    "month": 9,
+    "before": null,
+    "after": 82.8
   }
 ]

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "source": {
-    "id": "1pYv1n_6dEsU0digJY-X1ZlpEPQPxsFkgrnK1Mz6G_1Q",
-    "name": "115年地下水水權用水紀錄表",
-    "modifiedTime": "2026-09-24T01:54:57.376Z",
-    "size": "92326",
-    "md5Checksum": ""
+    "id": "1hqN1we88i-RJf9RJNn_vXjXIyL97Lceo",
+    "name": "wra-windows-pumping-source.json",
+    "modifiedTime": "2026-10-16T07:37:17.224Z",
+    "size": "438435",
+    "md5Checksum": "cf945588a7ee339b4294c1936b362313"
   },
-  "lastSyncedAt": "2026-09-24T05:12:33.085825+00:00",
-  "recordCount": 829
+  "lastSyncedAt": "2026-10-19T03:50:56.613913+00:00",
+  "recordCount": 828
 }
