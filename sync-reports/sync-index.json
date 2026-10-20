@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T03:51:12.936109+00:00",
+  "generatedAt": "2026-10-20T21:14:40.491319+00:00",
   "sources": {
     "wellIndex": {
       "path": "/home/runner/work/_temp/groundwater-sync/well-index.json",
       "exists": true,
       "size": 126106,
-      "modifiedAt": "2026-10-19T03:50:49.115500+00:00",
+      "modifiedAt": "2026-10-20T21:14:12.795591+00:00",
       "sha256": "c653043de6e36b6195e734414831ce046cac3b2fb24b295e09f6a477b7c34931"
     },
     "siteWells": {
       "path": "public/data/wells.json",
       "exists": true,
       "size": 313155,
-      "modifiedAt": "2026-10-19T03:50:28.370083+00:00",
+      "modifiedAt": "2026-10-20T21:13:52.480388+00:00",
       "sha256": "ab062db39a3f3fb87c14fab9370ec4436cc43488ab62b415aa7ffd7da5c86e77"
     },
     "pumpingIndex": {
       "path": "/home/runner/work/_temp/groundwater-sync/pumping-index.json",
-      "exists": true,
-      "size": 491855,
-      "modifiedAt": "2026-10-19T03:50:56.632604+00:00",
-      "sha256": "9286ae0b334ef969ff9c186892e83341b230a5edb6889d057c7cd55dba051161"
+      "exists": false,
+      "size": 0,
+      "modifiedAt": "",
+      "sha256": ""
     },
     "sitePumpingHistory": {
       "path": "public/data/pumping-history.json",
       "exists": true,
-      "size": 377378,
-      "modifiedAt": "2026-10-19T03:50:28.369466+00:00",
-      "sha256": "12ab76292840d0e67d02b9f0c7847429176582077528d31e21fe049a3e2871cd"
+      "size": 375307,
+      "modifiedAt": "2026-10-20T21:13:52.479767+00:00",
+      "sha256": "030cd5fffa89d8c9cf3452524a1f86d130f9c1f36f2b3707a99c687721c76e01"
     }
   },
   "outputs": {
