@@ -37,6 +37,8 @@ def main():
             proc=subprocess.run(cmd,stdout=log,stderr=log,env={**os.environ,'PYTHONUTF8':'1'})
         if proc.returncode:raise RuntimeError(label+' failed; inspect local-sync/pipeline.log')
     try:
+        from local_sources import mirror_sources,verify_mirror
+        mirrored=mirror_sources(c)
         parent=api(f'repos/{repo}/git/ref/heads/{branch}')['object']['sha']
         tree=api(f'repos/{repo}/git/commits/{parent}')['tree']['sha']
         baseline=root/'baseline';baseline.mkdir(exist_ok=True)
@@ -45,7 +47,7 @@ def main():
             existing[name]=download(name,parent)
             path=baseline/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(existing[name])
         work=root/'indexes';out=root/'public';scripts=Path(__file__).parent
-        execute([sys.executable,str(scripts/'groundwater_drive_sync.py'),'--service-account',c['serviceAccountFile'],'--sync-scope',args.scope,'--groundwater-root-folder-id','1TLw8JdrVw_OagddkzZz96effiJ51q3F5','--registry-folder-id','1ZwNZHe0JslvSY62ZAX2BvwPGTPosdz9d','--well-index-folder-id',c['indexFolderId'],'--pumping-index-folder-id',c['indexFolderId'],'--pumping-source-file-id',c['sourceFileId'],'--water-right-folder-id','1KxaouZafEJU6vefcXSQMzPSCnEoc-BDy','--site-wells',str(baseline/'docs/data/wells.json'),'--site-pumping-history',str(baseline/'docs/data/pumping-history.json'),'--pumping-state',str(baseline/'sync-reports/pumping-sync-index.json'),'--work-dir',str(work)],'Drive sync')
+        execute([sys.executable,str(scripts/'groundwater_drive_sync.py'),'--service-account',c['serviceAccountFile'],'--sync-scope',args.scope,'--groundwater-root-folder-id','1TLw8JdrVw_OagddkzZz96effiJ51q3F5','--registry-folder-id','1ZwNZHe0JslvSY62ZAX2BvwPGTPosdz9d','--registry-file-id',c['registryBackupFileId'],'--well-index-folder-id',c['indexFolderId'],'--pumping-index-folder-id',c['indexFolderId'],'--pumping-source-file-id',c['sourceFileId'],'--water-right-folder-id','1KxaouZafEJU6vefcXSQMzPSCnEoc-BDy','--site-wells',str(baseline/'docs/data/wells.json'),'--site-pumping-history',str(baseline/'docs/data/pumping-history.json'),'--pumping-state',str(baseline/'sync-reports/pumping-sync-index.json'),'--work-dir',str(work)],'Drive sync')
         execute([sys.executable,str(scripts/'sync_public_data.py'),'--sync-scope',args.scope,'--well-index',str(work/'well-index.json'),'--site-wells',str(baseline/'docs/data/wells.json'),'--pumping-index',str(work/'pumping-index.json'),'--site-pumping-history',str(baseline/'docs/data/pumping-history.json'),'--out-dir',str(out)],'Local public data build')
         changes={};expected={}
         for name in ['wells.json','pumping-history.json']:
@@ -55,6 +57,7 @@ def main():
                 if not same_json(existing[dest],data):changes[dest]=data
         idx=work/'pumping-sync-index.json'
         if idx.exists() and not same_json(existing['sync-reports/pumping-sync-index.json'],idx.read_bytes()):changes['sync-reports/pumping-sync-index.json']=idx.read_bytes()
+        verify_mirror(c,mirrored)
         commit=publish_tree(api,repo,branch,parent,tree,changes)
         status(status='committed-awaiting-pages',commit=commit,changedFiles=list(changes))
         base=c.get('publicSiteUrl','https://wushinhuei.github.io/groundwater-well-management').rstrip('/')

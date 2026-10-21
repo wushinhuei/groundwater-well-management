@@ -1,7 +1,7 @@
 // Invoked by the Windows task; no inbound server or public port is required.
 const fs=require('node:fs');
 const path=require('node:path');
-const crypto=require('node:crypto');
+const {localDataClient}=require('./local-data.cjs');
 const {SOURCE_URL,plan,parseResult,merge,dueTargets,scheduledTargets}=require('./core.cjs');
 const {publishLocal}=require('./local-publish.cjs');
 const {restoreSession,saveSession,setYear}=require('./browser-session.cjs');
@@ -15,22 +15,6 @@ const log=(level,event,message,details={})=>audit.log(level,event,message,{mode,
 const save=(name,data)=>{const file=path.join(stateDir,name); fs.writeFileSync(file+'.tmp',JSON.stringify(data,null,2));fs.renameSync(file+'.tmp',file);};
 const load=name=>fs.existsSync(path.join(stateDir,name))?JSON.parse(fs.readFileSync(path.join(stateDir,name),'utf8')):null;
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
-async function driveClient(){
-  const key=JSON.parse(fs.readFileSync(config.serviceAccountFile,'utf8').replace(/^\uFEFF/,''));
-  const enc=obj=>Buffer.from(JSON.stringify(obj)).toString('base64url');
-  const now=Math.floor(Date.now()/1000);
-  const unsigned=enc({alg:'RS256',typ:'JWT'})+'.'+enc({iss:key.client_email,scope:'https://www.googleapis.com/auth/drive',aud:'https://oauth2.googleapis.com/token',iat:now,exp:now+3600});
-  const assertion=unsigned+'.'+crypto.sign('RSA-SHA256',Buffer.from(unsigned),key.private_key).toString('base64url');
-  const response=await fetch('https://oauth2.googleapis.com/token',{method:'POST',body:new URLSearchParams({grant_type:'urn:ietf:params:oauth:grant-type:jwt-bearer',assertion}),signal:AbortSignal.timeout(40000)});
-  if(!response.ok) throw Error('Drive authentication failed: '+response.status);
-  const token=(await response.json()).access_token;
-  return async (route,body)=>{
-    const url='https://www.googleapis.com/'+(body?'upload/':'')+'drive/v3/'+route;
-    const r=await fetch(url,{method:body?'PATCH':'GET',headers:{Authorization:'Bearer '+token,...(body?{'Content-Type':'application/json'}:{})},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(60000)});
-    if(!r.ok) throw Error('Drive request failed: '+r.status);
-    return r.json();
-  };
-}
 async function main(){
   log('INFO','RUN_START','開始執行本機更新。');
   config=JSON.parse(fs.readFileSync(process.argv[2],'utf8').replace(/^\uFEFF/,''));
@@ -61,16 +45,16 @@ async function main(){
     } finally {await context.close();}
     return;
   }
-  if(!config.sourceFileId) throw Error('Apps Script source file has not been configured');
-  phase='drive-read';
-  const drive=await driveClient();
-  if(mode==='verify-drive') {
+  if(!config.sourceFileId) throw Error('Local source identifier has not been configured');
+  phase='local-read';
+  const drive=localDataClient(config);
+  if(mode==='verify-local') {
     const original=await drive('files/'+encodeURIComponent(config.sourceFileId)+'?alt=media');
     if(original.browserSync) throw Error('Transport test requires an unused staging source');
     await drive('files/'+encodeURIComponent(config.sourceFileId)+'?uploadType=media',original);
     const check=await drive('files/'+encodeURIComponent(config.sourceFileId)+'?alt=media');
-    if(JSON.stringify(check)!==JSON.stringify(original)) throw Error('Drive round-trip mismatch');
-    console.log('Drive read/write verified; baseline records: '+check.records.length+'; no WRA data or dispatch marker added');return;
+    if(JSON.stringify(check)!==JSON.stringify(original)) throw Error('本機 round-trip mismatch');
+    console.log('本機 read/write verified; baseline records: '+check.records.length+'; no WRA data or dispatch marker added');return;
   }
   const q="'"+config.indexFolderId+"' in parents and trashed=false and name='well-index.json'";
   const files=await drive('files?q='+encodeURIComponent(q)+'&fields=files(id)');
@@ -128,8 +112,8 @@ async function main(){
   activeWell=undefined;
   const stats={checkedWells:checkpoint.results.length,missingWells:checkpoint.results.filter(r=>r.m3===null).length};
   log(stats.missingWells?'WARN':'INFO','BATCH_QUERIED','批次查詢結束。',stats);
-  if(mode==='smoke') {log('INFO','VERIFY_OK','單井驗證完成，未寫入 Drive。',stats);save('smoke-result.json',checkpoint.results);save('verification.json',{at:Date.now(),ok:true});console.log(JSON.stringify(checkpoint.results));return;}
-  phase='drive-upload';
+  if(mode==='smoke') {log('INFO','VERIFY_OK','單井驗證完成，未寫入 本機。',stats);save('smoke-result.json',checkpoint.results);save('verification.json',{at:Date.now(),ok:true});console.log(JSON.stringify(checkpoint.results));return;}
+  phase='local-write';
   const source=await drive('files/'+encodeURIComponent(config.sourceFileId)+'?alt=media');
   save('before-upload.json',source);
   const merged=merge(source,checkpoint.results,target);
@@ -140,10 +124,10 @@ async function main(){
   merged.browserSync=null;
   const changedMonths=changedCount(source,merged);
   if(changedMonths>0){
-    log('INFO','UPLOAD_START','開始寫入 Drive。',{...stats,changedMonths});
+    log('INFO','UPLOAD_START','開始寫入 本機。',{...stats,changedMonths});
     await drive('files/'+encodeURIComponent(config.sourceFileId)+'?uploadType=media',merged);
     const verification=await drive('files/'+encodeURIComponent(config.sourceFileId)+'?alt=media');
-    if(JSON.stringify(verification)!==JSON.stringify(merged))throw Error('Drive write verification failed');
+    if(JSON.stringify(verification)!==JSON.stringify(merged))throw Error('本機 write verification failed');
   }
   if(changedMonths>0){
     phase='local-publish';
@@ -154,7 +138,7 @@ async function main(){
     const before=source.records.find(x=>x.waterRightNo===r.waterRightNo&&x.yearMinguo===r.yearMinguo)?.monthlyM3[r.month-1]??null;
     const after=merged.records.find(x=>x.waterRightNo===r.waterRightNo&&x.yearMinguo===r.yearMinguo)?.monthlyM3[r.month-1]??null;
     const missing=r.m3===null;
-    log(missing?'WARN':'INFO',missing?'WELL_MISSING_PRESERVED':before===after?'WELL_UNCHANGED':'WELL_UPDATED',missing?(r.reason==='not-listed'?'官方查無此井年度資料，未填零，保留原值。':'官方月份欄位空白，未填零，保留原值。'):before===after?'數值與原資料一致，無需變更。':'此井月份數值已寫入 Drive 並讀回驗證。',{waterRightNo:r.waterRightNo,...(wellNames.get(r.waterRightNo)||{wellName:'井名未取得'}),beforeM3:before,afterM3:after,reason:r.reason,checkedWells:undefined});
+    log(missing?'WARN':'INFO',missing?'WELL_MISSING_PRESERVED':before===after?'WELL_UNCHANGED':'WELL_UPDATED',missing?(r.reason==='not-listed'?'官方查無此井年度資料，未填零，保留原值。':'官方月份欄位空白，未填零，保留原值。'):before===after?'數值與原資料一致，無需變更。':'此井月份數值已寫入 本機 並讀回驗證。',{waterRightNo:r.waterRightNo,...(wellNames.get(r.waterRightNo)||{wellName:'井名未取得'}),beforeM3:before,afterM3:after,reason:r.reason,checkedWells:undefined});
   }
   checkpoint.completed=true;checkpoint.uploaded=changedMonths>0;
   checkpoint.completedAt=new Date().toISOString();
@@ -165,7 +149,7 @@ async function main(){
   }
   outcome=changedMonths>0?'published-verified':'checked-no-changes';
   save('status.json',{status:outcome,...targetInfo,...stats,changedMonths,completedAt:checkpoint.completedAt});
-  log(stats.missingWells?'WARN':'INFO',changedMonths>0?'UPLOAD_VERIFIED':'NO_CHANGES',changedMonths>0?'Drive、索引、GitHub 提交及網站公開資料比對成功。':'補查完成，無新數值；未寫入 Drive。',{...stats,changedMonths,outcome});
+  log(stats.missingWells?'WARN':'INFO',changedMonths>0?'UPLOAD_VERIFIED':'NO_CHANGES',changedMonths>0?'本機、索引、GitHub 提交及網站公開資料比對成功。':'補查完成，無新數值；未寫入 本機。',{...stats,changedMonths,outcome});
   console.log(outcome+'; changed months: '+changedMonths);
 
 }

@@ -743,6 +743,7 @@ def main() -> int:
     parser.add_argument("--sync-scope", default="all", choices=["all", "wells", "pumping"])
     parser.add_argument("--groundwater-root-folder-id", required=True)
     parser.add_argument("--registry-folder-id", default="")
+    parser.add_argument("--registry-file-id", default="")
     parser.add_argument("--well-index-folder-id", default="")
     parser.add_argument("--pumping-index-folder-id", default="")
     parser.add_argument("--pumping-source-file-id", default="")
@@ -800,7 +801,7 @@ def main() -> int:
 
     root_files = []  # Scan pumping sources only on a pumping run.
     registry_files = list_tree(service, registry_folder_id)
-    registry_file = newest_file(registry_files, is_registry_candidate)
+    registry_file = service.files().get(fileId=args.registry_file_id, fields="id,name,mimeType,modifiedTime,size,md5Checksum").execute() if args.registry_file_id else newest_file(registry_files, is_registry_candidate)
     if not registry_file and args.sync_scope in {"all", "wells"}:
         raise RuntimeError("No groundwater registry Excel candidate found in Drive")
 
