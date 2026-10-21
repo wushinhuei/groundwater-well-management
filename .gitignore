@@ -23,3 +23,22 @@ __pycache__/
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Private workstation inputs and runtime state
+**/config.json
+**/session.dpapi
+**/browser-profile/
+**/*service-account*.json
+**/*credentials*.json
+**/*.pem
+**/*.key
+**/logs/
+**/local-data/
+**/private-data/
+**/state/
+**/review-*.json
+**/batch-*.json
+**/before-upload.json
+**/status.json
+**/local-publish-status.json
+**/pipeline.log

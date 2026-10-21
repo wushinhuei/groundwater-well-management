@@ -1,0 +1,14 @@
+{
+  "name": "groundwater-local-scheduler",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "playwright": "1.56.1"
+  },
+  "scripts": {
+    "test": "node -e \"require('./tests.cjs');require('./logger-tests.cjs');require('./integration-tests.cjs')\""
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
