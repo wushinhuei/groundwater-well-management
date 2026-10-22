@@ -1,7 +1,14 @@
 {
   "wells": {
     "added": [],
-    "changed": [],
+    "changed": [
+      {
+        "waterRightNo": "B1150051",
+        "fields": [
+          "agriculturalPower"
+        ]
+      }
+    ],
     "missingFromIndex": [],
     "expired": [],
     "expiringSoon": [],
