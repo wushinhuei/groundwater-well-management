@@ -15379,7 +15379,7 @@
         null,
         null
       ],
-      "sourceTotalM3": 68947.2,
+      "sourceTotalM3": 68947.20000000001,
       "anomalies": []
     },
     {
@@ -16692,12 +16692,12 @@
         15120.0,
         15120.0,
         302.4,
-        302.4,
+        302.0,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 126252.0,
+      "sourceTotalM3": 126251.59999999999,
       "anomalies": []
     },
     {
@@ -17481,12 +17481,12 @@
         1094.4,
         1094.4,
         136.8,
-        136.8,
+        137.0,
         null,
         null,
         null
       ],
-      "sourceTotalM3": 49932.00000000001,
+      "sourceTotalM3": 49932.200000000004,
       "anomalies": []
     },
     {
