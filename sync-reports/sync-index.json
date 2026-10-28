@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T21:14:37.577468+00:00",
+  "generatedAt": "2026-10-28T21:14:46.922427+00:00",
   "sources": {
     "wellIndex": {
       "path": "/home/runner/work/_temp/groundwater-sync/well-index.json",
       "exists": true,
       "size": 197507,
-      "modifiedAt": "2026-10-26T21:14:09.351566+00:00",
+      "modifiedAt": "2026-10-28T21:14:12.928810+00:00",
       "sha256": "63147d37e0467c55df4ad33f93a7c03db1d6ef898a915522b80cf5dc43953929"
     },
     "siteWells": {
       "path": "public/data/wells.json",
       "exists": true,
-      "size": 320586,
-      "modifiedAt": "2026-10-26T21:13:49.622919+00:00",
-      "sha256": "46ad375643ecf9b5ee0953a02da25a1eba0e8f0bbe11c89f8c62a21e401e3618"
+      "size": 398610,
+      "modifiedAt": "2026-10-28T21:13:54.564390+00:00",
+      "sha256": "63d8c00708db605bbdfcb473f60e5b18ed9438ca451c4b8145b287fcb083f977"
     },
     "pumpingIndex": {
       "path": "/home/runner/work/_temp/groundwater-sync/pumping-index.json",
@@ -26,15 +26,15 @@
     "sitePumpingHistory": {
       "path": "public/data/pumping-history.json",
       "exists": true,
-      "size": 375307,
-      "modifiedAt": "2026-10-26T21:13:49.622423+00:00",
-      "sha256": "030cd5fffa89d8c9cf3452524a1f86d130f9c1f36f2b3707a99c687721c76e01"
+      "size": 394461,
+      "modifiedAt": "2026-10-28T21:13:54.563390+00:00",
+      "sha256": "af0822fb7ea1dc56798064ed4eabce488c786f084241f2f8287751bb70c123c5"
     }
   },
   "outputs": {
     "wells": {
       "recordCount": 111,
-      "expiredWaterRights": 0,
+      "expiredWaterRights": 1,
       "expiringSoonWaterRights": 0
     },
     "pumping": {
