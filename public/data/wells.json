@@ -86,7 +86,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "97",
@@ -96,7 +96,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-12",
-      "daysUntilExpiration": 349
+      "daysUntilExpiration": 348
     }
   },
   {
@@ -186,7 +186,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "98",
@@ -196,7 +196,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-02-19",
-      "daysUntilExpiration": 845
+      "daysUntilExpiration": 844
     }
   },
   {
@@ -286,7 +286,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "99",
@@ -296,7 +296,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-04-29",
-      "daysUntilExpiration": 914
+      "daysUntilExpiration": 913
     }
   },
   {
@@ -386,7 +386,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "100",
@@ -396,7 +396,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-18",
-      "daysUntilExpiration": 1390
+      "daysUntilExpiration": 1389
     }
   },
   {
@@ -486,7 +486,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "2",
@@ -496,7 +496,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-07",
-      "daysUntilExpiration": 649
+      "daysUntilExpiration": 648
     }
   },
   {
@@ -586,7 +586,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "94",
@@ -596,7 +596,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-06-30",
-      "daysUntilExpiration": 976
+      "daysUntilExpiration": 975
     }
   },
   {
@@ -686,7 +686,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "95",
@@ -696,7 +696,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-11-30",
-      "daysUntilExpiration": 398
+      "daysUntilExpiration": 397
     }
   },
   {
@@ -784,7 +784,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "96",
@@ -794,7 +794,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-06-30",
-      "daysUntilExpiration": -120
+      "daysUntilExpiration": -121
     }
   },
   {
@@ -884,7 +884,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "86",
@@ -894,7 +894,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-06-30",
-      "daysUntilExpiration": 245
+      "daysUntilExpiration": 244
     }
   },
   {
@@ -984,7 +984,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "87",
@@ -994,7 +994,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-20",
-      "daysUntilExpiration": 693
+      "daysUntilExpiration": 692
     }
   },
   {
@@ -1072,7 +1072,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "89",
@@ -1082,7 +1082,7 @@
       "embeddedPhotoCount": 0,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-20",
-      "daysUntilExpiration": 1180
+      "daysUntilExpiration": 1179
     }
   },
   {
@@ -1172,7 +1172,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "88",
@@ -1182,7 +1182,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-20",
-      "daysUntilExpiration": 1180
+      "daysUntilExpiration": 1179
     }
   },
   {
@@ -1272,7 +1272,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "90",
@@ -1282,7 +1282,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-22",
-      "daysUntilExpiration": 1182
+      "daysUntilExpiration": 1181
     }
   },
   {
@@ -1372,7 +1372,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "91",
@@ -1382,7 +1382,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-04",
-      "daysUntilExpiration": 1649
+      "daysUntilExpiration": 1648
     }
   },
   {
@@ -1472,7 +1472,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "92",
@@ -1482,7 +1482,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-28",
-      "daysUntilExpiration": 1704
+      "daysUntilExpiration": 1703
     }
   },
   {
@@ -1572,7 +1572,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "93",
@@ -1582,7 +1582,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-28",
-      "daysUntilExpiration": 1704
+      "daysUntilExpiration": 1703
     }
   },
   {
@@ -1670,7 +1670,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "75",
@@ -1680,7 +1680,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-08-01",
-      "daysUntilExpiration": -88
+      "daysUntilExpiration": -89
     }
   },
   {
@@ -1768,7 +1768,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "74",
@@ -1778,7 +1778,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-09-30",
-      "daysUntilExpiration": -28
+      "daysUntilExpiration": -29
     }
   },
   {
@@ -1868,7 +1868,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "76",
@@ -1878,7 +1878,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-30",
-      "daysUntilExpiration": 794
+      "daysUntilExpiration": 793
     }
   },
   {
@@ -1968,7 +1968,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "77",
@@ -1978,7 +1978,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-11-30",
-      "daysUntilExpiration": 1129
+      "daysUntilExpiration": 1128
     }
   },
   {
@@ -2068,7 +2068,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "78",
@@ -2078,7 +2078,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-15",
-      "daysUntilExpiration": 718
+      "daysUntilExpiration": 717
     }
   },
   {
@@ -2168,7 +2168,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "80",
@@ -2178,7 +2178,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-15",
-      "daysUntilExpiration": 718
+      "daysUntilExpiration": 717
     }
   },
   {
@@ -2268,7 +2268,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "79",
@@ -2278,7 +2278,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-20",
-      "daysUntilExpiration": 723
+      "daysUntilExpiration": 722
     }
   },
   {
@@ -2368,7 +2368,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "81",
@@ -2378,7 +2378,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-24",
-      "daysUntilExpiration": 1335
+      "daysUntilExpiration": 1334
     }
   },
   {
@@ -2468,7 +2468,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "82",
@@ -2478,7 +2478,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-08",
-      "daysUntilExpiration": 437
+      "daysUntilExpiration": 436
     }
   },
   {
@@ -2568,7 +2568,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "83",
@@ -2578,7 +2578,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1641
+      "daysUntilExpiration": 1640
     }
   },
   {
@@ -2668,7 +2668,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "84",
@@ -2678,7 +2678,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1641
+      "daysUntilExpiration": 1640
     }
   },
   {
@@ -2768,7 +2768,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "85",
@@ -2778,7 +2778,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-04-26",
-      "daysUntilExpiration": 1641
+      "daysUntilExpiration": 1640
     }
   },
   {
@@ -2868,7 +2868,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "110",
@@ -2878,7 +2878,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-15",
-      "daysUntilExpiration": 1326
+      "daysUntilExpiration": 1325
     }
   },
   {
@@ -2968,7 +2968,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "109",
@@ -2978,7 +2978,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-15",
-      "daysUntilExpiration": 1326
+      "daysUntilExpiration": 1325
     }
   },
   {
@@ -3068,7 +3068,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "101",
@@ -3078,7 +3078,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-20",
-      "daysUntilExpiration": 662
+      "daysUntilExpiration": 661
     }
   },
   {
@@ -3168,7 +3168,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "102",
@@ -3178,7 +3178,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-19",
-      "daysUntilExpiration": 1664
+      "daysUntilExpiration": 1663
     }
   },
   {
@@ -3268,7 +3268,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "24",
@@ -3278,7 +3278,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 642
+      "daysUntilExpiration": 641
     }
   },
   {
@@ -3368,7 +3368,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "23",
@@ -3378,7 +3378,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 642
+      "daysUntilExpiration": 641
     }
   },
   {
@@ -3468,7 +3468,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "25",
@@ -3478,7 +3478,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-24",
-      "daysUntilExpiration": 453
+      "daysUntilExpiration": 452
     }
   },
   {
@@ -3568,7 +3568,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "26",
@@ -3578,7 +3578,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-14",
-      "daysUntilExpiration": 17
+      "daysUntilExpiration": 16
     }
   },
   {
@@ -3668,7 +3668,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "27",
@@ -3678,7 +3678,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1292
+      "daysUntilExpiration": 1291
     }
   },
   {
@@ -3768,7 +3768,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "3",
@@ -3778,7 +3778,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-03-31",
-      "daysUntilExpiration": 154
+      "daysUntilExpiration": 153
     }
   },
   {
@@ -3868,7 +3868,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "4",
@@ -3878,7 +3878,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-03-31",
-      "daysUntilExpiration": 154
+      "daysUntilExpiration": 153
     }
   },
   {
@@ -3968,7 +3968,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "5",
@@ -3978,7 +3978,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-31",
-      "daysUntilExpiration": 368
+      "daysUntilExpiration": 367
     }
   },
   {
@@ -4088,7 +4088,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "6",
@@ -4098,7 +4098,7 @@
       "embeddedPhotoCount": 4,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-12-31",
-      "daysUntilExpiration": 64
+      "daysUntilExpiration": 63
     }
   },
   {
@@ -4188,7 +4188,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "7",
@@ -4198,7 +4198,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 764
+      "daysUntilExpiration": 763
     }
   },
   {
@@ -4266,7 +4266,7 @@
     "twd97Y": "2699471",
     "latitude": 24.400972,
     "longitude": 120.6683831,
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "10",
@@ -4276,7 +4276,7 @@
       "embeddedPhotoCount": 1,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-04-20",
-      "daysUntilExpiration": 905
+      "daysUntilExpiration": 904
     },
     "completionDate": "",
     "constructionYear": ""
@@ -4368,7 +4368,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "9",
@@ -4378,7 +4378,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-07-10",
-      "daysUntilExpiration": 986
+      "daysUntilExpiration": 985
     }
   },
   {
@@ -4468,7 +4468,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "8",
@@ -4478,7 +4478,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-10",
-      "daysUntilExpiration": 1382
+      "daysUntilExpiration": 1381
     }
   },
   {
@@ -4568,7 +4568,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "11",
@@ -4578,7 +4578,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-10-10",
-      "daysUntilExpiration": 1443
+      "daysUntilExpiration": 1442
     }
   },
   {
@@ -4668,7 +4668,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "61",
@@ -4678,7 +4678,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 764
+      "daysUntilExpiration": 763
     }
   },
   {
@@ -4768,7 +4768,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "54",
@@ -4778,7 +4778,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-15",
-      "daysUntilExpiration": 1053
+      "daysUntilExpiration": 1052
     }
   },
   {
@@ -4868,7 +4868,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "53",
@@ -4878,7 +4878,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-09-30",
-      "daysUntilExpiration": 1433
+      "daysUntilExpiration": 1432
     }
   },
   {
@@ -4968,7 +4968,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "57",
@@ -4978,7 +4978,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -5066,7 +5066,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "60",
@@ -5076,7 +5076,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-08-01",
-      "daysUntilExpiration": -88
+      "daysUntilExpiration": -89
     }
   },
   {
@@ -5166,7 +5166,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "56",
@@ -5176,7 +5176,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-12-31",
-      "daysUntilExpiration": 429
+      "daysUntilExpiration": 428
     }
   },
   {
@@ -5266,7 +5266,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "55",
@@ -5276,7 +5276,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -5366,7 +5366,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "59",
@@ -5376,7 +5376,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-30",
-      "daysUntilExpiration": 33
+      "daysUntilExpiration": 32
     }
   },
   {
@@ -5466,7 +5466,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "58",
@@ -5476,7 +5476,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-07-31",
-      "daysUntilExpiration": 642
+      "daysUntilExpiration": 641
     }
   },
   {
@@ -5566,7 +5566,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "62",
@@ -5576,7 +5576,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -5666,7 +5666,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "63",
@@ -5676,7 +5676,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-08-09",
-      "daysUntilExpiration": 651
+      "daysUntilExpiration": 650
     }
   },
   {
@@ -5761,7 +5761,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "66",
@@ -5771,7 +5771,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -5861,7 +5861,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "64",
@@ -5871,7 +5871,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -5956,7 +5956,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "65",
@@ -5966,7 +5966,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -6051,7 +6051,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "67",
@@ -6061,7 +6061,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -6146,7 +6146,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "68",
@@ -6156,7 +6156,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-12-31",
-      "daysUntilExpiration": 795
+      "daysUntilExpiration": 794
     }
   },
   {
@@ -6241,7 +6241,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "69",
@@ -6251,7 +6251,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-04-30",
-      "daysUntilExpiration": 550
+      "daysUntilExpiration": 549
     }
   },
   {
@@ -6336,7 +6336,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "70",
@@ -6346,7 +6346,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-17",
-      "daysUntilExpiration": 812
+      "daysUntilExpiration": 811
     }
   },
   {
@@ -6431,7 +6431,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "72",
@@ -6441,7 +6441,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-18",
-      "daysUntilExpiration": 1056
+      "daysUntilExpiration": 1055
     }
   },
   {
@@ -6526,7 +6526,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "71",
@@ -6536,7 +6536,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-09-18",
-      "daysUntilExpiration": 1056
+      "daysUntilExpiration": 1055
     }
   },
   {
@@ -6621,7 +6621,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "73",
@@ -6631,7 +6631,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-01",
-      "daysUntilExpiration": 1342
+      "daysUntilExpiration": 1341
     }
   },
   {
@@ -6721,7 +6721,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "37",
@@ -6731,7 +6731,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-02-29",
-      "daysUntilExpiration": 489
+      "daysUntilExpiration": 488
     }
   },
   {
@@ -6816,7 +6816,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "49",
@@ -6826,7 +6826,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-06",
-      "daysUntilExpiration": 860
+      "daysUntilExpiration": 859
     }
   },
   {
@@ -6916,7 +6916,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "42",
@@ -6926,7 +6926,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-30",
-      "daysUntilExpiration": 884
+      "daysUntilExpiration": 883
     }
   },
   {
@@ -7016,7 +7016,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "40",
@@ -7026,7 +7026,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-01",
-      "daysUntilExpiration": 1342
+      "daysUntilExpiration": 1341
     }
   },
   {
@@ -7116,7 +7116,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "46",
@@ -7126,7 +7126,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-05-09",
-      "daysUntilExpiration": 1654
+      "daysUntilExpiration": 1653
     }
   },
   {
@@ -7216,7 +7216,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "44",
@@ -7226,7 +7226,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2027-01-09",
-      "daysUntilExpiration": 73
+      "daysUntilExpiration": 72
     }
   },
   {
@@ -7316,7 +7316,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "39",
@@ -7326,7 +7326,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-10-22",
-      "daysUntilExpiration": 359
+      "daysUntilExpiration": 358
     }
   },
   {
@@ -7411,7 +7411,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "50",
@@ -7421,7 +7421,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2027-12-10",
-      "daysUntilExpiration": 408
+      "daysUntilExpiration": 407
     }
   },
   {
@@ -7506,7 +7506,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "48",
@@ -7516,7 +7516,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-24",
-      "daysUntilExpiration": 697
+      "daysUntilExpiration": 696
     }
   },
   {
@@ -7606,7 +7606,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "38",
@@ -7616,7 +7616,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-09-20",
-      "daysUntilExpiration": 693
+      "daysUntilExpiration": 692
     }
   },
   {
@@ -7706,7 +7706,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "45",
@@ -7716,7 +7716,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-05-22",
-      "daysUntilExpiration": 937
+      "daysUntilExpiration": 936
     }
   },
   {
@@ -7806,7 +7806,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "36",
@@ -7816,7 +7816,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-02-28",
-      "daysUntilExpiration": 1219
+      "daysUntilExpiration": 1218
     }
   },
   {
@@ -7901,7 +7901,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "52",
@@ -7911,7 +7911,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-03-03",
-      "daysUntilExpiration": 1222
+      "daysUntilExpiration": 1221
     }
   },
   {
@@ -8001,7 +8001,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "47",
@@ -8011,7 +8011,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-09-24",
-      "daysUntilExpiration": 1427
+      "daysUntilExpiration": 1426
     }
   },
   {
@@ -8101,7 +8101,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "43",
@@ -8111,7 +8111,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-10-22",
-      "daysUntilExpiration": 1455
+      "daysUntilExpiration": 1454
     }
   },
   {
@@ -8196,7 +8196,7 @@
     ],
     "createdAt": "2026-08-06T08:26:02.0347166Z",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "51",
@@ -8206,7 +8206,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-08-24",
-      "daysUntilExpiration": 1761
+      "daysUntilExpiration": 1760
     }
   },
   {
@@ -8294,7 +8294,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "41",
@@ -8304,7 +8304,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-09-19",
-      "daysUntilExpiration": -39
+      "daysUntilExpiration": -40
     }
   },
   {
@@ -8394,7 +8394,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "107",
@@ -8404,7 +8404,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-10-13",
-      "daysUntilExpiration": 1081
+      "daysUntilExpiration": 1080
     }
   },
   {
@@ -8494,7 +8494,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "108",
@@ -8504,7 +8504,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-07-06",
-      "daysUntilExpiration": 1347
+      "daysUntilExpiration": 1346
     }
   },
   {
@@ -8594,7 +8594,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "19",
@@ -8604,7 +8604,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-31",
-      "daysUntilExpiration": 460
+      "daysUntilExpiration": 459
     }
   },
   {
@@ -8694,7 +8694,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "18",
@@ -8704,7 +8704,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-01-31",
-      "daysUntilExpiration": 460
+      "daysUntilExpiration": 459
     }
   },
   {
@@ -8794,7 +8794,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "20",
@@ -8804,7 +8804,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-06-23",
-      "daysUntilExpiration": 1334
+      "daysUntilExpiration": 1333
     }
   },
   {
@@ -8894,7 +8894,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "21",
@@ -8904,7 +8904,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-07",
-      "daysUntilExpiration": 1167
+      "daysUntilExpiration": 1166
     }
   },
   {
@@ -8994,7 +8994,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "22",
@@ -9004,7 +9004,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-01-19",
-      "daysUntilExpiration": 1179
+      "daysUntilExpiration": 1178
     }
   },
   {
@@ -9094,7 +9094,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "111",
@@ -9104,7 +9104,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-04-24",
-      "daysUntilExpiration": 544
+      "daysUntilExpiration": 543
     }
   },
   {
@@ -9204,7 +9204,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "112",
@@ -9214,7 +9214,7 @@
       "embeddedPhotoCount": 4,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-03-03",
-      "daysUntilExpiration": 857
+      "daysUntilExpiration": 856
     }
   },
   {
@@ -9304,7 +9304,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "28",
@@ -9314,7 +9314,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-10-30",
-      "daysUntilExpiration": 1098
+      "daysUntilExpiration": 1097
     }
   },
   {
@@ -9404,7 +9404,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "29",
@@ -9414,7 +9414,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-12-15",
-      "daysUntilExpiration": 1144
+      "daysUntilExpiration": 1143
     }
   },
   {
@@ -9502,7 +9502,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "30",
@@ -9512,7 +9512,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expired",
       "waterRightEndDate": "2026-08-31",
-      "daysUntilExpiration": -58
+      "daysUntilExpiration": -59
     }
   },
   {
@@ -9602,7 +9602,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "31",
@@ -9612,7 +9612,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-06-21",
-      "daysUntilExpiration": 602
+      "daysUntilExpiration": 601
     }
   },
   {
@@ -9702,7 +9702,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "32",
@@ -9712,7 +9712,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-07-20",
-      "daysUntilExpiration": 996
+      "daysUntilExpiration": 995
     }
   },
   {
@@ -9802,7 +9802,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "33",
@@ -9812,7 +9812,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-11-30",
-      "daysUntilExpiration": 33
+      "daysUntilExpiration": 32
     }
   },
   {
@@ -9902,7 +9902,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "34",
@@ -9912,7 +9912,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1292
+      "daysUntilExpiration": 1291
     }
   },
   {
@@ -10002,7 +10002,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "35",
@@ -10012,7 +10012,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-05-12",
-      "daysUntilExpiration": 1292
+      "daysUntilExpiration": 1291
     }
   },
   {
@@ -10102,7 +10102,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "12",
@@ -10112,7 +10112,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "expiring-soon",
       "waterRightEndDate": "2026-12-31",
-      "daysUntilExpiration": 64
+      "daysUntilExpiration": 63
     }
   },
   {
@@ -10202,7 +10202,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "14",
@@ -10212,7 +10212,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-11-30",
-      "daysUntilExpiration": 764
+      "daysUntilExpiration": 763
     }
   },
   {
@@ -10302,7 +10302,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "16",
@@ -10312,7 +10312,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-31",
-      "daysUntilExpiration": 826
+      "daysUntilExpiration": 825
     }
   },
   {
@@ -10402,7 +10402,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "13",
@@ -10412,7 +10412,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2029-01-31",
-      "daysUntilExpiration": 826
+      "daysUntilExpiration": 825
     }
   },
   {
@@ -10502,7 +10502,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "15",
@@ -10512,7 +10512,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-03-31",
-      "daysUntilExpiration": 1250
+      "daysUntilExpiration": 1249
     }
   },
   {
@@ -10602,7 +10602,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "17",
@@ -10612,7 +10612,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2030-08-31",
-      "daysUntilExpiration": 1403
+      "daysUntilExpiration": 1402
     }
   },
   {
@@ -10702,7 +10702,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "103",
@@ -10712,7 +10712,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2028-10-19",
-      "daysUntilExpiration": 722
+      "daysUntilExpiration": 721
     }
   },
   {
@@ -10802,7 +10802,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "104",
@@ -10812,7 +10812,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-04",
-      "daysUntilExpiration": 1680
+      "daysUntilExpiration": 1679
     }
   },
   {
@@ -10902,7 +10902,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "105",
@@ -10912,7 +10912,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-06-04",
-      "daysUntilExpiration": 1680
+      "daysUntilExpiration": 1679
     }
   },
   {
@@ -11002,7 +11002,7 @@
     ],
     "createdAt": "2026-08-06T15:35:02",
     "createdBy": "system",
-    "updatedAt": "2026-10-28T00:52:58.897692+00:00",
+    "updatedAt": "2026-10-29T00:26:11.995524+00:00",
     "updatedBy": "local-registry-update",
     "sync": {
       "sourceRow": "106",
@@ -11012,7 +11012,7 @@
       "embeddedPhotoCount": 2,
       "waterRightExpirationStatus": "active",
       "waterRightEndDate": "2031-07-14",
-      "daysUntilExpiration": 1720
+      "daysUntilExpiration": 1719
     }
   }
 ]
