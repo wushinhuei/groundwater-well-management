@@ -1,3 +1,4 @@
+import { openElectricityHistory } from "./electricity-history.js?v=8c757c9a9f8e";
 const state = {
   publicWells: [],
   allPublicWells: [],
@@ -49,7 +50,8 @@ function riverSystem(well) {
 }
 
 function api(path, options = {}) {
-  if (STATIC_MODE) return staticApi(path, options);
+  // Public queries use the published registry on localhost as well as GitHub Pages.
+  if (STATIC_MODE || /^\/api\/public\/wells(?:\/|\?|$)/.test(path)) return staticApi(path, options);
   const headers = { "content-type": "application/json", ...(options.headers || {}) };
   if (state.token) headers.authorization = `Bearer ${state.token}`;
   return fetch(path, { ...options, headers }).then(async (response) => {
@@ -386,6 +388,7 @@ async function showPublicDetail(id) {
         <button type="button" class="history-open-button" data-pumping-history="${escapeHtml(well.waterRightNo)}" ${hasHistory ? "" : "disabled"}>
           ${hasHistory ? "歷史抽水紀錄" : "尚無歷史資料"}
         </button>
+        <button type="button" class="history-open-button" data-electricity-history>歷史用電度數及費用</button>
         <span>${escapeHtml(well.updatedAt?.slice(0, 10) || "")}</span>
       </div>
     </div>
@@ -645,6 +648,7 @@ $("publicResults").addEventListener("click", (event) => {
 });
 
 $("publicDetail").addEventListener("click", (event) => {
+  if (event.target.closest("[data-electricity-history]")) { openElectricityHistory(state.activeWell); return; }
   const historyButton = event.target.closest("[data-pumping-history]");
   if (historyButton && !historyButton.disabled) {
     openPumpingHistory(historyButton.dataset.pumpingHistory);

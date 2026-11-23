@@ -1,3 +1,4 @@
+import { openElectricityHistory } from "./electricity-history.js?v=8c757c9a9f8e";
 const state = {
   publicWells: [],
   allPublicWells: [],
@@ -49,7 +50,8 @@ function riverSystem(well) {
 }
 
 function api(path, options = {}) {
-  if (STATIC_MODE) return staticApi(path, options);
+  // Public queries use the published registry on localhost as well as GitHub Pages.
+  if (STATIC_MODE || /^\/api\/public\/wells(?:\/|\?|$)/.test(path)) return staticApi(path, options);
   const headers = { "content-type": "application/json", ...(options.headers || {}) };
   if (state.token) headers.authorization = `Bearer ${state.token}`;
   return fetch(path, { ...options, headers }).then(async (response) => {
@@ -386,18 +388,13 @@ async function showPublicDetail(id) {
         <button type="button" class="history-open-button" data-pumping-history="${escapeHtml(well.waterRightNo)}" ${hasHistory ? "" : "disabled"}>
           ${hasHistory ? "歷史抽水紀錄" : "尚無歷史資料"}
         </button>
+        <button type="button" class="history-open-button" data-electricity-history>歷史用電度數及費用</button>
         <span>${escapeHtml(well.updatedAt?.slice(0, 10) || "")}</span>
       </div>
     </div>
     <div class="detail-split">
       <div class="detail-grid">
         ${detailItem("灌溉系統", well.irrigationSystem)}
-        ${detailItem("座標系統", [
-          `經度：${Number.isFinite(well.longitude) ? well.longitude : "未填"}`,
-          `緯度：${Number.isFinite(well.latitude) ? well.latitude : "未填"}`,
-          `TWD97 X：${well.twd97X || "未填"}`,
-          `TWD97 Y：${well.twd97Y || "未填"}`
-        ])}
         ${detailItem("井深", `${well.depthMeters || 0} m`)}
         ${detailItem("管徑", `${well.diameterMm || 0} mm`)}
         ${detailItem("抽水機馬力", well.pumpHorsepower ? `${well.pumpHorsepower} HP` : "")}
@@ -409,7 +406,7 @@ async function showPublicDetail(id) {
         ${detailItem("核准水權年限", well.waterRightPeriod)}
         ${detailItem("完工日期", well.completionDate)}
         ${detailItem("用電電號", well.electricityNo)}
-        ${detailItem("農業用電", yesNoDisplay(well.agriculturalPower))}
+        ${detailItem("農業用電", well.agriculturalPower)}
         ${detailItem("狀態", well.status)}
       </div>
       ${renderPhotos(well.photos)}
@@ -489,13 +486,6 @@ function detailItem(label, value) {
     ? value.map((line) => `<span>${escapeHtml(line)}</span>`).join("")
     : escapeHtml(value || "未填");
   return `<div class="detail-item"><strong>${escapeHtml(label)}</strong>${content}</div>`;
-}
-
-function yesNoDisplay(value) {
-  const normalized = String(value ?? "").trim().toLowerCase();
-  if (["有", "是", "true", "1"].includes(normalized)) return "是";
-  if (["無", "否", "false", "0"].includes(normalized)) return "否";
-  return String(value ?? "").trim();
 }
 
 function coordinateText(well) {
@@ -658,6 +648,7 @@ $("publicResults").addEventListener("click", (event) => {
 });
 
 $("publicDetail").addEventListener("click", (event) => {
+  if (event.target.closest("[data-electricity-history]")) { openElectricityHistory(state.activeWell); return; }
   const historyButton = event.target.closest("[data-pumping-history]");
   if (historyButton && !historyButton.disabled) {
     openPumpingHistory(historyButton.dataset.pumpingHistory);
